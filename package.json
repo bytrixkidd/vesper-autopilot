@@ -1,0 +1,15 @@
+{
+  "name": "vesper-autopilot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "tsx src/autopilot.ts",
+    "check": "tsx src/autopilot.ts --check"
+  },
+  "dependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "@types/node": "^20.0.0"
+  }
+}
