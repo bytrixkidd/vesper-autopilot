@@ -1,0 +1,56 @@
+name: autopilot
+
+on:
+  schedule:
+    # Mo–Fr 21:30 UTC = nach US-Close (Sommer 20:00 UTC, Winter 21:00 UTC).
+    # Orders werden zur nächsten Eröffnung ausgeführt.
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      book:
+        description: "Book (main oder hebel)"
+        default: "main"
+      check:
+        description: "Nur prüfen, keine Orders (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autopilot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        book: ${{ github.event_name == 'workflow_dispatch' && fromJSON(format('["{0}"]', inputs.book)) || fromJSON('["main","hebel"]') }}
+    env:
+      BOOK: ${{ matrix.book }}
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+      GROK_MODEL: grok-4.6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci --no-audit --no-fund
+      - name: Autopilot
+        run: |
+          if [ "${{ inputs.check }}" = "true" ]; then npm run check; else npm run run; fi
+      - name: Journal committen
+        if: always()
+        run: |
+          git config user.name "vesper-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/
+          git diff --cached --quiet || git commit -m "journal ${{ matrix.book }} $(date -u +%F)"
+          git push
