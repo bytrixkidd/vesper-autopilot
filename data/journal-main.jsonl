@@ -4,3 +4,4 @@
 {"ts":"2026-09-16T21:41:01.142Z","book":"main","type":"abstain","error":"Alpaca /account: HTTP 401 {\"message\": \"unauthorized.\"}\n"}
 {"ts":"2026-09-17T21:38:42.495Z","book":"main","type":"abstain","error":"Alpaca /account: HTTP 401 {\"message\": \"unauthorized.\"}\n"}
 {"ts":"2026-09-18T21:39:08.170Z","book":"main","type":"abstain","error":"Alpaca /account: HTTP 401 {\"message\": \"unauthorized.\"}\n"}
+{"ts":"2026-09-21T21:39:17.813Z","book":"main","type":"abstain","error":"Alpaca /account: HTTP 401 {\"message\": \"unauthorized.\"}\n"}
