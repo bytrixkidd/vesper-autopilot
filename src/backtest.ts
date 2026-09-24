@@ -161,6 +161,7 @@ async function run() {
   const equity: { date: string; v: number }[] = [];
   const benchmark: { date: string; v: number }[] = [];
   let peakEq = START_CAPITAL, haltUntil = -1, lastRebalanceMonth = "";
+  let ddHalt = false; // Gesamt-Drawdown-Sperre: atmet, statt dauerhaft abzuschalten
   let benchQty = 0;
   const startIdx = spy.findIndex(b => b.date >= "2016-01-04");
   let pending: { symbol: string; sleeve: string; side: "buy" | "sell"; notional?: number; qty?: number; reason: string }[] = [];
@@ -168,7 +169,7 @@ async function run() {
   for (let d = Math.max(startIdx, 210); d < spy.length; d++) {
     const date = spy[d].date;
 
-    // ── Ausführung der gestern beschlossenen Orders zur heutigen Eröffnung ──
+    // Ausführung der gestern beschlossenen Orders zur heutigen Eröffnung
     for (const o of pending) {
       const h = at(o.symbol, date); if (!h) continue;
       const px = h.b[h.i].open * (o.side === "buy" ? 1 + SLIPPAGE : 1 - SLIPPAGE);
@@ -194,7 +195,7 @@ async function run() {
     if (benchQty === 0) benchQty = START_CAPITAL / spy[d].open;
     benchmark.push({ date, v: benchQty * spy[d].close });
 
-    // ── Bewertung zum heutigen Schluss ──
+    // Bewertung zum heutigen Schluss
     const mark = (p: Pos) => { const h = at(p.symbol, date); return h ? h.b[h.i].close : p.entry; };
     const eq = cash + positions.reduce((a, p) => a + p.qty * mark(p), 0);
     const prevEq = equity.at(-1)?.v ?? START_CAPITAL;
@@ -204,10 +205,13 @@ async function run() {
     const totalDD = 1 - eq / peakEq;
 
     if (-dayChange >= cfg.dailyDrawdownHalt) haltUntil = d + (BOOK === "hebel" ? 2 : 1);
-    if (totalDD >= cfg.totalDrawdownHalt) haltUntil = Number.MAX_SAFE_INTEGER;
-    const halted = d < haltUntil;
+    // Gesamt-Drawdown: Käufe sperren, sobald die Grenze gerissen ist –
+    // und wieder freigeben, sobald sich das Book auf die halbe Grenze erholt hat.
+    if (totalDD >= cfg.totalDrawdownHalt) ddHalt = true;
+    else if (ddHalt && totalDD < cfg.totalDrawdownHalt / 2) ddHalt = false;
+    const halted = d < haltUntil || ddHalt;
 
-    // ── Stops (Trailing, auf Schlusskurs geprüft) ──
+    // Stops (Trailing, auf Schlusskurs geprüft)
     for (const p of [...positions]) {
       const h = at(p.symbol, date); if (!h) continue;
       const c = h.b[h.i].close;
@@ -220,7 +224,7 @@ async function run() {
       if (c <= p.stop) pending.push({ symbol: p.symbol, sleeve: p.sleeve, side: "sell", reason: "Stop" });
     }
 
-    // ── Strategie ──
+    // Strategie
     if (BOOK === "main") {
       const sma200 = smaAt(spy, d, MAIN.coreSma);
       const corePos = positions.find(p => p.symbol === MAIN.coreSymbol);
@@ -244,7 +248,9 @@ async function run() {
         const picks = ranked.slice(0, MAIN.satTop).filter(x => x.above).map(x => x.s);
         for (const p of positions.filter(p => p.sleeve === "sat"))
           if (!picks.includes(p.symbol)) pending.push({ symbol: p.symbol, sleeve: "sat", side: "sell", reason: "Rebalance" });
-        if (!halted) {
+        // Regimefilter: Einzelwerte nur kaufen, wenn der Gesamtmarkt über SMA200 steht.
+        const regimeOk = sma200 !== null && spy[d].close > sma200;
+        if (!halted && regimeOk) {
           const per = (eq * MAIN.satShare) / MAIN.satTop;
           for (const s of picks)
             if (!positions.find(p => p.symbol === s))
@@ -273,7 +279,7 @@ async function run() {
     }
   }
 
-  // ── Auswertung, gesamt und walk-forward getrennt ──
+  // Auswertung, gesamt und walk-forward getrennt
   const split = (from: string, to: string) => {
     const e = equity.filter(x => x.date >= from && x.date <= to);
     const b = benchmark.filter(x => x.date >= from && x.date <= to);
@@ -301,7 +307,7 @@ async function run() {
     : `\n${label}\n  (keine Daten)`;
 
   console.log(fmt(result.gesamt, "GESAMT"));
-  console.log(fmt(result.insample_2016_2021, "IN-SAMPLE 2016–2021 (Parameter hier gewählt)"));
+  console.log(fmt(result.insample_2016_2021, "IN-SAMPLE 2016-2021 (Parameter hier gewaehlt)"));
   console.log(fmt(result.outofsample_ab_2022, "OUT-OF-SAMPLE ab 2022 (der ehrliche Test)"));
   console.log(`\ndata/backtest-${BOOK}.json geschrieben.`);
 }
