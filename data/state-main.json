@@ -1,0 +1,26 @@
+{
+  "book": "main",
+  "startCapital": 300,
+  "cash": 240,
+  "positions": [
+    {
+      "symbol": "SPY",
+      "sleeve": "core",
+      "qty": 0.078144,
+      "entry": 767.8099975585938,
+      "entryDate": "2026-09-24",
+      "stop": 750.4207000732422,
+      "peak": 767.8099975585938
+    }
+  ],
+  "equityHistory": [
+    {
+      "date": "2026-09-24",
+      "equity": 300
+    }
+  ],
+  "peakEquity": 300,
+  "haltedUntil": null,
+  "lastRebalanceMonth": null,
+  "lastRun": "2026-09-24T11:57:04.562Z"
+}
