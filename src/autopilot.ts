@@ -79,6 +79,7 @@ type State = {
   book: string; startCapital: number; cash: number; positions: Position[];
   equityHistory: { date: string; equity: number }[]; peakEquity: number;
   haltedUntil: string | null; lastRebalanceMonth: string | null; lastRun: string | null;
+  ddHalt?: boolean;
 };
 type Decision = {
   symbol: string; action: "BUY" | "SELL" | "HOLD" | "ABSTAIN"; sleeve: string;
@@ -300,8 +301,10 @@ async function strategyMain(state: State, bars: Map<string, Bar[]>, equity: numb
     if (!picks.includes(p.symbol))
       d.push({ symbol: p.symbol, action: "SELL", sleeve: "sat", qty: p.qty, reason: "nicht mehr in Top-3 / unter SMA100" });
   }
+  // Regimefilter: Einzelwerte nur kaufen, wenn der Gesamtmarkt über SMA200 steht.
+  const regimeOk = spyClose > spySma;
   const perPick = (equity * MAIN.satShare) / MAIN.satTop;
-  for (const s of picks) {
+  for (const s of regimeOk ? picks : []) {
     if (!state.positions.find(p => p.symbol === s))
       d.push({ symbol: s, action: "BUY", sleeve: "sat", notional: perPick,
         reason: `Momentum-Top3 (${r2(ranked.find(x => x.s === s)!.mom * 100)} % / 126d), > SMA100` });
@@ -346,12 +349,12 @@ function riskGate(state: State, decisions: Decision[], equity: number, blackout:
   const cfg = BOOK === "main" ? MAIN : HEBEL;
   const t = today();
   const out: Decision[] = [];
-  const halted = state.haltedUntil && state.haltedUntil >= t;
+  const halted = (state.haltedUntil && state.haltedUntil >= t) || state.ddHalt === true;
   let cash = state.cash;
 
   for (const d of decisions) {
     if (d.action !== "BUY") { out.push(d); continue; }
-    if (halted) { out.push({ ...d, action: "ABSTAIN", reason: `GATE: Halt bis ${state.haltedUntil} – ${d.reason}` }); continue; }
+    if (halted) { out.push({ ...d, action: "ABSTAIN", reason: `GATE: Käufe gesperrt (${state.ddHalt ? "Drawdown-Erholung abwarten" : "Halt bis " + state.haltedUntil}) – ${d.reason}` }); continue; }
     if (blackout.has(t)) { out.push({ ...d, action: "ABSTAIN", reason: `GATE: Event-Blackout – ${d.reason}` }); continue; }
     let notional = Math.min(d.notional ?? 0, equity * cfg.maxPositionPct, cash);
     if (notional < 1) { out.push({ ...d, action: "ABSTAIN", reason: `GATE: kein Cash (${r2(cash)} $) – ${d.reason}` }); continue; }
@@ -408,9 +411,14 @@ async function main() {
     state.haltedUntil = until.toISOString().slice(0, 10);
     log.push(`🛑 Tages-Drawdown ${r2(dayChange * 100)} % → Käufe gesperrt bis ${state.haltedUntil}`);
   }
+  // Gesamt-Drawdown: Käufe sperren – und wieder freigeben, sobald sich das
+  // Book auf die halbe Grenze erholt hat. Verkäufe und Stops laufen weiter.
   if (totalDD >= cfg.totalDrawdownHalt) {
-    state.haltedUntil = "9999-12-31";
-    log.push(`🛑 Gesamt-Drawdown ${r2(totalDD * 100)} % → Book gestoppt`);
+    if (!state.ddHalt) log.push(`🛑 Gesamt-Drawdown ${r2(totalDD * 100)} % → Käufe gesperrt bis zur Erholung`);
+    state.ddHalt = true;
+  } else if (state.ddHalt && totalDD < cfg.totalDrawdownHalt / 2) {
+    state.ddHalt = false;
+    log.push(`✅ Erholt auf ${r2(totalDD * 100)} % Drawdown → Käufe wieder frei`);
   }
 
   // 6. Stops (Trailing ATR) – immer, auch wenn gehalten
