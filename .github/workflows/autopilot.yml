@@ -2,8 +2,6 @@ name: autopilot
 
 on:
   schedule:
-    # Mo–Fr 21:30 UTC = nach US-Close (Sommer 20:00 UTC, Winter 21:00 UTC).
-    # Orders werden zur nächsten Eröffnung ausgeführt.
     - cron: "30 21 * * 1-5"
   workflow_dispatch:
     inputs:
@@ -11,7 +9,7 @@ on:
         description: "Book (main oder hebel)"
         default: "main"
       check:
-        description: "Nur prüfen, keine Orders (true/false)"
+        description: "Nur pruefen, keine Orders (true/false)"
         default: "false"
 
 permissions:
@@ -36,6 +34,7 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
       GROK_MODEL: grok-4.6
+      VESPER: ${{ secrets.GROK_API_KEY != '' && 'on' || 'off' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
