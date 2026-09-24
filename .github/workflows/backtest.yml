@@ -1,0 +1,37 @@
+name: backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      book:
+        description: "Book (main oder hebel)"
+        default: "main"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      BOOK: ${{ inputs.book }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci --no-audit --no-fund
+      - name: Backtest
+        run: npx tsx src/backtest.ts | tee backtest.log
+      - name: Zusammenfassung
+        if: always()
+        run: cat backtest.log >> $GITHUB_STEP_SUMMARY || true
+      - name: Ergebnis committen
+        if: always()
+        run: |
+          git config user.name "vesper-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/
+          git diff --cached --quiet || git commit -m "backtest ${{ inputs.book }} $(date -u +%F)"
+          git push
