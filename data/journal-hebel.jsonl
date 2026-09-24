@@ -1,0 +1,9 @@
+{"ts":"2026-09-24T23:58:04.218Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"BUY","sleeve":"hebel","notional":45,"reason":"QQQ > SMA50 & SMA200, RSI 65.14 | Gate: 45 $","equity":300,"cash":300}
+{"ts":"2026-09-24T23:58:04.308Z","book":"hebel","type":"order","symbol":"TQQQ","side":"BUY","orderId":"aa86175a-57f2-43d1-9e64-9a9fdc33413a","notional":45,"status":"accepted"}
+{"ts":"2026-09-24T23:58:04.309Z","book":"hebel","type":"decision","symbol":"SOXL","action":"BUY","sleeve":"hebel","notional":45,"reason":"SOXX > SMA50 & SMA200, RSI 69.18 | Gate: 45 $","equity":300,"cash":255}
+{"ts":"2026-09-24T23:58:04.384Z","book":"hebel","type":"order","symbol":"SOXL","side":"BUY","orderId":"663f00d7-9523-4ad1-b6a8-cd1620c509b6","notional":45,"status":"accepted"}
+{"ts":"2026-09-24T23:58:04.384Z","book":"hebel","type":"decision","symbol":"NVDL","action":"BUY","sleeve":"hebel","notional":45,"reason":"NVDA > SMA50 & SMA200, RSI 45.55 | Gate: 45 $","equity":300,"cash":210}
+{"ts":"2026-09-24T23:58:04.543Z","book":"hebel","type":"order","symbol":"NVDL","side":"BUY","orderId":"24e66497-df9d-4fda-ba48-20c7e19aab3d","notional":45,"status":"accepted"}
+{"ts":"2026-09-24T23:58:04.543Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":300,"cash":165}
+{"ts":"2026-09-24T23:58:04.543Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"RSI 44.98 / Limit Positionen","equity":300,"cash":165}
+{"ts":"2026-09-24T23:58:04.544Z","book":"hebel","type":"equity","equity":300,"cash":165,"positions":3,"dayChange":0,"totalDD":0}
