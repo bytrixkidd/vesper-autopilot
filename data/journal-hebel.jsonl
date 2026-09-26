@@ -7,3 +7,4 @@
 {"ts":"2026-09-24T23:58:04.543Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":300,"cash":165}
 {"ts":"2026-09-24T23:58:04.543Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"RSI 44.98 / Limit Positionen","equity":300,"cash":165}
 {"ts":"2026-09-24T23:58:04.544Z","book":"hebel","type":"equity","equity":300,"cash":165,"positions":3,"dayChange":0,"totalDD":0}
+{"ts":"2026-09-26T00:01:18.909Z","book":"hebel","type":"abstain","error":"Abgleich: TQQQ im Book (0.572665) aber nicht/zu wenig beim Broker"}
