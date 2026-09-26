@@ -14,3 +14,5 @@
 {"ts":"2026-09-24T11:57:04.563Z","book":"main","type":"equity","equity":300,"cash":240,"positions":1,"dayChange":0,"totalDD":0}
 {"ts":"2026-09-24T23:57:48.830Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":299.95,"cash":240}
 {"ts":"2026-09-24T23:57:48.830Z","book":"main","type":"equity","equity":299.95,"cash":240,"positions":1,"dayChange":-0.02,"totalDD":0.02}
+{"ts":"2026-09-26T00:01:05.714Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":299.95,"cash":240}
+{"ts":"2026-09-26T00:01:05.715Z","book":"main","type":"equity","equity":299.95,"cash":240,"positions":1,"dayChange":0,"totalDD":0.02}
