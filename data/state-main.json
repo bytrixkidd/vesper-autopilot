@@ -1,7 +1,7 @@
 {
   "book": "main",
   "startCapital": 300,
-  "cash": 240,
+  "cash": 160.04000000000002,
   "positions": [
     {
       "symbol": "SPY",
@@ -11,6 +11,24 @@
       "entryDate": "2026-09-24",
       "stop": 750.9867793491909,
       "peak": 767.8099975585938
+    },
+    {
+      "symbol": "AMD",
+      "sleeve": "sat",
+      "qty": 0.06577100000000001,
+      "entry": 607.8699951171875,
+      "entryDate": "2026-09-30",
+      "stop": 542.3789509364536,
+      "peak": 607.8699951171875
+    },
+    {
+      "symbol": "MSFT",
+      "sleeve": "sat",
+      "qty": 0.078512,
+      "entry": 509.2200012207031,
+      "entryDate": "2026-09-30",
+      "stop": 481.0699986049107,
+      "peak": 509.2200012207031
     }
   ],
   "equityHistory": [
@@ -25,10 +43,14 @@
     {
       "date": "2026-09-26",
       "equity": 299.95
+    },
+    {
+      "date": "2026-09-30",
+      "equity": 299.83
     }
   ],
   "peakEquity": 300,
   "haltedUntil": null,
-  "lastRebalanceMonth": null,
-  "lastRun": "2026-09-26T00:01:05.714Z"
+  "lastRebalanceMonth": "2026-09",
+  "lastRun": "2026-09-30T00:40:40.633Z"
 }
