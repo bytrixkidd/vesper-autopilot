@@ -23,3 +23,4 @@
 {"ts":"2026-09-30T00:40:40.562Z","book":"main","type":"decision","symbol":"MSFT","action":"BUY","sleeve":"sat","notional":39.98,"reason":"Momentum-Top3 (42.73 % / 126d), > SMA100 | Gate: 39.98 $","equity":299.83,"cash":200.02}
 {"ts":"2026-09-30T00:40:40.633Z","book":"main","type":"order","symbol":"MSFT","side":"BUY","orderId":"ab8344e8-4125-49b8-ab43-5028f89b2d95","notional":39.98,"status":"accepted"}
 {"ts":"2026-09-30T00:40:40.633Z","book":"main","type":"equity","equity":299.83,"cash":160.04,"positions":3,"dayChange":-0.04,"totalDD":0.06}
+{"ts":"2026-10-01T00:42:34.439Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
