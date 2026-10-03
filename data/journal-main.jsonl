@@ -25,3 +25,4 @@
 {"ts":"2026-09-30T00:40:40.633Z","book":"main","type":"equity","equity":299.83,"cash":160.04,"positions":3,"dayChange":-0.04,"totalDD":0.06}
 {"ts":"2026-10-01T00:42:34.439Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
 {"ts":"2026-10-02T01:01:28.354Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
+{"ts":"2026-10-03T00:37:53.715Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
