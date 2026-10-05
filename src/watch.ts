@@ -11,7 +11,7 @@ const SYMBOLS = ["SPY", "QQQ", "NVDA", "AMD", "MSFT", "AAPL", "TQQQ", "SOXL", "N
 const HEBEL = new Set(["TQQQ", "SOXL", "NVDL", "TSLL", "UPRO"]);
 const SHOCK = /\b(crash|plunge|plunges|war|invasion|missile|explosion|bankruptcy|bankrupt|trading halt|halted|indictment|recession|earthquake|assassination|sanctions)\b/i;
 const HARD = /\b(trading halt|market crash|crash|invasion|missile|war|bankruptcy|bankrupt|earthquake|assassination)\b/i;
-const SOFT = /\b(what to|explainer|opinion|could|may |might|forecast|preview|week ahead)\b/i;
+const SOFT = /\b(what to|what if|explainer|opinion|could|may |might|forecast|preview|week ahead|if |is coming|advice|how to)\b/i;
 const MARKET = /\b(stock market|s&p|nasdaq|wall street|dow|trading halt)\b/i;
 
 type Pos = { symbol: string; qty: number; entry: number; sleeve: string };
@@ -135,6 +135,8 @@ function agreed(symbol: string, call: Call, reason: string, vote: { week: number
   if (!weekOk || !yearOk) return { call: "DRAUSSEN", reason: !yearOk ? "Jahr oder SMA200 nicht intakt. Nicht rein." : "Letzte Woche zu schwach. Nicht rein." };
   return { call: "REIN", reason: `Woche, Jahr und SMA200 einig. ${reason}` };
 }
+
+async function quote(symbol: string) {
   const res = await fetch(`${YAHOO}/${encodeURIComponent(symbol)}?range=1d&interval=1m`, { headers: { "User-Agent": "Mozilla/5.0" } });
   if (!res.ok) return null;
   const body = await res.json() as { chart?: { result?: { indicators?: { quote?: { close?: (number | null)[] }[] } }[] } };
