@@ -91,9 +91,10 @@ async function headlines(): Promise<string[]> {
   if (!res.ok) return [];
   const xml = await res.text();
   const titles: string[] = [];
-  for (const match of xml.matchAll(/<title>([\s\S]*?)<\/title>/g)) {
-    const title = (match[1] ?? "").replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&/g, "&").trim();
-    if (!title || title === "Google News") continue;
+  for (const item of xml.split("<item>").slice(1)) {
+    const match = item.match(/<title>([\s\S]*?)<\/title>/);
+    const title = (match?.[1] ?? "").replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&/g, "&").replace(/&#39;/g, "'").replace(/"/g, '"').trim();
+    if (!title) continue;
     titles.push(title);
     if (titles.length >= 6) break;
   }
