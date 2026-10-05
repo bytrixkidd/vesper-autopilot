@@ -112,6 +112,38 @@ async function quote(symbol: string) {
   return { last, prev, open: px[0] ?? null };
 }
 
+async function longVote(symbol: string) {
+  const res = await fetch(`${YAHOO}/${encodeURIComponent(symbol)}?range=10y&interval=1d`, { headers: { "User-Agent": "Mozilla/5.0" } });
+  if (!res.ok) return null;
+  const body = await res.json() as { chart?: { result?: { indicators?: { quote?: { close?: (number | null)[] }[] } }[] } };
+  const px = (body.chart?.result?.[0]?.indicators?.quote?.[0]?.close ?? []).filter((n): n is number => n != null && n > 0);
+  if (px.length < 200) return null;
+  const last = px[px.length - 1]!;
+  const back = (n: number) => px.length > n && px[px.length - 1 - n]! > 0 ? last / px[px.length - 1 - n]! - 1 : null;
+  const sma = px.slice(-200).reduce((a, b) => a + b, 0) / 200;
+  return { week: back(5), year: back(252), aboveSma: last > sma };
+}
+
+function agreed(symbol: string, call: Call, reason: string, vote: { week: number | null; year: number | null; aboveSma: boolean } | null): { call: Call; reason: string } {
+  if (call !== "REIN") return { call, reason };
+  const hebel = HEBEL.has(symbol);
+  const core = symbol === "SPY";
+  if (!hebel && !core) return { call: "DRAUSSEN", reason: "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf." };
+  const weekOk = vote?.week != null && vote.week > -0.04;
+  const yearOk = vote?.year != null && vote.year > 0 && vote.aboveSma === true;
+  if (!weekOk || !yearOk) return { call: "DRAUSSEN", reason: !yearOk ? "Jahr oder SMA200 nicht intakt. Nicht rein." : "Letzte Woche zu schwach. Nicht rein." };
+  return { call: "REIN", reason: `Woche, Jahr und SMA200 einig. ${reason}` };
+}
+  const res = await fetch(`${YAHOO}/${encodeURIComponent(symbol)}?range=1d&interval=1m`, { headers: { "User-Agent": "Mozilla/5.0" } });
+  if (!res.ok) return null;
+  const body = await res.json() as { chart?: { result?: { indicators?: { quote?: { close?: (number | null)[] }[] } }[] } };
+  const px = (body.chart?.result?.[0]?.indicators?.quote?.[0]?.close ?? []).filter((n): n is number => n != null && n > 0);
+  if (!px.length) return null;
+  const last = px[px.length - 1]!;
+  const prev = px.length > 15 ? px[px.length - 16]! : px.length > 5 ? px[px.length - 6]! : null;
+  return { last, prev, open: px[0] ?? null };
+}
+
 async function main() {
   const market = session();
   const heads = await headlines();
@@ -130,7 +162,9 @@ async function main() {
     const own = heads.find((title) => new RegExp(`\\b${symbol}\\b`, "i").test(title)) ?? null;
     const hit = shock(own ?? "", symbol) || (lead != null && shock(lead, null));
     const have = held.get(symbol);
-    const d = decide({ held: Boolean(have), last: q.last, prev: q.prev, dayOpen: q.open, entry: have?.pos.entry ?? null, shock: hit, market });
+    const d0 = decide({ held: Boolean(have), last: q.last, prev: q.prev, dayOpen: q.open, entry: have?.pos.entry ?? null, shock: hit, market });
+    const vote = d0.call === "REIN" ? await longVote(symbol) : null;
+    const d = agreed(symbol, d0.call, d0.reason, vote);
     notes.push({ symbol, call: d.call, reason: d.reason });
   }
 
