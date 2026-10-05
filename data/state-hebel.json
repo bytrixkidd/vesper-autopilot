@@ -1,8 +1,36 @@
 {
   "book": "hebel",
   "startCapital": 300,
-  "cash": 310.31858879613367,
-  "positions": [],
+  "cash": 165.03000014424003,
+  "positions": [
+    {
+      "symbol": "TQQQ",
+      "sleeve": "hebel",
+      "qty": 0.568917551,
+      "entry": 79.08,
+      "entryDate": "2026-09-25",
+      "stop": 79.08,
+      "peak": 81.01000213623047
+    },
+    {
+      "symbol": "SOXL",
+      "sleeve": "hebel",
+      "qty": 0.301279046,
+      "entry": 149.33,
+      "entryDate": "2026-09-25",
+      "stop": 149.33,
+      "peak": 163.7100067138672
+    },
+    {
+      "symbol": "NVDL",
+      "sleeve": "hebel",
+      "qty": 1.258461538,
+      "entry": 35.75,
+      "entryDate": "2026-09-25",
+      "stop": 35.75,
+      "peak": 38.5
+    }
+  ],
   "equityHistory": [
     {
       "date": "2026-09-24",
@@ -10,11 +38,11 @@
     },
     {
       "date": "2026-10-05",
-      "equity": 310.32
+      "equity": 308.89
     }
   ],
   "peakEquity": 310.31858879613367,
   "haltedUntil": null,
   "lastRebalanceMonth": null,
-  "lastRun": "2026-10-05T11:13:34.972Z"
+  "lastRun": "2026-10-05T11:20:01.272Z"
 }

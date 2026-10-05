@@ -21,3 +21,12 @@
 {"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":310.32,"cash":310.32}
 {"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"RSI 58.06 / Limit Positionen","equity":310.32,"cash":310.32}
 {"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"equity","equity":310.32,"cash":310.32,"positions":0,"dayChange":3.44,"totalDD":0}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"SELL","sleeve":"hebel","qty":0.568917551,"reason":"max. Haltedauer 10 Tage","equity":308.89,"cash":165.03}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"order_skip","symbol":"TQQQ","side":"SELL","reason":"Order liegt schon beim Broker"}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"decision","symbol":"SOXL","action":"SELL","sleeve":"hebel","qty":0.301279046,"reason":"max. Haltedauer 10 Tage","equity":308.89,"cash":165.03}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"order_skip","symbol":"SOXL","side":"SELL","reason":"Order liegt schon beim Broker"}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"decision","symbol":"NVDL","action":"SELL","sleeve":"hebel","qty":1.258461538,"reason":"max. Haltedauer 10 Tage","equity":308.89,"cash":165.03}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"order_skip","symbol":"NVDL","side":"SELL","reason":"Order liegt schon beim Broker"}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":308.89,"cash":165.03}
+{"ts":"2026-10-05T11:20:00.926Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"RSI 58.06 / Limit Positionen","equity":308.89,"cash":165.03}
+{"ts":"2026-10-05T11:20:01.272Z","book":"hebel","type":"equity","equity":308.89,"cash":165.03,"positions":3,"dayChange":-0.46,"totalDD":0.46}
