@@ -383,11 +383,10 @@ async function strategyMain(state: State, bars: Map<string, Bar[]>, equity: numb
   }
   // Regimefilter: Einzelwerte nur kaufen, wenn der Gesamtmarkt über SMA200 steht.
   const regimeOk = spyClose > spySma;
-  const perPick = (equity * MAIN.satShare) / MAIN.satTop;
   for (const s of regimeOk ? picks : []) {
     if (!state.positions.find(p => p.symbol === s))
-      d.push({ symbol: s, action: "BUY", sleeve: "sat", notional: perPick,
-        reason: `Momentum-Top3 (${r2(ranked.find(x => x.s === s)!.mom * 100)} % / 126d), > SMA100` });
+      d.push({ symbol: s, action: "ABSTAIN", sleeve: "sat",
+        reason: "Lehre: Out-of-Sample ab 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Einzelkauf." });
   }
   state.lastRebalanceMonth = month(t);
   return d;
