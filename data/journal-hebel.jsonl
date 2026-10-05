@@ -9,3 +9,15 @@
 {"ts":"2026-09-24T23:58:04.544Z","book":"hebel","type":"equity","equity":300,"cash":165,"positions":3,"dayChange":0,"totalDD":0}
 {"ts":"2026-09-26T00:01:18.909Z","book":"hebel","type":"abstain","error":"Abgleich: TQQQ im Book (0.572665) aber nicht/zu wenig beim Broker"}
 {"ts":"2026-09-30T00:40:54.261Z","book":"hebel","type":"abstain","error":"Abgleich: TQQQ im Book (0.572665) aber nicht/zu wenig beim Broker"}
+{"ts":"2026-10-05T11:13:33.881Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"SELL","sleeve":"hebel","qty":0.003747449000000014,"reason":"Raus: Broker hat nur 0.568917551 Stück, Book hatte 0.572665. Differenz zurück ins Cash."}
+{"ts":"2026-10-05T11:13:33.882Z","book":"hebel","type":"decision","symbol":"SOXL","action":"SELL","sleeve":"hebel","qty":0.006244953999999969,"reason":"Raus: Broker hat nur 0.301279046 Stück, Book hatte 0.30752399999999996. Differenz zurück ins Cash."}
+{"ts":"2026-10-05T11:13:33.882Z","book":"hebel","type":"decision","symbol":"NVDL","action":"SELL","sleeve":"hebel","qty":0.007005461999999962,"reason":"Raus: Broker hat nur 1.258461538 Stück, Book hatte 1.265467. Differenz zurück ins Cash."}
+{"ts":"2026-10-05T11:13:34.553Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"SELL","sleeve":"hebel","qty":0.568917551,"reason":"max. Haltedauer 10 Tage","equity":310.32,"cash":166.46}
+{"ts":"2026-10-05T11:13:34.581Z","book":"hebel","type":"order","symbol":"TQQQ","side":"SELL","orderId":"503db78e-9857-4498-9a4b-d841de31d4b3","qty":0.568917551,"status":"accepted"}
+{"ts":"2026-10-05T11:13:34.582Z","book":"hebel","type":"decision","symbol":"SOXL","action":"SELL","sleeve":"hebel","qty":0.301279046,"reason":"max. Haltedauer 10 Tage","equity":310.32,"cash":212.55}
+{"ts":"2026-10-05T11:13:34.947Z","book":"hebel","type":"order","symbol":"SOXL","side":"SELL","orderId":"d117d07d-8b36-4bab-929f-a86f83912eb6","qty":0.301279046,"status":"accepted"}
+{"ts":"2026-10-05T11:13:34.947Z","book":"hebel","type":"decision","symbol":"NVDL","action":"SELL","sleeve":"hebel","qty":1.258461538,"reason":"max. Haltedauer 10 Tage","equity":310.32,"cash":261.87}
+{"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"order","symbol":"NVDL","side":"SELL","orderId":"f8a6b3cb-e708-43df-9f7b-33cdbfdb524e","qty":1.258461538,"status":"pending_new"}
+{"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":310.32,"cash":310.32}
+{"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"RSI 58.06 / Limit Positionen","equity":310.32,"cash":310.32}
+{"ts":"2026-10-05T11:13:34.972Z","book":"hebel","type":"equity","equity":310.32,"cash":310.32,"positions":0,"dayChange":3.44,"totalDD":0}
