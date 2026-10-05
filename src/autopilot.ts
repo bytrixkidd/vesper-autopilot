@@ -305,7 +305,7 @@ async function rebuildFromFills(state: State, log: string[]) {
       qty: lot.qty,
       entry,
       entryDate: prev?.entryDate || lot.entryDate,
-      stop: prev?.stop && prev.stop < (prev.entry || entry) ? prev.stop : 0,
+      stop: prev?.stop && prev.stop > 0 && prev.stop <= Math.max(prev.peak || 0, entry) ? prev.stop : 0,
       peak: Math.max(prev?.peak ?? 0, entry),
     });
   }
