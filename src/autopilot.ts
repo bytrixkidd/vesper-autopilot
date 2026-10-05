@@ -378,11 +378,49 @@ async function main() {
   const account = await alpacaAccount();
   const broker = await alpacaPositions();
 
-  // 2. Abgleich Book ↔ Broker (Book ist Teilmenge des 100k-Paper-Kontos)
+  // 2. Abgleich Book ↔ Broker.
+  // Fehlende Stücke sind kein Abbruch mehr: das ist die Entscheidung, das Geld
+  // aus dem Book zu nehmen. Der Lauf geht weiter, damit Stop und Verkauf
+  // schreiben können und der Stand nicht auf dem alten Tag stehen bleibt.
+  const noRebuy = new Set<string>();
+  const still: typeof state.positions = [];
   for (const p of state.positions) {
     const b = broker.find(x => x.symbol === p.symbol);
-    if (!b || b.qty + 1e-6 < p.qty) throw new Error(`Abgleich: ${p.symbol} im Book (${p.qty}) aber nicht/zu wenig beim Broker`);
+    const held = b?.qty ?? 0;
+    const gap = p.qty - held;
+    if (gap <= Math.max(1e-4, p.qty * 0.005)) {
+      if (b && held > 0) p.qty = held;
+      still.push(p);
+      continue;
+    }
+    if (held <= 1e-6) {
+      state.cash += p.qty * p.entry;
+      noRebuy.add(p.symbol);
+      journal({
+        type: "decision",
+        symbol: p.symbol,
+        action: "SELL",
+        sleeve: p.sleeve,
+        qty: p.qty,
+        reason: "Raus: Broker hat die Stücke nicht. Einsatz zurück ins Book-Cash. Heute kein neuer Kauf desselben Namens.",
+      });
+      log.push(`🔴 ${p.symbol} aus dem Book genommen (${p.qty} Stück waren beim Broker nicht da)`);
+      continue;
+    }
+    state.cash += gap * p.entry;
+    journal({
+      type: "decision",
+      symbol: p.symbol,
+      action: "SELL",
+      sleeve: p.sleeve,
+      qty: gap,
+      reason: `Raus: Broker hat nur ${held} Stück, Book hatte ${p.qty}. Differenz zurück ins Cash.`,
+    });
+    p.qty = held;
+    still.push(p);
+    log.push(`🔴 ${p.symbol} auf Broker-Menge ${held} gekürzt`);
   }
+  state.positions = still;
 
   // 3. Kurse
   const symbols = BOOK === "main"
@@ -439,7 +477,11 @@ async function main() {
   for (const d of stratDecisions) if (!decisions.find(x => x.symbol === d.symbol && x.action === "SELL")) decisions.push(d);
 
   // 8. Risk-Gate
-  const gated = riskGate(state, decisions, equity, loadBlackout());
+  const gated = riskGate(state, decisions, equity, loadBlackout()).map(d =>
+    d.action === "BUY" && noRebuy.has(d.symbol)
+      ? { ...d, action: "ABSTAIN" as const, reason: `heute rausgenommen, Broker hatte die Stücke nicht – ${d.reason}` }
+      : d,
+  );
 
   // 8b. Vesper (KI) – darf Käufe bestätigen oder ablehnen, sonst nichts. Fail-closed.
   let final = gated;
