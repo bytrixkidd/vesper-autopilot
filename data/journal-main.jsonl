@@ -26,3 +26,6 @@
 {"ts":"2026-10-01T00:42:34.439Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
 {"ts":"2026-10-02T01:01:28.354Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
 {"ts":"2026-10-03T00:37:53.715Z","book":"main","type":"abstain","error":"Abgleich: AMD im Book (0.06577100000000001) aber nicht/zu wenig beim Broker"}
+{"ts":"2026-10-05T11:13:18.913Z","book":"main","type":"decision","symbol":"MSFT","action":"SELL","sleeve":"sat","qty":0.0004196649999999996,"reason":"Raus: Broker hat nur 0.078092335 Stück, Book hatte 0.078512. Differenz zurück ins Cash."}
+{"ts":"2026-10-05T11:13:20.359Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":302.67,"cash":160.25}
+{"ts":"2026-10-05T11:13:20.359Z","book":"main","type":"equity","equity":302.67,"cash":160.25,"positions":3,"dayChange":0.95,"totalDD":0}
