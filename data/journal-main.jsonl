@@ -29,3 +29,5 @@
 {"ts":"2026-10-05T11:13:18.913Z","book":"main","type":"decision","symbol":"MSFT","action":"SELL","sleeve":"sat","qty":0.0004196649999999996,"reason":"Raus: Broker hat nur 0.078092335 Stück, Book hatte 0.078512. Differenz zurück ins Cash."}
 {"ts":"2026-10-05T11:13:20.359Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":302.67,"cash":160.25}
 {"ts":"2026-10-05T11:13:20.359Z","book":"main","type":"equity","equity":302.67,"cash":160.25,"positions":3,"dayChange":0.95,"totalDD":0}
+{"ts":"2026-10-05T11:19:44.631Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":302.49,"cash":160.07}
+{"ts":"2026-10-05T11:19:44.670Z","book":"main","type":"equity","equity":302.49,"cash":160.07,"positions":3,"dayChange":-0.06,"totalDD":0.06}
