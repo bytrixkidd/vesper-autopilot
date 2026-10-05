@@ -1,0 +1,38 @@
+name: watch
+
+on:
+  schedule:
+    - cron: "*/15 13-20 * * 1-5"
+    - cron: "0 0,2,4,6,8,10,22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci --no-audit --no-fund
+      - run: npx tsx src/watch.ts
+      - name: Schreiben
+        if: always()
+        run: |
+          git config user.name "vesper-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/watch.json data/journal-main.jsonl data/journal-hebel.jsonl
+          git diff --cached --quiet || git commit -m "watch $(date -u +%FT%TZ)"
+          git push
