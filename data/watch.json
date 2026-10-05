@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-05T11:27:08.045Z",
+  "market": "closed",
+  "headline": "\"stock market OR NVDA OR SPY when:1d\" - Google News",
+  "notes": [
+    {
+      "symbol": "SPY",
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "QQQ",
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "NVDA",
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "AMD",
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "MSFT",
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "AAPL",
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "TQQQ",
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "SOXL",
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "NVDL",
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
+    }
+  ],
+  "sent": [],
+  "exitAtOpen": []
+}
