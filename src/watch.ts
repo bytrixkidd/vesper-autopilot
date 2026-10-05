@@ -14,7 +14,7 @@ const HARD = /\b(trading halt|market crash|crash|invasion|missile|war|bankruptcy
 const SOFT = /\b(what to|what if|explainer|opinion|could|may |might|forecast|preview|week ahead|if |is coming|advice|how to)\b/i;
 const MARKET = /\b(stock market|s&p|nasdaq|wall street|dow|trading halt)\b/i;
 
-type Pos = { symbol: string; qty: number; entry: number; sleeve: string };
+type Pos = { symbol: string; qty: number; entry: number; sleeve: string; stop?: number };
 type State = { book: string; cash: number; positions: Pos[] };
 type Call = "REIN" | "RAUS" | "BLEIBEN" | "DRAUSSEN";
 
@@ -40,11 +40,11 @@ function shock(title: string, symbol: string | null) {
   return HARD.test(title) && MARKET.test(title);
 }
 
-function decide(input: { held: boolean; last: number; prev: number | null; dayOpen: number | null; entry: number | null; shock: boolean; market: "open" | "closed" }): { call: Call; reason: string } {
+function decide(input: { held: boolean; last: number; prev: number | null; dayOpen: number | null; entry: number | null; shock: boolean; market: "open" | "closed"; hebel?: boolean }): { call: Call; reason: string } {
   const chg5 = input.prev && input.prev > 0 ? input.last / input.prev - 1 : null;
   const chgDay = input.dayOpen && input.dayOpen > 0 ? input.last / input.dayOpen - 1 : null;
   const chgEntry = input.entry && input.entry > 0 ? input.last / input.entry - 1 : null;
-  const downFast = chg5 != null && chg5 <= -0.012;
+  const downFast = chg5 != null && chg5 <= (input.hebel ? -0.025 : -0.012);
   const upFast = chg5 != null && chg5 >= 0.008 && (chgDay == null || chgDay > 0);
   const underWater = chgEntry != null && chgEntry <= -0.025;
   if (input.market === "closed") {
@@ -95,7 +95,7 @@ async function headlines(): Promise<string[]> {
   for (const item of xml.split("<item>").slice(1)) {
     const match = item.match(/<title>([\s\S]*?)<\/title>/);
     const title = (match?.[1] ?? "").replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&/g, "&").replace(/&#39;/g, "'").replace(/"/g, '"').trim();
-    if (!title) continue;
+    if (!title || /stock price|quote & history|yahoo! finance|google news/i.test(title)) continue;
     titles.push(title);
     if (titles.length >= 6) break;
   }
@@ -125,7 +125,18 @@ async function longVote(symbol: string) {
   return { week: back(5), year: back(252), aboveSma: last > sma };
 }
 
-function agreed(symbol: string, call: Call, reason: string, vote: { week: number | null; year: number | null; aboveSma: boolean } | null): { call: Call; reason: string } {
+function agreed(symbol: string, call: Call, reason: string, vote: { week: number | null; year: number | null; aboveSma: boolean } | null, position?: { last: number; stop?: number; sleeve?: string }): { call: Call; reason: string } {
+  const stop = position?.stop;
+  if (stop != null && stop > 0 && position != null && position.last <= stop && call !== "RAUS" && call !== "DRAUSSEN") {
+    return { call: "RAUS", reason: "Stop ist erreicht." };
+  }
+  const sleeve = position?.sleeve;
+  if (call === "BLEIBEN" && sleeve === "sat" && vote?.year != null && vote.year < 0 && vote.aboveSma === false) {
+    return { call: "RAUS", reason: "Einzelwert: Jahr negativ und unter SMA200." };
+  }
+  if (call === "BLEIBEN" && vote?.aboveSma === false && (sleeve === "core" || sleeve === "hebel" || symbol === "SPY" || HEBEL.has(symbol))) {
+    return { call: "RAUS", reason: "Unter SMA200." };
+  }
   if (call !== "REIN") return { call, reason };
   const hebel = HEBEL.has(symbol);
   const core = symbol === "SPY";
@@ -155,9 +166,9 @@ async function main() {
     const own = heads.find((title) => new RegExp(`\\b${symbol}\\b`, "i").test(title)) ?? null;
     const hit = shock(own ?? "", symbol) || (lead != null && shock(lead, null));
     const have = held.get(symbol);
-    const d0 = decide({ held: Boolean(have), last: q.last, prev: q.prev, dayOpen: q.open, entry: have?.pos.entry ?? null, shock: hit, market });
-    const vote = d0.call === "REIN" ? await longVote(symbol) : null;
-    const d = agreed(symbol, d0.call, d0.reason, vote);
+    const d0 = decide({ held: Boolean(have), last: q.last, prev: q.prev, dayOpen: q.open, entry: have?.pos.entry ?? null, shock: hit, market, hebel: HEBEL.has(symbol) });
+    const vote = have || d0.call === "REIN" ? await longVote(symbol) : null;
+    const d = agreed(symbol, d0.call, d0.reason, vote, have ? { last: q.last, stop: have.pos.stop, sleeve: have.pos.sleeve } : undefined);
     notes.push({ symbol, call: d.call, reason: d.reason });
   }
 
