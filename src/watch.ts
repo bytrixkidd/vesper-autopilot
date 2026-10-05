@@ -136,16 +136,6 @@ function agreed(symbol: string, call: Call, reason: string, vote: { week: number
   return { call: "REIN", reason: `Woche, Jahr und SMA200 einig. ${reason}` };
 }
 
-async function quote(symbol: string) {
-  const res = await fetch(`${YAHOO}/${encodeURIComponent(symbol)}?range=1d&interval=1m`, { headers: { "User-Agent": "Mozilla/5.0" } });
-  if (!res.ok) return null;
-  const body = await res.json() as { chart?: { result?: { indicators?: { quote?: { close?: (number | null)[] }[] } }[] } };
-  const px = (body.chart?.result?.[0]?.indicators?.quote?.[0]?.close ?? []).filter((n): n is number => n != null && n > 0);
-  if (!px.length) return null;
-  const last = px[px.length - 1]!;
-  const prev = px.length > 15 ? px[px.length - 16]! : px.length > 5 ? px[px.length - 6]! : null;
-  return { last, prev, open: px[0] ?? null };
-}
 
 async function main() {
   const market = session();
