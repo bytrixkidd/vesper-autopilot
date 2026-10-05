@@ -47,12 +47,17 @@ function decide(input: { held: boolean; last: number; prev: number | null; dayOp
   const downFast = chg5 != null && chg5 <= (input.hebel ? -0.025 : -0.012);
   const upFast = chg5 != null && chg5 >= 0.008 && (chgDay == null || chgDay > 0);
   const underWater = chgEntry != null && chgEntry <= -0.025;
+  const dayBleed = input.hebel && chgDay != null && chgDay <= -0.04;
   if (input.market === "closed") {
-    if (input.held && (input.shock || underWater)) return { call: "RAUS", reason: input.shock ? "Markt zu. Schockmeldung, bei Eröffnung raus." : "Markt zu. Unter dem Einstieg, bei Eröffnung raus." };
+    if (input.held && (input.shock || underWater || dayBleed)) {
+      const reason = input.shock ? "Markt zu. Schockmeldung, bei Eröffnung raus." : dayBleed ? "Markt zu. Hebel hat am Tag 4 % abgegeben, bei Eröffnung raus." : "Markt zu. Unter dem Einstieg, bei Eröffnung raus.";
+      return { call: "RAUS", reason };
+    }
     return { call: input.held ? "BLEIBEN" : "DRAUSSEN", reason: "Markt zu. Keine Order." };
   }
   if (input.held && input.shock) return { call: "RAUS", reason: "Schockmeldung. Sofort raus." };
   if (input.held && underWater) return { call: "RAUS", reason: "Unter dem Einstieg. Verlust begrenzen." };
+  if (input.held && dayBleed) return { call: "RAUS", reason: "Hebel gibt heute 4 % ab." };
   if (input.held && downFast) return { call: "RAUS", reason: "Dreht nach unten. Sofort raus." };
   if (!input.held && input.shock) return { call: "DRAUSSEN", reason: "Schockmeldung. Nicht reingehen." };
   if (!input.held && upFast) return { call: "REIN", reason: "Steigt schon, keine Schockmeldung." };
@@ -122,10 +127,21 @@ async function longVote(symbol: string) {
   const last = px[px.length - 1]!;
   const back = (n: number) => px.length > n && px[px.length - 1 - n]! > 0 ? last / px[px.length - 1 - n]! - 1 : null;
   const sma = px.slice(-200).reduce((a, b) => a + b, 0) / 200;
-  return { week: back(5), year: back(252), aboveSma: last > sma };
+  let cash = 1, shares = 0;
+  const start = Math.max(200, px.length - 252);
+  for (let i = start; i < px.length; i++) {
+    let sum = 0;
+    for (let k = i - 200; k < i; k++) sum += px[k]!;
+    const line = sum / 200;
+    const price = px[i]!;
+    if (shares === 0 && price > line) { shares = cash / price; cash = 0; }
+    else if (shares > 0 && price < line) { cash = shares * price; shares = 0; }
+  }
+  const trendYear = px.length >= 220 ? cash + shares * last - 1 : null;
+  return { week: back(5), month: back(21), year: back(252), aboveSma: last > sma, trendYear };
 }
 
-function agreed(symbol: string, call: Call, reason: string, vote: { week: number | null; year: number | null; aboveSma: boolean } | null, position?: { last: number; stop?: number; sleeve?: string }): { call: Call; reason: string } {
+function agreed(symbol: string, call: Call, reason: string, vote: { week: number | null; month?: number | null; year: number | null; aboveSma: boolean; trendYear?: number | null } | null, position?: { last: number; stop?: number; sleeve?: string }): { call: Call; reason: string } {
   const stop = position?.stop;
   if (stop != null && stop > 0 && position != null && position.last <= stop && call !== "RAUS" && call !== "DRAUSSEN") {
     return { call: "RAUS", reason: "Stop ist erreicht." };
@@ -142,8 +158,13 @@ function agreed(symbol: string, call: Call, reason: string, vote: { week: number
   const core = symbol === "SPY";
   if (!hebel && !core) return { call: "DRAUSSEN", reason: "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf." };
   const weekOk = vote?.week != null && vote.week > -0.04;
+  const monthOk = vote?.month == null || vote.month > -0.08;
   const yearOk = vote?.year != null && vote.year > 0 && vote.aboveSma === true;
-  if (!weekOk || !yearOk) return { call: "DRAUSSEN", reason: !yearOk ? "Jahr oder SMA200 nicht intakt. Nicht rein." : "Letzte Woche zu schwach. Nicht rein." };
+  const trendOk = vote?.trendYear == null || vote.trendYear >= 0;
+  if (!weekOk || !monthOk || !yearOk || !trendOk) {
+    const why = !yearOk ? "Jahr oder SMA200 nicht intakt. Nicht rein." : !monthOk ? "Der letzte Monat ist zu schwach. Nicht rein." : !trendOk ? "Die Trend-Regel hat im letzten Jahr verloren. Nicht rein." : "Letzte Woche zu schwach. Nicht rein.";
+    return { call: "DRAUSSEN", reason: why };
+  }
   return { call: "REIN", reason: `Woche, Jahr und SMA200 einig. ${reason}` };
 }
 
