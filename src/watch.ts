@@ -9,7 +9,8 @@ const ALPACA = "https://paper-api.alpaca.markets/v2";
 const YAHOO = "https://query1.finance.yahoo.com/v8/finance/chart";
 const SYMBOLS = ["SPY", "QQQ", "NVDA", "AMD", "MSFT", "AAPL", "TQQQ", "SOXL", "NVDL"];
 const HEBEL = new Set(["TQQQ", "SOXL", "NVDL", "TSLL", "UPRO"]);
-const SHOCK = /\b(crash|plunge|plunges|war|invasion|missile|explosion|bankruptcy|bankrupt|trading halt|halted|indictment|default|recession|earthquake|assassination|sanctions)\b/i;
+const SHOCK = /\b(crash|plunge|plunges|war|invasion|missile|explosion|bankruptcy|bankrupt|trading halt|halted|indictment|recession|earthquake|assassination|sanctions)\b/i;
+const HARD = /\b(trading halt|market crash|crash|invasion|missile|war|bankruptcy|bankrupt|earthquake|assassination)\b/i;
 const SOFT = /\b(what to|explainer|opinion|could|may |might|forecast|preview|week ahead)\b/i;
 const MARKET = /\b(stock market|s&p|nasdaq|wall street|dow|trading halt)\b/i;
 
@@ -36,7 +37,7 @@ function session(now = new Date()): "open" | "closed" {
 function shock(title: string, symbol: string | null) {
   if (!title || !SHOCK.test(title) || SOFT.test(title)) return false;
   if (symbol && new RegExp(`\\b${symbol}\\b`, "i").test(title)) return true;
-  return MARKET.test(title);
+  return HARD.test(title) && MARKET.test(title);
 }
 
 function decide(input: { held: boolean; last: number; prev: number | null; dayOpen: number | null; entry: number | null; shock: boolean; market: "open" | "closed" }): { call: Call; reason: string } {
@@ -113,7 +114,7 @@ async function quote(symbol: string) {
 }
 
 async function longVote(symbol: string) {
-  const res = await fetch(`${YAHOO}/${encodeURIComponent(symbol)}?range=10y&interval=1d`, { headers: { "User-Agent": "Mozilla/5.0" } });
+  const res = await fetch(`${YAHOO}/${encodeURIComponent(symbol)}?range=15y&interval=1d`, { headers: { "User-Agent": "Mozilla/5.0" } });
   if (!res.ok) return null;
   const body = await res.json() as { chart?: { result?: { indicators?: { quote?: { close?: (number | null)[] }[] } }[] } };
   const px = (body.chart?.result?.[0]?.indicators?.quote?.[0]?.close ?? []).filter((n): n is number => n != null && n > 0);
