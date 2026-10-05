@@ -305,8 +305,8 @@ async function rebuildFromFills(state: State, log: string[]) {
       qty: lot.qty,
       entry,
       entryDate: prev?.entryDate || lot.entryDate,
-      stop: prev?.stop ?? entry,
-      peak: Math.max(prev?.peak ?? entry, entry),
+      stop: prev?.stop && prev.stop < (prev.entry || entry) ? prev.stop : 0,
+      peak: Math.max(prev?.peak ?? 0, entry),
     });
   }
   state.positions = next;
@@ -511,8 +511,9 @@ async function main() {
     const a = atr(stopBase);
     if (a == null) continue;
     const scale = pair ? c / stopBase[stopBase.length - 1].close * 3 : 1;
-    p.peak = Math.max(p.peak, c);
-    p.stop = Math.max(p.stop, p.peak - cfg.atrMult * a * scale);
+    p.peak = Math.max(p.peak || c, c);
+    const trail = p.peak - cfg.atrMult * a * scale;
+    p.stop = p.stop > 0 ? Math.max(p.stop, trail) : trail;
     if (c <= p.stop) decisions.push({ symbol: p.symbol, action: "SELL", sleeve: p.sleeve, qty: p.qty, reason: `Stop ${r2(p.stop)} getroffen (${r2(c)})` });
   }
 
