@@ -133,9 +133,10 @@ function momentum(bars: Bar[], n: number): number | null {
 }
 
 function isFresh(bars: Bar[]): boolean {
-  // Letzte Kerze darf höchstens 4 Kalendertage alt sein (Wochenende + Feiertag)
-  const last = new Date(bars[bars.length - 1].date).getTime();
-  return Date.now() - last < 4 * 86400_000;
+  // Datum ohne Uhrzeit ist Mitternacht. Freitag bis Dienstag nach einem Feiertag
+  // ist länger als 4 Tage und hat den Lauf früher komplett abgebrochen.
+  const last = Date.parse(`${bars[bars.length - 1].date}T00:00:00Z`);
+  return Date.now() - last < 6 * 86400_000;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -232,6 +233,85 @@ function recentJournal(n = 20): unknown[] {
   if (!existsSync(JOURNAL_FILE)) return [];
   return readFileSync(JOURNAL_FILE, "utf8").trim().split("\n").filter(Boolean).slice(-n)
     .map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+}
+
+function orderRecords(): { id: string; symbol: string; side: string; sleeve: string }[] {
+  if (!existsSync(JOURNAL_FILE)) return [];
+  const sleeveOf = new Map<string, string>();
+  const seen = new Set<string>();
+  const out: { id: string; symbol: string; side: string; sleeve: string }[] = [];
+  for (const line of readFileSync(JOURNAL_FILE, "utf8").split(/\r?\n/)) {
+    if (!line.trim()) continue;
+    let row: { type?: string; symbol?: string; sleeve?: string; orderId?: string; side?: string };
+    try { row = JSON.parse(line); } catch { continue; }
+    if (row.type === "decision" && row.symbol && row.sleeve) sleeveOf.set(row.symbol, row.sleeve);
+    if (row.type === "order" && row.orderId && !seen.has(row.orderId)) {
+      seen.add(row.orderId);
+      out.push({
+        id: row.orderId,
+        symbol: row.symbol ?? "",
+        side: (row.side ?? "").toLowerCase(),
+        sleeve: sleeveOf.get(row.symbol ?? "") ?? (BOOK === "hebel" ? "hebel" : "core"),
+      });
+    }
+  }
+  return out;
+}
+
+/** Bestand und Cash nur aus gefüllten Orders. Accepted ist kein Geld. */
+async function rebuildFromFills(state: State, log: string[]) {
+  const records = orderRecords();
+  if (!records.length) return;
+  const lots = new Map<string, { symbol: string; sleeve: string; qty: number; cost: number; entryDate: string }>();
+  let cash = state.startCapital;
+  for (const rec of records) {
+    const o = await alpaca(`/orders/${encodeURIComponent(rec.id)}`);
+    const filled = parseFloat(o.filled_qty || "0");
+    const avg = parseFloat(o.filled_avg_price || "0");
+    const side = String(o.side || rec.side || "").toLowerCase();
+    const symbol = String(o.symbol || rec.symbol || "");
+    if (!(filled > 0) || !(avg > 0) || !symbol) {
+      log.push(`${symbol || rec.symbol} ${side || rec.side}: ${o.status}, noch kein Fill`);
+      continue;
+    }
+    let lot = lots.get(symbol);
+    if (!lot) {
+      const when = String(o.filled_at || o.submitted_at || today()).slice(0, 10);
+      lot = { symbol, sleeve: rec.sleeve, qty: 0, cost: 0, entryDate: when };
+      lots.set(symbol, lot);
+    }
+    if (side === "buy") {
+      lot.qty += filled;
+      lot.cost += filled * avg;
+      cash -= filled * avg;
+    } else {
+      const use = Math.min(filled, lot.qty);
+      const basis = lot.qty > 0 ? lot.cost / lot.qty : avg;
+      lot.qty -= use;
+      lot.cost -= use * basis;
+      cash += use * avg;
+      if (filled - use > 1e-5) log.push(`${symbol}: Fill-Verkauf ${filled} ist größer als der Bestand`);
+    }
+  }
+  const old = new Map(state.positions.map(p => [p.symbol, p]));
+  const next: Position[] = [];
+  for (const lot of lots.values()) {
+    if (!(lot.qty > 1e-6)) continue;
+    const prev = old.get(lot.symbol);
+    const entry = lot.cost / lot.qty;
+    next.push({
+      symbol: lot.symbol,
+      sleeve: prev?.sleeve || lot.sleeve,
+      qty: lot.qty,
+      entry,
+      entryDate: prev?.entryDate || lot.entryDate,
+      stop: prev?.stop ?? entry,
+      peak: Math.max(prev?.peak ?? entry, entry),
+    });
+  }
+  state.positions = next;
+  state.cash = cash;
+  log.push(`Buch aus Fills: Cash ${r2(cash)} $, Positionen ${next.length}`);
 }
 
 function loadBlackout(): Set<string> {
@@ -378,49 +458,10 @@ async function main() {
   const account = await alpacaAccount();
   const broker = await alpacaPositions();
 
-  // 2. Abgleich Book ↔ Broker.
-  // Fehlende Stücke sind kein Abbruch mehr: das ist die Entscheidung, das Geld
-  // aus dem Book zu nehmen. Der Lauf geht weiter, damit Stop und Verkauf
-  // schreiben können und der Stand nicht auf dem alten Tag stehen bleibt.
-  const noRebuy = new Set<string>();
-  const still: typeof state.positions = [];
-  for (const p of state.positions) {
-    const b = broker.find(x => x.symbol === p.symbol);
-    const held = b?.qty ?? 0;
-    const gap = p.qty - held;
-    if (gap <= Math.max(1e-4, p.qty * 0.005)) {
-      if (b && held > 0) p.qty = held;
-      still.push(p);
-      continue;
-    }
-    if (held <= 1e-6) {
-      state.cash += p.qty * p.entry;
-      noRebuy.add(p.symbol);
-      journal({
-        type: "decision",
-        symbol: p.symbol,
-        action: "SELL",
-        sleeve: p.sleeve,
-        qty: p.qty,
-        reason: "Raus: Broker hat die Stücke nicht. Einsatz zurück ins Book-Cash. Heute kein neuer Kauf desselben Namens.",
-      });
-      log.push(`🔴 ${p.symbol} aus dem Book genommen (${p.qty} Stück waren beim Broker nicht da)`);
-      continue;
-    }
-    state.cash += gap * p.entry;
-    journal({
-      type: "decision",
-      symbol: p.symbol,
-      action: "SELL",
-      sleeve: p.sleeve,
-      qty: gap,
-      reason: `Raus: Broker hat nur ${held} Stück, Book hatte ${p.qty}. Differenz zurück ins Cash.`,
-    });
-    p.qty = held;
-    still.push(p);
-    log.push(`🔴 ${p.symbol} auf Broker-Menge ${held} gekürzt`);
-  }
-  state.positions = still;
+  // 2. Bestand nur aus Fills. Eine angenommene Order ändert weder Cash noch Stückzahl.
+  // Sonst liegt das Book über dem Broker und der nächste Tag bricht ab.
+  await rebuildFromFills(state, log);
+  const openOrders: { symbol?: string; side?: string }[] = await alpaca("/orders?status=open&limit=50").catch(() => []);
 
   // 3. Kurse
   const symbols = BOOK === "main"
@@ -464,9 +505,12 @@ async function main() {
   for (const p of state.positions) {
     if (!bars.has(p.symbol)) continue;
     const b = bars.get(p.symbol)!, c = price(p.symbol);
-    const stopBase = BOOK === "hebel" ? bars.get(HEBEL.pairs.find(x => x.lev === p.symbol)!.base)! : b;
-    const a = atr(stopBase)!;
-    const scale = BOOK === "hebel" ? c / stopBase[stopBase.length - 1].close * 3 : 1; // grob 3× Hebel
+    const pair = BOOK === "hebel" ? HEBEL.pairs.find(x => x.lev === p.symbol) : undefined;
+    const stopBase = pair ? bars.get(pair.base) : b;
+    if (!stopBase) continue;
+    const a = atr(stopBase);
+    if (a == null) continue;
+    const scale = pair ? c / stopBase[stopBase.length - 1].close * 3 : 1;
     p.peak = Math.max(p.peak, c);
     p.stop = Math.max(p.stop, p.peak - cfg.atrMult * a * scale);
     if (c <= p.stop) decisions.push({ symbol: p.symbol, action: "SELL", sleeve: p.sleeve, qty: p.qty, reason: `Stop ${r2(p.stop)} getroffen (${r2(c)})` });
@@ -477,11 +521,7 @@ async function main() {
   for (const d of stratDecisions) if (!decisions.find(x => x.symbol === d.symbol && x.action === "SELL")) decisions.push(d);
 
   // 8. Risk-Gate
-  const gated = riskGate(state, decisions, equity, loadBlackout()).map(d =>
-    d.action === "BUY" && noRebuy.has(d.symbol)
-      ? { ...d, action: "ABSTAIN" as const, reason: `heute rausgenommen, Broker hatte die Stücke nicht – ${d.reason}` }
-      : d,
-  );
+  const gated = riskGate(state, decisions, equity, loadBlackout());
 
   // 8b. Vesper (KI) – darf Käufe bestätigen oder ablehnen, sonst nichts. Fail-closed.
   let final = gated;
@@ -519,37 +559,54 @@ async function main() {
     } catch (e: any) { journal({ type: "vesper_error", error: e.message }); }
   }
 
-  // 9. Ausführung (Orders werden zur nächsten Eröffnung ausgeführt)
+  // 9. Orders schicken, aber erst ein Fill ändert das Book.
+  // Was heute rausgeht, wird nicht in derselben Minute wieder gekauft.
+  const exitToday = new Set(final.filter(d => d.action === "SELL").map(d => d.symbol));
   for (const d of final) {
     journal({ type: "decision", ...d, equity: r2(equity), cash: r2(state.cash) });
+    if (d.action === "BUY" && exitToday.has(d.symbol)) {
+      log.push(`${d.symbol} BUY ausgesetzt: heute erst verkauft`);
+      journal({ type: "order_skip", symbol: d.symbol, side: "BUY", reason: "Heute verkauft, kein sofortiger Wiedereinstieg" });
+      continue;
+    }
     if (CHECK_ONLY || d.action === "HOLD" || d.action === "ABSTAIN") { if (d.action !== "HOLD") log.push(`• ${d.symbol} ${d.action}: ${d.reason}`); continue; }
+    const side = d.action === "BUY" ? "buy" : "sell";
+    if (openOrders.some(o => o.symbol === d.symbol && (o.side ?? "").toLowerCase() === side)) {
+      log.push(`${d.symbol} ${d.action}: Order liegt schon, keine zweite`);
+      journal({ type: "order_skip", symbol: d.symbol, side: d.action, reason: "Order liegt schon beim Broker" });
+      continue;
+    }
+    let sellQty = d.qty;
+    if (side === "sell") {
+      const held = broker.find(x => x.symbol === d.symbol)?.qty ?? 0;
+      sellQty = Math.min(sellQty ?? 0, held);
+      if (!(sellQty > 1e-6)) {
+        log.push(`${d.symbol} SELL: Broker hat keine Stücke, keine Order`);
+        journal({ type: "order_skip", symbol: d.symbol, side: "SELL", reason: "Broker-Menge ist 0" });
+        continue;
+      }
+    }
     try {
       const o = d.action === "BUY"
         ? await alpacaOrder(d.symbol, "buy", { notional: d.notional })
-        : await alpacaOrder(d.symbol, "sell", { qty: d.qty });
+        : await alpacaOrder(d.symbol, "sell", { qty: sellQty });
       journal({ type: "order", symbol: d.symbol, side: d.action, orderId: o.id, notional: d.notional, qty: d.qty, status: o.status });
-      if (d.action === "BUY") {
-        const c = price(d.symbol), qty = d.notional! / c, b = bars.get(d.symbol)!;
-        const a = atr(b)!;
-        state.positions.push({ symbol: d.symbol, sleeve: d.sleeve, qty: r2(qty * 10000) / 10000, entry: c, entryDate: t, stop: c - cfg.atrMult * a, peak: c });
-        state.cash -= d.notional!;
-        log.push(`🟢 BUY ${d.symbol} ${d.notional} $ – ${d.reason}`);
-      } else {
-        const p = state.positions.find(p => p.symbol === d.symbol)!;
-        const c = price(d.symbol);
-        state.cash += p.qty * c;
-        state.positions = state.positions.filter(p => p.symbol !== d.symbol);
-        log.push(`🔴 SELL ${d.symbol} ≈${r2(p.qty * c)} $ (${r2((c / p.entry - 1) * 100)} %) – ${d.reason}`);
-      }
+      openOrders.push({ symbol: d.symbol, side });
+      log.push(`${d.action} ${d.symbol} geschickt (${o.status}). Stand ändert sich erst mit dem Fill.`);
     } catch (e: any) {
       journal({ type: "order_error", symbol: d.symbol, error: e.message });
       log.push(`⚠ Order ${d.symbol} fehlgeschlagen: ${e.message}`);
     }
   }
 
-  // 10. Equity-Historie + Report
+  await rebuildFromFills(state, log);
+
+  // 10. Equity-Historie + Report. Derselbe Tag wird ersetzt, nicht doppelt geschrieben.
   equity = state.cash + state.positions.reduce((a, p) => a + p.qty * (bars.has(p.symbol) ? price(p.symbol) : p.entry), 0);
-  state.equityHistory.push({ date: t, equity: r2(equity) });
+  const point = { date: t, equity: r2(equity) };
+  const lastPoint = state.equityHistory.at(-1);
+  if (lastPoint?.date === t) lastPoint.equity = point.equity;
+  else state.equityHistory.push(point);
   state.lastRun = new Date().toISOString();
   if (!CHECK_ONLY) saveState(state);
   journal({ type: "equity", equity: r2(equity), cash: r2(state.cash), positions: state.positions.length, dayChange: r2(dayChange * 100), totalDD: r2(totalDD * 100) });
