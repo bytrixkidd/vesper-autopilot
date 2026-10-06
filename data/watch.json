@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-06T13:44:19.577Z",
+  "at": "2026-10-06T13:45:23.679Z",
   "market": "open",
   "headline": "Weekly market commentary - BlackRock",
   "notes": [
@@ -21,7 +21,7 @@
     {
       "symbol": "AMD",
       "call": "RAUS",
-      "reason": "Einzelwert raus. Die Regel hat seit 2022 verloren."
+      "reason": "Dreht nach unten. Sofort raus."
     },
     {
       "symbol": "MSFT",
