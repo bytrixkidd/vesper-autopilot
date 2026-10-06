@@ -7,7 +7,8 @@ on:
     - cron: "0 16 * * 1-5"
     - cron: "25 19 * * 1-5"
     # Nachts und am Wochenende ein Blick, keine neue Position.
-    - cron: "0 0,2,4,6,8,10,22 * * *"
+    - cron: "17 0,4,8 * * *"
+    - cron: "47 2,6,10,22 * * *"
   workflow_dispatch:
 
 permissions:
