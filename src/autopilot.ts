@@ -378,13 +378,18 @@ async function strategyHebel(state: State, bars: Map<string, Bar[]>, equity: num
     const trendOk = close > s1 && close > s2;
     if (pos) {
       const held = Math.round((Date.now() - new Date(pos.entryDate).getTime()) / 86400_000);
+      const px = bars.get(lev)?.at(-1)?.close ?? pos.entry;
       if (!trendOk) d.push({ symbol: lev, action: "SELL", sleeve: "hebel", qty: pos.qty, reason: `${base} unter SMA50/200` });
-      else if (held >= HEBEL.maxHoldDays) d.push({ symbol: lev, action: "SELL", sleeve: "hebel", qty: pos.qty, reason: `max. Haltedauer ${HEBEL.maxHoldDays} Tage` });
+      else if (held >= HEBEL.maxHoldDays && px <= pos.entry) d.push({ symbol: lev, action: "SELL", sleeve: "hebel", qty: pos.qty, reason: `seit ${held} Tagen nicht im Gewinn` });
       else d.push({ symbol: lev, action: "HOLD", sleeve: "hebel", reason: "Trend intakt" });
     } else if (trendOk && r < HEBEL.rsiMax && open < HEBEL.maxPositions) {
-      d.push({ symbol: lev, action: "BUY", sleeve: "hebel", notional: equity * HEBEL.maxPositionPct,
-        reason: `${base} > SMA50 & SMA200, RSI ${r2(r)}` });
-      open++;
+      const crowded = ["TQQQ", "SOXL", "NVDL"].includes(lev) && state.positions.some(p => ["TQQQ", "SOXL", "NVDL"].includes(p.symbol));
+      if (crowded) d.push({ symbol: lev, action: "ABSTAIN", sleeve: "hebel", reason: "Gleicher Markt wie eine offene Hebel-Position. Kein zweites Mal." });
+      else {
+        d.push({ symbol: lev, action: "BUY", sleeve: "hebel", notional: equity * HEBEL.maxPositionPct,
+          reason: `${base} > SMA50 & SMA200, RSI ${r2(r)}` });
+        open++;
+      }
     } else {
       d.push({ symbol: lev, action: "HOLD", sleeve: "hebel", reason: trendOk ? `RSI ${r2(r)} / Limit Positionen` : `${base} kein Trend` });
     }
@@ -395,6 +400,13 @@ async function strategyHebel(state: State, bars: Map<string, Bar[]>, equity: num
 // ─────────────────────────────────────────────────────────────────────────────
 // Risk-Gate (deterministisch – darf nur ablehnen oder verkleinern)
 // ─────────────────────────────────────────────────────────────────────────────
+
+function sellQtyForRisk(equity: number, qty: number, price: number, stop: number, riskPct = 0.02): number {
+  if (!(equity > 0) || !(qty > 0) || !(price > stop) || !(stop > 0)) return 0;
+  const extra = qty - (equity * riskPct) / (price - stop);
+  if (!(extra > 0) || extra * price < 1) return 0;
+  return extra;
+}
 
 function riskGate(state: State, decisions: Decision[], equity: number, blackout: Set<string>): Decision[] {
   const cfg = BOOK === "main" ? MAIN : HEBEL;
@@ -491,6 +503,15 @@ async function main() {
   // 7. Strategie
   const stratDecisions = BOOK === "main" ? await strategyMain(state, bars, equity) : await strategyHebel(state, bars, equity);
   for (const d of stratDecisions) if (!decisions.find(x => x.symbol === d.symbol && x.action === "SELL")) decisions.push(d);
+  if (BOOK === "hebel") {
+    for (const p of state.positions) {
+      if (decisions.some(d => d.symbol === p.symbol && d.action === "SELL")) continue;
+      if (!bars.has(p.symbol) || !(p.stop > 0)) continue;
+      const px = price(p.symbol);
+      const cut = sellQtyForRisk(equity, p.qty, px, p.stop, 0.02);
+      if (cut > 0) decisions.push({ symbol: p.symbol, action: "SELL", sleeve: p.sleeve, qty: cut, reason: "Am Stop mehr als 2 % des Buchs. Stückzahl runter." });
+    }
+  }
 
   // 8. Risk-Gate
   const gated = riskGate(state, decisions, equity, loadBlackout());
