@@ -262,6 +262,16 @@ function orderRecords(): { id: string; symbol: string; side: string; sleeve: str
 async function rebuildFromFills(state: State, log: string[]) {
   const records = orderRecords();
   if (!records.length) return;
+  const knownFills = new Set<string>();
+  if (existsSync(JOURNAL_FILE)) {
+    for (const line of readFileSync(JOURNAL_FILE, "utf8").split(/\r?\n/)) {
+      if (!line.trim()) continue;
+      try {
+        const row = JSON.parse(line);
+        if (row.type === "fill" && row.orderId) knownFills.add(row.orderId);
+      } catch { /* kaputte Zeile bleibt liegen */ }
+    }
+  }
   const lots = new Map<string, { symbol: string; sleeve: string; qty: number; cost: number; entryDate: string }>();
   let cash = state.startCapital;
   for (const rec of records) {
@@ -291,6 +301,10 @@ async function rebuildFromFills(state: State, log: string[]) {
       lot.cost -= use * basis;
       cash += use * avg;
       if (filled - use > 1e-5) log.push(`${symbol}: Fill-Verkauf ${filled} ist größer als der Bestand`);
+    }
+    if (!knownFills.has(rec.id)) {
+      journal({ type: "fill", orderId: rec.id, symbol, side, qty: filled, price: avg });
+      knownFills.add(rec.id);
     }
   }
   const old = new Map(state.positions.map(p => [p.symbol, p]));
