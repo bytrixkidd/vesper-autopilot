@@ -49,9 +49,16 @@ jobs:
             mins=$((10#$hm * 60 + 10#$mi))
             dow=$(date -u +%u)
             now=$(date +%s)
-            # Nur werktags zwischen 13:30 und 20:05 UTC in der Schleife bleiben.
-            if [ "$dow" -ge 6 ]; then break; fi
-            if [ "$mins" -lt 810 ] || [ "$mins" -ge 1205 ]; then break; fi
-            if [ $((now - start)) -ge $((350 * 60)) ]; then break; fi
-            sleep 60
+            elapsed=$((now - start))
+            # Handelszeit: jede Minute, bis 20:05 UTC oder 350 Minuten.
+            if [ "$dow" -le 5 ] && [ "$mins" -ge 810 ] && [ "$mins" -lt 1205 ]; then
+              if [ "$elapsed" -ge $((350 * 60)) ]; then break; fi
+              sleep 60
+              continue
+            fi
+            # Nacht und Wochenende: alle 30 Minuten, höchstens 5,5 Stunden.
+            # Kurz vor 13:25 UTC aufhören, damit die Handels-Session übernehmen kann.
+            if [ "$dow" -le 5 ] && [ "$mins" -ge 785 ] && [ "$mins" -lt 810 ]; then break; fi
+            if [ "$elapsed" -ge $((330 * 60)) ]; then break; fi
+            sleep 1800
           done
