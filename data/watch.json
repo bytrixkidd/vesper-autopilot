@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-05T20:52:30.144Z",
+  "at": "2026-10-06T00:34:42.111Z",
   "market": "closed",
   "headline": "Weekly market commentary - BlackRock",
   "notes": [
@@ -20,13 +20,13 @@
     },
     {
       "symbol": "AMD",
-      "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Einzelwert raus. Die Regel hat seit 2022 verloren."
     },
     {
       "symbol": "MSFT",
-      "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Einzelwert raus. Die Regel hat seit 2022 verloren."
     },
     {
       "symbol": "AAPL",
@@ -50,5 +50,8 @@
     }
   ],
   "sent": [],
-  "exitAtOpen": []
+  "exitAtOpen": [
+    "AMD",
+    "MSFT"
+  ]
 }
