@@ -54,3 +54,4 @@
 {"ts":"2026-10-06T01:50:26.366Z","book":"hebel","type":"equity","equity":309.01,"cash":309.01,"positions":0,"dayChange":0.04,"totalDD":0.42}
 {"ts":"2026-10-06T02:09:58.011Z","book":"hebel","type":"watch","market":"closed","headline":"Weekly market commentary - BlackRock","notes":[],"sent":[]}
 {"ts":"2026-10-06T06:19:58.238Z","book":"hebel","type":"watch","market":"closed","headline":"Weekly market commentary - BlackRock","notes":[],"sent":[]}
+{"ts":"2026-10-06T13:38:58.223Z","book":"hebel","type":"watch","market":"open","headline":"Weekly market commentary - BlackRock","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
