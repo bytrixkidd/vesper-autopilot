@@ -357,38 +357,10 @@ async function strategyMain(state: State, bars: Map<string, Bar[]>, equity: numb
       reason: corePos ? "im Trend, halten" : "unter SMA200, Cash" });
   }
 
-  // Satellite: nur am Monatsende (letzter Lauf des Monats) neu ranken
-  const t = today();
-  const isMonthEnd = (() => {
-    const next = new Date(); next.setUTCDate(next.getUTCDate() + 1);
-    // Freitag vor Monatswechsel oder letzter Tag: nächster Handelstag liegt im neuen Monat
-    let n = new Date(); do { n.setUTCDate(n.getUTCDate() + 1); } while (n.getUTCDay() === 0 || n.getUTCDay() === 6);
-    return month(n.toISOString().slice(0, 10)) !== month(t);
-  })();
-
-  if (!isMonthEnd || state.lastRebalanceMonth === month(t)) {
-    return d;
-  }
-
-  const ranked = MAIN.satUniverse
-    .map(s => ({ s, b: bars.get(s)! }))
-    .filter(x => x.b)
-    .map(x => ({ s: x.s, mom: momentum(x.b, MAIN.satMomentumDays)!, above: x.b[x.b.length - 1].close > (sma(x.b, MAIN.satSma) ?? Infinity) }))
-    .sort((a, b) => b.mom - a.mom);
-  const picks = ranked.slice(0, MAIN.satTop).filter(x => x.above).map(x => x.s);
-
   for (const p of state.positions.filter(p => p.sleeve === "sat")) {
-    if (!picks.includes(p.symbol))
-      d.push({ symbol: p.symbol, action: "SELL", sleeve: "sat", qty: p.qty, reason: "nicht mehr in Top-3 / unter SMA100" });
+    d.push({ symbol: p.symbol, action: "SELL", sleeve: "sat", qty: p.qty,
+      reason: "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Bestand raus." });
   }
-  // Regimefilter: Einzelwerte nur kaufen, wenn der Gesamtmarkt über SMA200 steht.
-  const regimeOk = spyClose > spySma;
-  for (const s of regimeOk ? picks : []) {
-    if (!state.positions.find(p => p.symbol === s))
-      d.push({ symbol: s, action: "ABSTAIN", sleeve: "sat",
-        reason: "Lehre: Out-of-Sample ab 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Einzelkauf." });
-  }
-  state.lastRebalanceMonth = month(t);
   return d;
 }
 
