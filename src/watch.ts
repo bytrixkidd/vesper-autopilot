@@ -147,8 +147,8 @@ function agreed(symbol: string, call: Call, reason: string, vote: { week: number
     return { call: "RAUS", reason: "Stop ist erreicht." };
   }
   const sleeve = position?.sleeve;
-  if (call === "BLEIBEN" && sleeve === "sat" && vote?.year != null && vote.year < 0 && vote.aboveSma === false) {
-    return { call: "RAUS", reason: "Einzelwert: Jahr negativ und unter SMA200." };
+  if (call === "BLEIBEN" && sleeve === "sat") {
+    return { call: "RAUS", reason: "Einzelwert raus. Die Regel hat seit 2022 verloren." };
   }
   if (call === "BLEIBEN" && vote?.aboveSma === false && (sleeve === "core" || sleeve === "hebel" || symbol === "SPY" || HEBEL.has(symbol))) {
     return { call: "RAUS", reason: "Unter SMA200." };
