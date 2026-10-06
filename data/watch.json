@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-06T00:44:10.886Z",
+  "at": "2026-10-06T02:09:58.011Z",
   "market": "closed",
   "headline": "Weekly market commentary - BlackRock",
   "notes": [
@@ -35,17 +35,17 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "BLEIBEN",
+      "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
-      "call": "BLEIBEN",
+      "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",
-      "call": "BLEIBEN",
+      "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     }
   ],
