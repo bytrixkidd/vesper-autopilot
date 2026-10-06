@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-06T02:09:58.011Z",
+  "at": "2026-10-06T06:19:58.238Z",
   "market": "closed",
   "headline": "Weekly market commentary - BlackRock",
   "notes": [
@@ -45,6 +45,16 @@
     },
     {
       "symbol": "NVDL",
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "UPRO",
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
+    },
+    {
+      "symbol": "TSLL",
       "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     }
