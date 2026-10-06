@@ -7,7 +7,7 @@ import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } fr
 
 const ALPACA = "https://paper-api.alpaca.markets/v2";
 const YAHOO = "https://query1.finance.yahoo.com/v8/finance/chart";
-const SYMBOLS = ["SPY", "QQQ", "NVDA", "AMD", "MSFT", "AAPL", "TQQQ", "SOXL", "NVDL"];
+const SYMBOLS = ["SPY", "QQQ", "NVDA", "AMD", "MSFT", "AAPL", "TQQQ", "SOXL", "NVDL", "UPRO", "TSLL"];
 const HEBEL = new Set(["TQQQ", "SOXL", "NVDL", "TSLL", "UPRO"]);
 const SHOCK = /\b(crash|plunge|plunges|war|invasion|missile|explosion|bankruptcy|bankrupt|trading halt|halted|indictment|recession|earthquake|assassination|sanctions)\b/i;
 const HARD = /\b(trading halt|market crash|crash|invasion|missile|war|bankruptcy|bankrupt|earthquake|assassination)\b/i;
@@ -176,6 +176,14 @@ async function main() {
   const states = ["main", "hebel"].map(load);
   const held = new Map<string, { book: string; pos: Pos }>();
   for (const state of states) for (const pos of state.positions) held.set(pos.symbol, { book: state.book, pos });
+  const brokerNow: { symbol: string; qty: number; avg: number }[] = await alpaca("/positions").then((rows: { symbol: string; qty: string; avg_entry_price: string }[]) =>
+    rows.map((x) => ({ symbol: x.symbol, qty: parseFloat(x.qty), avg: parseFloat(x.avg_entry_price) })),
+  ).catch(() => []);
+  for (const b of brokerNow) {
+    if (!(b.qty > 0) || held.has(b.symbol)) continue;
+    const book = HEBEL.has(b.symbol) ? "hebel" : "main";
+    held.set(b.symbol, { book, pos: { symbol: b.symbol, qty: b.qty, entry: b.avg, sleeve: book, stop: 0 } });
+  }
 
   const notes: { symbol: string; call: Call; reason: string }[] = [];
   for (const symbol of SYMBOLS) {
@@ -226,7 +234,7 @@ async function main() {
     }
 
     for (const note of notes) {
-      if (note.call !== "REIN" || held.has(note.symbol) || openFor(note.symbol, "buy")) continue;
+      if (note.call !== "REIN" || held.has(note.symbol) || openFor(note.symbol, "buy") || brokerNow.some((b) => b.symbol === note.symbol && b.qty > 0)) continue;
       const book = HEBEL.has(note.symbol) ? "hebel" : "main";
       const state = states.find((s) => s.book === book)!;
       if (state.cash < 30 || state.positions.length >= 4) {
