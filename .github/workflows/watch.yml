@@ -2,7 +2,11 @@ name: watch
 
 on:
   schedule:
-    - cron: "*/15 13-20 * * 1-5"
+    # Eine Session über die US-Handelszeit. GitHub lässt einzelne 15-Minuten-Ticks aus.
+    - cron: "30 13 * * 1-5"
+    - cron: "0 16 * * 1-5"
+    - cron: "25 19 * * 1-5"
+    # Nachts und am Wochenende ein Blick, keine neue Position.
     - cron: "0 0,2,4,6,8,10,22 * * *"
   workflow_dispatch:
 
@@ -16,7 +20,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 360
     env:
       ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -26,13 +30,27 @@ jobs:
         with:
           node-version: 20
       - run: npm ci --no-audit --no-fund
-      - run: npx tsx src/watch.ts
-      - name: Schreiben
-        if: always()
+      - name: Beobachten
         run: |
+          set +e
           git config user.name "vesper-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
-          git pull --rebase --autostash || true
-          git add data/watch.json data/journal-main.jsonl data/journal-hebel.jsonl
-          git diff --cached --quiet || git commit -m "watch $(date -u +%FT%TZ)"
-          git push
+          start=$(date +%s)
+          while true; do
+            out=$(npx tsx src/watch.ts 2>&1)
+            printf '%s\n' "$out" | tail -n 40
+            git add data/watch.json data/journal-main.jsonl data/journal-hebel.jsonl
+            git diff --cached --quiet || git commit -m "watch $(date -u +%FT%TZ)"
+            git pull --rebase --autostash || true
+            git push || true
+            hm=$(date -u +%H)
+            mi=$(date -u +%M)
+            mins=$((10#$hm * 60 + 10#$mi))
+            dow=$(date -u +%u)
+            now=$(date +%s)
+            # Nur werktags zwischen 13:30 und 20:05 UTC in der Schleife bleiben.
+            if [ "$dow" -ge 6 ]; then break; fi
+            if [ "$mins" -lt 810 ] || [ "$mins" -ge 1205 ]; then break; fi
+            if [ $((now - start)) -ge $((350 * 60)) ]; then break; fi
+            sleep 60
+          done
