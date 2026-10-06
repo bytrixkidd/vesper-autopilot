@@ -447,6 +447,11 @@ function riskGate(state: State, decisions: Decision[], equity: number, blackout:
 
 async function main() {
   const state = loadState();
+  const lastMs = state.lastRun ? Date.parse(state.lastRun) : 0;
+  if (process.env.GITHUB_EVENT_NAME !== "workflow_dispatch" && lastMs && Date.now() - lastMs < 6 * 3600 * 1000) {
+    console.log(`Lauf vor ${Math.round((Date.now() - lastMs) / 60000)} min. Kein zweiter Lauf.`);
+    return;
+  }
   const t = today();
   const cfg = BOOK === "main" ? MAIN : HEBEL;
   const log: string[] = [`<b>Vesper ${BOOK}</b> · ${t}`];
