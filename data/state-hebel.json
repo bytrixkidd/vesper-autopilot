@@ -1,8 +1,27 @@
 {
   "book": "hebel",
   "startCapital": 300,
-  "cash": 309.01478820967003,
-  "positions": [],
+  "cash": 232.68478845234,
+  "positions": [
+    {
+      "symbol": "SOXL",
+      "sleeve": "hebel",
+      "qty": 0.177185125,
+      "entry": 169.258,
+      "entryDate": "2026-09-25",
+      "stop": 130.70109315864374,
+      "peak": 169.258
+    },
+    {
+      "symbol": "UPRO",
+      "sleeve": "hebel",
+      "qty": 0.297356262,
+      "entry": 155.84,
+      "entryDate": "2026-10-06",
+      "stop": 143.8563280261439,
+      "peak": 156.41000366210938
+    }
+  ],
   "equityHistory": [
     {
       "date": "2026-09-24",
@@ -15,10 +34,14 @@
     {
       "date": "2026-10-06",
       "equity": 309.01
+    },
+    {
+      "date": "2026-10-07",
+      "equity": 308.3
     }
   ],
   "peakEquity": 310.31858879613367,
   "haltedUntil": null,
   "lastRebalanceMonth": null,
-  "lastRun": "2026-10-06T01:50:26.366Z"
+  "lastRun": "2026-10-07T00:55:33.663Z"
 }

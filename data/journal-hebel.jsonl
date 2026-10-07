@@ -383,3 +383,12 @@
 {"ts":"2026-10-06T19:27:39.220Z","book":"hebel","type":"watch","market":"open","headline":"US stocks hit record high, shrugging off bond market turmoil - CNN","notes":[{"symbol":"SOXL","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."},{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-06T19:28:43.538Z","book":"hebel","type":"watch","market":"open","headline":"US stocks hit record high, shrugging off bond market turmoil - CNN","notes":[{"symbol":"SOXL","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."},{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-06T19:29:48.749Z","book":"hebel","type":"watch","market":"open","headline":"US stocks hit record high, shrugging off bond market turmoil - CNN","notes":[{"symbol":"SOXL","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."},{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
+{"ts":"2026-10-07T00:55:32.196Z","book":"hebel","type":"fill","orderId":"66b888e1-97a7-438b-90bb-831ee360e5af","symbol":"UPRO","side":"buy","qty":0.297356262,"price":155.84}
+{"ts":"2026-10-07T00:55:32.232Z","book":"hebel","type":"fill","orderId":"c9af7d2b-74fa-4a4e-9dec-09baec7af3f2","symbol":"SOXL","side":"buy","qty":0.177185125,"price":169.258}
+{"ts":"2026-10-07T00:55:33.317Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"RSI 82.86 / Limit Positionen","equity":308.3,"cash":232.68}
+{"ts":"2026-10-07T00:55:33.317Z","book":"hebel","type":"decision","symbol":"SOXL","action":"SELL","sleeve":"hebel","qty":0.177185125,"reason":"seit 12 Tagen nicht im Gewinn","equity":308.3,"cash":232.68}
+{"ts":"2026-10-07T00:55:33.352Z","book":"hebel","type":"order","symbol":"SOXL","side":"SELL","orderId":"75334b8f-4460-4248-a603-9749ce7fa7fc","qty":0.177185125,"status":"accepted"}
+{"ts":"2026-10-07T00:55:33.352Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"RSI 84.04 / Limit Positionen","equity":308.3,"cash":232.68}
+{"ts":"2026-10-07T00:55:33.352Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":308.3,"cash":232.68}
+{"ts":"2026-10-07T00:55:33.352Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":308.3,"cash":232.68}
+{"ts":"2026-10-07T00:55:33.663Z","book":"hebel","type":"equity","equity":308.3,"cash":232.68,"positions":2,"dayChange":-0.23,"totalDD":0.65}
