@@ -392,3 +392,4 @@
 {"ts":"2026-10-07T00:55:33.352Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":308.3,"cash":232.68}
 {"ts":"2026-10-07T00:55:33.352Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":308.3,"cash":232.68}
 {"ts":"2026-10-07T00:55:33.663Z","book":"hebel","type":"equity","equity":308.3,"cash":232.68,"positions":2,"dayChange":-0.23,"totalDD":0.65}
+{"ts":"2026-10-07T06:38:09.331Z","book":"hebel","type":"watch","market":"closed","headline":"US stock market hits all-time high as investors bet big on AI | Financial Markets News - Al Jazeera","notes":[{"symbol":"SOXL","call":"RAUS","reason":"Markt zu. Unter dem Einstieg, bei Eröffnung raus."},{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}

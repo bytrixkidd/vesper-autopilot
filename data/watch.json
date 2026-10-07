@@ -1,78 +1,68 @@
 {
-  "at": "2026-10-06T19:29:48.749Z",
-  "market": "open",
-  "headline": "US stocks hit record high, shrugging off bond market turmoil - CNN",
+  "at": "2026-10-07T06:38:09.331Z",
+  "market": "closed",
+  "headline": "US stock market hits all-time high as investors bet big on AI | Financial Markets News - Al Jazeera",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AMD",
-      "call": "RAUS",
-      "reason": "Einzelwert raus. Die Regel hat seit 2022 verloren."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "MSFT",
-      "call": "RAUS",
-      "reason": "Einzelwert raus. Die Regel hat seit 2022 verloren."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Markt zu. Unter dem Einstieg, bei Eröffnung raus."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "UPRO",
       "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     }
   ],
-  "sent": [
-    {
-      "symbol": "AMD",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
-    },
-    {
-      "symbol": "MSFT",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
-    }
-  ],
+  "sent": [],
   "exitAtOpen": [
     "AMD",
-    "MSFT"
+    "MSFT",
+    "SOXL"
   ]
 }
