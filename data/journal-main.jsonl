@@ -655,3 +655,4 @@
 {"ts":"2026-10-08T01:11:37.152Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":305.32,"cash":244.14}
 {"ts":"2026-10-08T01:11:37.445Z","book":"main","type":"equity","equity":305.32,"cash":244.14,"positions":1,"dayChange":0,"totalDD":0}
 {"ts":"2026-10-08T02:36:53.507Z","book":"main","type":"watch","market":"closed","headline":"Wall Street ends lower, off record highs, as Treasury yields climb - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-08T03:06:57.221Z","book":"main","type":"watch","market":"closed","headline":"Wall Street ends lower, off record highs, as Treasury yields climb - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
