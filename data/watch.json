@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-08T17:25:02.865Z",
+  "at": "2026-10-08T17:26:07.354Z",
   "market": "open",
   "headline": "5 Things to Know Before the Stock Market Opens on Thursday - Investopedia",
   "notes": [
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "TSLL",
@@ -59,6 +59,14 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "UPRO",
+      "side": "sell",
+      "status": "Broker hat keine Stücke"
+    }
+  ],
+  "exitAtOpen": [
+    "UPRO"
+  ]
 }
