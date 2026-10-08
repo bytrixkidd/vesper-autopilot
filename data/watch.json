@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-08T19:54:57.916Z",
+  "at": "2026-10-08T19:56:01.805Z",
   "market": "open",
   "headline": "Stocks are tumbling as oil prices surge and bond yields hit 24-year highs - Business Insider",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
