@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-08T16:48:32.485Z",
+  "at": "2026-10-08T16:49:37.079Z",
   "market": "open",
   "headline": "5 Things to Know Before the Stock Market Opens on Thursday - Investopedia",
   "notes": [
@@ -40,8 +40,8 @@
     },
     {
       "symbol": "SOXL",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "NVDL",
@@ -59,6 +59,15 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "SOXL",
+      "side": "sell",
+      "orderId": "fe589e1c-db0d-4762-9f08-90e75a366ef8",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "SOXL"
+  ]
 }
