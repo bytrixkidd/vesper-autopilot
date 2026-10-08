@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-07T21:05:49.682Z",
+  "at": "2026-10-08T02:36:53.507Z",
   "market": "closed",
   "headline": "Wall Street ends lower, off record highs, as Treasury yields climb - Reuters",
   "notes": [
@@ -40,8 +40,8 @@
     },
     {
       "symbol": "SOXL",
-      "call": "RAUS",
-      "reason": "Markt zu. Unter dem Einstieg, bei Eröffnung raus."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",

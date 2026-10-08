@@ -668,3 +668,4 @@
 {"ts":"2026-10-08T01:11:54.229Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":306.4,"cash":259.89}
 {"ts":"2026-10-08T01:11:54.229Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":306.4,"cash":259.89}
 {"ts":"2026-10-08T01:11:54.616Z","book":"hebel","type":"equity","equity":306.4,"cash":259.89,"positions":1,"dayChange":-0.62,"totalDD":1.26}
+{"ts":"2026-10-08T02:36:53.507Z","book":"hebel","type":"watch","market":"closed","headline":"Wall Street ends lower, off record highs, as Treasury yields climb - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
