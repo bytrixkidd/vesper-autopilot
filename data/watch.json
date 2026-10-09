@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-09T15:53:45.505Z",
+  "at": "2026-10-09T15:54:50.079Z",
   "market": "open",
   "headline": "5%, Really? The Stock Market’s Sudden High-Yielders. - Barron's",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
