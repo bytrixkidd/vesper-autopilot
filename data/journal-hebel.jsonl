@@ -937,3 +937,13 @@
 {"ts":"2026-10-08T20:35:43.960Z","book":"hebel","type":"watch","market":"closed","headline":"Why Nvidia (NVDA) Stock Is Trading Lower Today - StockStory","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-08T21:05:47.997Z","book":"hebel","type":"watch","market":"closed","headline":"Is the Stock Market Closed on Columbus Day/Indigenous Peoples' Day? - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-08T21:35:52.189Z","book":"hebel","type":"watch","market":"closed","headline":"Tech stocks drop after report that OpenAI’s revenue is lower than expected - CNN","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-09T01:20:14.147Z","book":"hebel","type":"fill","orderId":"6e7c62b9-e510-497a-b6b7-3cf0b0c2bcad","symbol":"SOXL","side":"buy","qty":0.197364957,"price":151.952}
+{"ts":"2026-10-09T01:20:14.176Z","book":"hebel","type":"fill","orderId":"fe589e1c-db0d-4762-9f08-90e75a366ef8","symbol":"SOXL","side":"sell","qty":0.197364957,"price":147.452}
+{"ts":"2026-10-09T01:20:14.209Z","book":"hebel","type":"fill","orderId":"5af3a64b-2f7a-4a44-93b8-8b4fc7ff86a7","symbol":"UPRO","side":"sell","qty":0.297356262,"price":151.958}
+{"ts":"2026-10-09T01:20:15.231Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"RSI 77.83 / Limit Positionen","equity":304.19,"cash":304.19}
+{"ts":"2026-10-09T01:20:15.231Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"RSI 77.7 / Limit Positionen","equity":304.19,"cash":304.19}
+{"ts":"2026-10-09T01:20:15.231Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"RSI 77.02 / Limit Positionen","equity":304.19,"cash":304.19}
+{"ts":"2026-10-09T01:20:15.231Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":304.19,"cash":304.19}
+{"ts":"2026-10-09T01:20:15.231Z","book":"hebel","type":"decision","symbol":"UPRO","action":"BUY","sleeve":"hebel","notional":45.63,"reason":"SPY > SMA50 & SMA200, RSI 64.54 | Gate: 45.63 $","equity":304.19,"cash":304.19}
+{"ts":"2026-10-09T01:20:15.269Z","book":"hebel","type":"order","symbol":"UPRO","side":"BUY","orderId":"2312712f-2825-4e73-9100-1e57ed18701f","notional":45.63,"status":"accepted"}
+{"ts":"2026-10-09T01:20:15.697Z","book":"hebel","type":"equity","equity":304.19,"cash":304.19,"positions":0,"dayChange":-0.72,"totalDD":1.98}
