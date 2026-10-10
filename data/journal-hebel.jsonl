@@ -1231,3 +1231,12 @@
 {"ts":"2026-10-09T20:05:51.919Z","book":"hebel","type":"watch","market":"closed","headline":"5 Things to Know Before the Stock Market Opens on Friday - Investopedia","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-09T20:35:55.562Z","book":"hebel","type":"watch","market":"closed","headline":"5 Things to Know Before the Stock Market Opens on Friday - Investopedia","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-09T21:05:59.329Z","book":"hebel","type":"watch","market":"closed","headline":"5 Things to Know Before the Stock Market Opens on Friday - Investopedia","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-10T01:07:49.420Z","book":"hebel","type":"fill","orderId":"2312712f-2825-4e73-9100-1e57ed18701f","symbol":"UPRO","side":"buy","qty":0.295408923,"price":154.43}
+{"ts":"2026-10-10T01:07:50.078Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"BUY","sleeve":"hebel","notional":45.57,"reason":"QQQ > SMA50 & SMA200, RSI 66.55 | Gate: 45.57 $","equity":303.8,"cash":258.57}
+{"ts":"2026-10-10T01:07:50.160Z","book":"hebel","type":"order","symbol":"TQQQ","side":"BUY","orderId":"e146d86a-4ea2-4333-aec3-cf479d53336d","notional":45.57,"status":"accepted"}
+{"ts":"2026-10-10T01:07:50.160Z","book":"hebel","type":"decision","symbol":"SOXL","action":"BUY","sleeve":"hebel","notional":45.57,"reason":"SOXX > SMA50 & SMA200, RSI 62.53 | Gate: 45.57 $","equity":303.8,"cash":258.57}
+{"ts":"2026-10-10T01:07:50.239Z","book":"hebel","type":"order","symbol":"SOXL","side":"BUY","orderId":"d75b3249-b1a6-4235-8b7b-38fdbf5d4221","notional":45.57,"status":"accepted"}
+{"ts":"2026-10-10T01:07:50.239Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"RSI 60.91 / Limit Positionen","equity":303.8,"cash":258.57}
+{"ts":"2026-10-10T01:07:50.239Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":303.8,"cash":258.57}
+{"ts":"2026-10-10T01:07:50.239Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":303.8,"cash":258.57}
+{"ts":"2026-10-10T01:07:51.358Z","book":"hebel","type":"equity","equity":303.8,"cash":258.57,"positions":1,"dayChange":-0.13,"totalDD":2.1}
