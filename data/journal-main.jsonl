@@ -1206,3 +1206,5 @@
 {"ts":"2026-10-09T20:05:51.919Z","book":"main","type":"watch","market":"closed","headline":"5 Things to Know Before the Stock Market Opens on Friday - Investopedia","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-09T20:35:55.562Z","book":"main","type":"watch","market":"closed","headline":"5 Things to Know Before the Stock Market Opens on Friday - Investopedia","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-09T21:05:59.329Z","book":"main","type":"watch","market":"closed","headline":"5 Things to Know Before the Stock Market Opens on Friday - Investopedia","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-10T01:07:33.802Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":304.91,"cash":244.14}
+{"ts":"2026-10-10T01:07:33.959Z","book":"main","type":"equity","equity":304.91,"cash":244.14,"positions":1,"dayChange":-0.08,"totalDD":0.13}
