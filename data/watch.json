@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-11T17:18:30.276Z",
+  "at": "2026-10-11T17:48:35.010Z",
   "market": "closed",
-  "headline": "Futures: 6 Stocks Near Buy Points; Big Earnings, Inflation Data Due - Investor's Business Daily",
+  "headline": "Stock Market Crash Hits 54% Of Stocks—Is The S&amp;P 500 Next? - Forbes",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Markt zu. Schockmeldung, bei Eröffnung raus."
     },
     {
       "symbol": "QQQ",
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Markt zu. Schockmeldung, bei Eröffnung raus."
     },
     {
       "symbol": "TSLL",
@@ -60,5 +60,8 @@
     }
   ],
   "sent": [],
-  "exitAtOpen": []
+  "exitAtOpen": [
+    "SPY",
+    "UPRO"
+  ]
 }
