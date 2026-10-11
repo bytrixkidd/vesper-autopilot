@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-11T15:18:11.509Z",
+  "at": "2026-10-11T15:48:16.456Z",
   "market": "closed",
-  "headline": "Stock Market Crash Hits 54% Of Stocks—Is The S&amp;P 500 Next? - Forbes",
+  "headline": "The Stock Market Is on the Verge of Doing Something for the First Time in 156 Years -- and if Historical Precedent Is Accurate, a Crash May Follow - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Markt zu. Schockmeldung, bei Eröffnung raus."
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "RAUS",
-      "reason": "Markt zu. Schockmeldung, bei Eröffnung raus."
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
@@ -60,8 +60,5 @@
     }
   ],
   "sent": [],
-  "exitAtOpen": [
-    "SPY",
-    "UPRO"
-  ]
+  "exitAtOpen": []
 }
