@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-12T17:57:45.817Z",
+  "at": "2026-10-12T17:58:50.545Z",
   "market": "open",
   "headline": "Are banks, the USPS and stock market open on Columbus Day? Here is what to know. - CBS News",
   "notes": [
@@ -40,8 +40,8 @@
     },
     {
       "symbol": "SOXL",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
@@ -59,15 +59,6 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "SOXL",
-      "side": "sell",
-      "orderId": "7ecaa4a3-3189-43ca-b19a-6b3346e49ccf",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "SOXL"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
