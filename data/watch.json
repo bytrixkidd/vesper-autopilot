@@ -1,64 +1,73 @@
 {
-  "at": "2026-10-12T13:19:57.172Z",
-  "market": "closed",
-  "headline": "Schools, stock market and more: What's closed on Columbus Day, Indigenous Peoples Day - NBC 5 Chicago",
+  "at": "2026-10-12T17:57:45.817Z",
+  "market": "open",
+  "headline": "Are banks, the USPS and stock market open on Columbus Day? Here is what to know. - CBS News",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "SOXL",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "SOXL",
+      "side": "sell",
+      "orderId": "7ecaa4a3-3189-43ca-b19a-6b3346e49ccf",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "SOXL"
+  ]
 }
