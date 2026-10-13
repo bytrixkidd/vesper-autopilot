@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-13T15:47:24.585Z",
+  "at": "2026-10-13T15:48:28.792Z",
   "market": "open",
   "headline": "Chaos in Korea's market is sending shockwaves through US chip stocks - Business Insider",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
