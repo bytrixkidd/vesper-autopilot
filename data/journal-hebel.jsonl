@@ -1439,3 +1439,4 @@
 {"ts":"2026-10-13T02:41:00.666Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":301.78,"cash":210.92}
 {"ts":"2026-10-13T02:41:00.666Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":301.78,"cash":210.92}
 {"ts":"2026-10-13T02:41:01.679Z","book":"hebel","type":"equity","equity":301.78,"cash":210.92,"positions":2,"dayChange":-0.67,"totalDD":2.75}
+{"ts":"2026-10-13T05:07:15.306Z","book":"hebel","type":"watch","market":"closed","headline":"Is the Stock Market Already Crashing Beneath the Surface? - The Acquirer's Multiple","notes":[{"symbol":"TQQQ","call":"BLEIBEN","reason":"Markt zu. Keine Order."},{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
