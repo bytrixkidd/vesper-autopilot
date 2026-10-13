@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-13T19:42:52.886Z",
+  "at": "2026-10-13T19:43:56.436Z",
   "market": "open",
   "headline": "Chaos in Korea's market is sending shockwaves through US chip stocks - Business Insider",
   "notes": [
@@ -35,8 +35,8 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "SOXL",
@@ -59,14 +59,6 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TQQQ",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
-    }
-  ],
-  "exitAtOpen": [
-    "TQQQ"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
