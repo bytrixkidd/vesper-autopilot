@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-13T15:57:03.420Z",
+  "at": "2026-10-13T15:58:07.478Z",
   "market": "open",
   "headline": "GM Stock Quote Price and Forecast - CNN",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Letzte Woche zu schwach. Nicht rein."
     },
     {
       "symbol": "NVDL",
