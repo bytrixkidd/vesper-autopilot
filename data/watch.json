@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T16:13:00.762Z",
+  "at": "2026-10-14T16:14:06.386Z",
   "market": "open",
   "headline": "Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.",
   "notes": [
@@ -63,8 +63,7 @@
     {
       "symbol": "UPRO",
       "side": "sell",
-      "orderId": "90a0715c-7833-4d61-9c3f-1c44f944c262",
-      "status": "pending_new"
+      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
