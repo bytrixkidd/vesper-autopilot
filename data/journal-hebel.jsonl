@@ -1772,3 +1772,4 @@
 {"ts":"2026-10-14T00:29:43.877Z","book":"hebel","type":"equity","equity":300.61,"cash":254.69,"positions":1,"dayChange":-0.39,"totalDD":3.13}
 {"ts":"2026-10-14T02:06:29.219Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-14T02:36:33.353Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq ends down as chipmakers fall and bank earnings roll in - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-14T03:06:37.412Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq ends down as chipmakers fall and bank earnings roll in - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
