@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T16:10:51.880Z",
+  "at": "2026-10-14T16:11:56.787Z",
   "market": "open",
   "headline": "Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.",
   "notes": [
@@ -35,8 +35,8 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
@@ -59,15 +59,6 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TQQQ",
-      "side": "sell",
-      "orderId": "7b88e537-0e38-46e0-ab36-055ad0642a26",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TQQQ"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
