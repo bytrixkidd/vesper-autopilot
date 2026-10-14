@@ -1,64 +1,73 @@
 {
-  "at": "2026-10-14T13:08:09.677Z",
-  "market": "closed",
-  "headline": "USU Study Finds Why Some Companies Face Greater Stock Market Penalties for Missing Earnings Forecasts - Utah State University",
+  "at": "2026-10-14T13:45:12.729Z",
+  "market": "open",
+  "headline": "WMT Stock Quote Price and Forecast - CNN",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "SOXL",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter SMA200."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "SOXL",
+      "side": "sell",
+      "orderId": "3f8e50ca-b07d-4b84-b18b-c660d7f0d17c",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "SOXL"
+  ]
 }
