@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-13T20:35:25.249Z",
+  "at": "2026-10-14T02:06:29.219Z",
   "market": "closed",
-  "headline": "S&amp;P 500 flat as chipmakers fall and bank earnings roll in - Reuters",
+  "headline": null,
   "notes": [
     {
       "symbol": "SPY",
@@ -35,7 +35,7 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "BLEIBEN",
+      "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     },
     {

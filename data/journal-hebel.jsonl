@@ -1770,3 +1770,4 @@
 {"ts":"2026-10-14T00:29:42.504Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":300.61,"cash":254.69}
 {"ts":"2026-10-14T00:29:42.504Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":300.61,"cash":254.69}
 {"ts":"2026-10-14T00:29:43.877Z","book":"hebel","type":"equity","equity":300.61,"cash":254.69,"positions":1,"dayChange":-0.39,"totalDD":3.13}
+{"ts":"2026-10-14T02:06:29.219Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
