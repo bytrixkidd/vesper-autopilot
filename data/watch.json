@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T16:11:56.787Z",
+  "at": "2026-10-14T16:13:00.762Z",
   "market": "open",
   "headline": "Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.",
   "notes": [
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "TSLL",
@@ -59,6 +59,15 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "UPRO",
+      "side": "sell",
+      "orderId": "90a0715c-7833-4d61-9c3f-1c44f944c262",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "UPRO"
+  ]
 }
