@@ -1,17 +1,8 @@
 {
   "book": "hebel",
   "startCapital": 300,
-  "cash": 210.917515704136,
+  "cash": 254.688303610036,
   "positions": [
-    {
-      "symbol": "TQQQ",
-      "sleeve": "hebel",
-      "qty": 0.564420218,
-      "entry": 80.72,
-      "entryDate": "2026-09-25",
-      "stop": 72.59647871126263,
-      "peak": 80.72
-    },
     {
       "symbol": "UPRO",
       "sleeve": "hebel",
@@ -54,10 +45,14 @@
     {
       "date": "2026-10-13",
       "equity": 301.78
+    },
+    {
+      "date": "2026-10-14",
+      "equity": 300.61
     }
   ],
   "peakEquity": 310.31858879613367,
   "haltedUntil": null,
   "lastRebalanceMonth": null,
-  "lastRun": "2026-10-13T02:41:01.679Z"
+  "lastRun": "2026-10-14T00:29:43.877Z"
 }
