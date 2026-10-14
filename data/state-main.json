@@ -57,10 +57,14 @@
     {
       "date": "2026-10-13",
       "equity": 305.24
+    },
+    {
+      "date": "2026-10-14",
+      "equity": 305.24
     }
   ],
   "peakEquity": 305.31863720002667,
   "haltedUntil": null,
   "lastRebalanceMonth": "2026-09",
-  "lastRun": "2026-10-13T02:40:44.516Z"
+  "lastRun": "2026-10-14T00:29:21.755Z"
 }

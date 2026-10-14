@@ -1720,3 +1720,5 @@
 {"ts":"2026-10-13T20:04:16.928Z","book":"main","type":"watch","market":"closed","headline":"Chaos in Korea's market is sending shockwaves through US chip stocks - Business Insider","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-13T20:05:21.129Z","book":"main","type":"watch","market":"closed","headline":"Chaos in Korea's market is sending shockwaves through US chip stocks - Business Insider","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-13T20:35:25.249Z","book":"main","type":"watch","market":"closed","headline":"S&amp;P 500 flat as chipmakers fall and bank earnings roll in - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-14T00:29:21.562Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":305.24,"cash":244.14}
+{"ts":"2026-10-14T00:29:21.756Z","book":"main","type":"equity","equity":305.24,"cash":244.14,"positions":1,"dayChange":0,"totalDD":0.03}
