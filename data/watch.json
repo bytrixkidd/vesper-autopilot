@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-15T17:09:58.299Z",
+  "at": "2026-10-15T17:11:03.597Z",
   "market": "open",
   "headline": "Cracks are beginning to show in the stock market, as doubts grow about AI investments - NBC News",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
