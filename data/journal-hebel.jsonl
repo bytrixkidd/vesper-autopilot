@@ -2128,3 +2128,4 @@
 {"ts":"2026-10-15T00:01:38.914Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"RSI 62.64 / Limit Positionen","equity":297.9,"cash":297.9}
 {"ts":"2026-10-15T00:01:39.127Z","book":"hebel","type":"equity","equity":297.9,"cash":297.9,"positions":0,"dayChange":-0.9,"totalDD":4}
 {"ts":"2026-10-15T01:36:11.263Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters","notes":[],"sent":[]}
+{"ts":"2026-10-15T02:06:15.723Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters","notes":[],"sent":[]}
