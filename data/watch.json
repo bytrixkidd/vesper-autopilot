@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-15T15:57:15.562Z",
+  "at": "2026-10-15T15:58:20.463Z",
   "market": "open",
   "headline": "Global tech sell-off deepens as enthusiasm for AI stocks wobbles - CNN",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
