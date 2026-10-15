@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-15T19:21:31.176Z",
+  "at": "2026-10-15T19:22:37.367Z",
   "market": "open",
   "headline": "Cracks are beginning to show in the stock market, as doubts grow about AI investments - NBC News",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
