@@ -2420,3 +2420,4 @@
 {"ts":"2026-10-15T23:45:46.760Z","book":"hebel","type":"decision","symbol":"UPRO","action":"BUY","sleeve":"hebel","notional":45.48,"reason":"SPY > SMA50 & SMA200, RSI 50.48 | Gate: 45.48 $","equity":303.2,"cash":211.32}
 {"ts":"2026-10-15T23:45:46.803Z","book":"hebel","type":"order","symbol":"UPRO","side":"BUY","orderId":"8c83af6b-d529-4681-8821-86c63ce0b118","notional":45.48,"status":"accepted"}
 {"ts":"2026-10-15T23:45:47.907Z","book":"hebel","type":"equity","equity":303.2,"cash":211.32,"positions":2,"dayChange":1.78,"totalDD":2.29}
+{"ts":"2026-10-16T02:36:12.933Z","book":"hebel","type":"watch","market":"closed","headline":"Cracks are beginning to show in the stock market as doubts about AI investments grow - NBC News","notes":[{"symbol":"TQQQ","call":"BLEIBEN","reason":"Markt zu. Keine Order."},{"symbol":"NVDL","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
