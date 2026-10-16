@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-16T16:35:30.384Z",
+  "at": "2026-10-16T16:36:34.626Z",
   "market": "open",
-  "headline": "A hidden risk appears to be building up in the markets. No one knows exactly what it means - CNN",
+  "headline": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings - Reuters",
   "notes": [
     {
       "symbol": "SPY",
@@ -35,8 +35,8 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Hebel gibt heute 4 % ab."
     },
     {
       "symbol": "SOXL",
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
@@ -61,13 +61,13 @@
   ],
   "sent": [
     {
-      "symbol": "UPRO",
+      "symbol": "TQQQ",
       "side": "sell",
-      "orderId": "3c92a082-ce68-4329-90a8-84ffe6efa6e5",
+      "orderId": "4654e8a0-ff9a-458b-ae5c-a9b465e97cd2",
       "status": "pending_new"
     }
   ],
   "exitAtOpen": [
-    "UPRO"
+    "TQQQ"
   ]
 }
