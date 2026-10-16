@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-16T17:46:43.425Z",
+  "at": "2026-10-16T17:47:46.799Z",
   "market": "open",
   "headline": "A hidden risk appears to be building up in the markets. No one knows exactly what it means - CNN",
   "notes": [
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "RAUS",
-      "reason": "Hebel gibt heute 4 % ab."
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "SOXL",
