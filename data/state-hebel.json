@@ -1,27 +1,8 @@
 {
   "book": "hebel",
   "startCapital": 300,
-  "cash": 211.32069887491997,
-  "positions": [
-    {
-      "symbol": "TQQQ",
-      "sleeve": "hebel",
-      "qty": 0.629066328,
-      "entry": 71.01,
-      "entryDate": "2026-09-25",
-      "stop": 65.13620485826588,
-      "peak": 73.81999969482422
-    },
-    {
-      "symbol": "NVDL",
-      "sleeve": "hebel",
-      "qty": 1.377853177,
-      "entry": 32.42,
-      "entryDate": "2026-09-25",
-      "stop": 24.836339541314146,
-      "peak": 32.97999954223633
-    }
-  ],
+  "cash": 298.923420061922,
+  "positions": [],
   "equityHistory": [
     {
       "date": "2026-09-24",
@@ -62,10 +43,14 @@
     {
       "date": "2026-10-15",
       "equity": 303.2
+    },
+    {
+      "date": "2026-10-16",
+      "equity": 298.92
     }
   ],
   "peakEquity": 310.31858879613367,
   "haltedUntil": null,
   "lastRebalanceMonth": null,
-  "lastRun": "2026-10-15T23:45:47.907Z"
+  "lastRun": "2026-10-16T23:46:30.955Z"
 }
