@@ -2649,3 +2649,7 @@
 {"ts":"2026-10-16T20:04:56.106Z","book":"main","type":"watch","market":"closed","headline":"Indonesian Stocks Plunge as MSCI Threatens to Drop Market from Indexes - The New York Times","notes":[{"symbol":"SPY","call":"RAUS","reason":"Stop ist erreicht."}],"sent":[]}
 {"ts":"2026-10-16T20:05:59.947Z","book":"main","type":"watch","market":"closed","headline":"Indonesian Stocks Plunge as MSCI Threatens to Drop Market from Indexes - The New York Times","notes":[{"symbol":"SPY","call":"RAUS","reason":"Stop ist erreicht."}],"sent":[]}
 {"ts":"2026-10-16T20:36:03.981Z","book":"main","type":"watch","market":"closed","headline":"Indonesian Stocks Plunge as MSCI Threatens to Drop Market from Indexes - The New York Times","notes":[{"symbol":"SPY","call":"RAUS","reason":"Stop ist erreicht."}],"sent":[]}
+{"ts":"2026-10-16T23:46:11.241Z","book":"main","type":"fill","orderId":"88550602-ebaf-44b1-a4af-f8f09cc5b34e","symbol":"SPY","side":"sell","qty":0.078520942,"price":764.106}
+{"ts":"2026-10-16T23:46:13.894Z","book":"main","type":"decision","symbol":"SPY","action":"BUY","sleeve":"core","notional":60.83,"reason":"SPY 763.25 > SMA200 725.01 | Gate: 60.83 $","equity":304.14,"cash":304.14}
+{"ts":"2026-10-16T23:46:13.925Z","book":"main","type":"order","symbol":"SPY","side":"BUY","orderId":"b6cb244b-fe92-4225-be0d-6fcfe44ecbb5","notional":60.83,"status":"accepted"}
+{"ts":"2026-10-16T23:46:14.165Z","book":"main","type":"equity","equity":304.14,"cash":304.14,"positions":0,"dayChange":-0.2,"totalDD":0.39}
