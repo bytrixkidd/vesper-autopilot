@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-16T17:28:40.642Z",
+  "at": "2026-10-16T17:29:44.136Z",
   "market": "open",
   "headline": "A hidden risk appears to be building up in the markets. No one knows exactly what it means - CNN",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Stop ist erreicht."
     },
     {
       "symbol": "QQQ",
@@ -64,9 +64,15 @@
       "symbol": "TQQQ",
       "side": "sell",
       "status": "Broker hat keine Stücke"
+    },
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
-    "TQQQ"
+    "TQQQ",
+    "SPY"
   ]
 }
