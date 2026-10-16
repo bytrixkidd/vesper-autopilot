@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-16T16:36:34.626Z",
+  "at": "2026-10-16T16:37:37.956Z",
   "market": "open",
   "headline": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings - Reuters",
   "notes": [
@@ -35,8 +35,8 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "RAUS",
-      "reason": "Hebel gibt heute 4 % ab."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "SOXL",
@@ -59,15 +59,6 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TQQQ",
-      "side": "sell",
-      "orderId": "4654e8a0-ff9a-458b-ae5c-a9b465e97cd2",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TQQQ"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
