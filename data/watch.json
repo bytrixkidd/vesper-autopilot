@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-16T17:10:34.652Z",
+  "at": "2026-10-16T17:11:38.406Z",
   "market": "open",
-  "headline": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings - Reuters",
+  "headline": "A hidden risk appears to be building up in the markets. No one knows exactly what it means - CNN",
   "notes": [
     {
       "symbol": "SPY",
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "reason": "Hebel gibt heute 4 % ab."
     },
     {
       "symbol": "SOXL",
