@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-16T17:27:37.075Z",
+  "at": "2026-10-16T17:28:40.642Z",
   "market": "open",
-  "headline": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings - Reuters",
+  "headline": "A hidden risk appears to be building up in the markets. No one knows exactly what it means - CNN",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Stop ist erreicht."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
@@ -64,15 +64,9 @@
       "symbol": "TQQQ",
       "side": "sell",
       "status": "Broker hat keine Stücke"
-    },
-    {
-      "symbol": "SPY",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
-    "TQQQ",
-    "SPY"
+    "TQQQ"
   ]
 }
