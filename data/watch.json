@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-16T20:36:03.981Z",
+  "at": "2026-10-17T02:07:15.611Z",
   "market": "closed",
-  "headline": "Indonesian Stocks Plunge as MSCI Threatens to Drop Market from Indexes - The New York Times",
+  "headline": "Wall St Week Ahead As AI rally wobbles, stock market's spotlight turns to earnings - Reuters",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Stop ist erreicht."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
@@ -35,8 +35,8 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "RAUS",
-      "reason": "Markt zu. Hebel hat am Tag 4 % abgegeben, bei Eröffnung raus."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
@@ -45,7 +45,7 @@
     },
     {
       "symbol": "NVDL",
-      "call": "BLEIBEN",
+      "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     },
     {
