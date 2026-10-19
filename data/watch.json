@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T14:18:17.964Z",
+  "at": "2026-10-19T14:19:22.908Z",
   "market": "open",
   "headline": "Explainer: MSCI's case against Indonesian stocks and the $65 billion fallout - Reuters",
   "notes": [
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "REIN",
-      "reason": "Woche, Jahr und SMA200 einig. Steigt schon, keine Schockmeldung."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "TSLL",
@@ -59,13 +59,6 @@
       "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
-  "sent": [
-    {
-      "symbol": "UPRO",
-      "side": "buy",
-      "orderId": "ee0f0789-74bb-4667-a7d8-1f6be4b5da09",
-      "status": "pending_new"
-    }
-  ],
+  "sent": [],
   "exitAtOpen": []
 }
