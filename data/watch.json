@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T13:42:44.040Z",
+  "at": "2026-10-19T13:43:48.480Z",
   "market": "open",
   "headline": "Explainer: MSCI's case against Indonesian stocks and the $65 billion fallout - Reuters",
   "notes": [
@@ -21,7 +21,7 @@
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
     },
     {
       "symbol": "MSFT",
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
