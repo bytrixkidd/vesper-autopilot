@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T13:53:50.742Z",
+  "at": "2026-10-20T13:54:55.754Z",
   "market": "open",
   "headline": "Weekly market commentary - BlackRock",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
