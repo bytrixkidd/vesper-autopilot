@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T13:54:55.754Z",
+  "at": "2026-10-20T13:56:00.261Z",
   "market": "open",
   "headline": "Weekly market commentary - BlackRock",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
