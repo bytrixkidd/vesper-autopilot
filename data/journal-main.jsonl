@@ -2934,3 +2934,6 @@
 {"ts":"2026-10-19T23:06:14.487Z","book":"main","type":"watch","market":"closed","headline":"Stock Market Today, Oct. 19: Amazon Surges on Morgan Stanley Top Pick and $350 Price Target - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-19T23:36:20.412Z","book":"main","type":"watch","market":"closed","headline":"Stock Market Today, Oct. 19: Amazon Surges on Morgan Stanley Top Pick and $350 Price Target - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-20T00:06:24.774Z","book":"main","type":"watch","market":"closed","headline":"US Stock Futures Edge Higher After Chipmaker Rally: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-20T00:31:47.448Z","book":"main","type":"fill","orderId":"b6cb244b-fe92-4225-be0d-6fcfe44ecbb5","symbol":"SPY","side":"buy","qty":0.07927012,"price":767.25}
+{"ts":"2026-10-20T00:31:50.676Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.82,"cash":243.32}
+{"ts":"2026-10-20T00:31:50.936Z","book":"main","type":"equity","equity":303.82,"cash":243.32,"positions":1,"dayChange":-0.1,"totalDD":0.49}
