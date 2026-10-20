@@ -3016,3 +3016,11 @@
 {"ts":"2026-10-19T23:06:14.487Z","book":"hebel","type":"watch","market":"closed","headline":"Stock Market Today, Oct. 19: Amazon Surges on Morgan Stanley Top Pick and $350 Price Target - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-19T23:36:20.412Z","book":"hebel","type":"watch","market":"closed","headline":"Stock Market Today, Oct. 19: Amazon Surges on Morgan Stanley Top Pick and $350 Price Target - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-20T00:06:24.774Z","book":"hebel","type":"watch","market":"closed","headline":"US Stock Futures Edge Higher After Chipmaker Rally: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-20T00:32:04.063Z","book":"hebel","type":"fill","orderId":"ee0f0789-74bb-4667-a7d8-1f6be4b5da09","symbol":"UPRO","side":"buy","qty":0.200771218,"price":149.374}
+{"ts":"2026-10-20T00:32:05.024Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":298.33,"cash":268.93}
+{"ts":"2026-10-20T00:32:05.024Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":298.33,"cash":268.93}
+{"ts":"2026-10-20T00:32:05.024Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":298.33,"cash":268.93}
+{"ts":"2026-10-20T00:32:05.024Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":298.33,"cash":268.93}
+{"ts":"2026-10-20T00:32:05.024Z","book":"hebel","type":"decision","symbol":"UPRO","action":"SELL","sleeve":"hebel","qty":0.200771218,"reason":"SPY unter SMA50/200","equity":298.33,"cash":268.93}
+{"ts":"2026-10-20T00:32:05.042Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"735c0001-ee77-4898-8691-86b4d247b631","qty":0.200771218,"status":"accepted"}
+{"ts":"2026-10-20T00:32:05.455Z","book":"hebel","type":"equity","equity":298.33,"cash":268.93,"positions":1,"dayChange":-0.2,"totalDD":3.86}
