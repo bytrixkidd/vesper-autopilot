@@ -3025,3 +3025,4 @@
 {"ts":"2026-10-20T00:32:05.042Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"735c0001-ee77-4898-8691-86b4d247b631","qty":0.200771218,"status":"accepted"}
 {"ts":"2026-10-20T00:32:05.455Z","book":"hebel","type":"equity","equity":298.33,"cash":268.93,"positions":1,"dayChange":-0.2,"totalDD":3.86}
 {"ts":"2026-10-20T04:37:10.244Z","book":"hebel","type":"watch","market":"closed","headline":"GCash owner Mynt edges higher in record Philippine IPO amid Asian selloff - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-20T05:07:14.774Z","book":"hebel","type":"watch","market":"closed","headline":"GCash owner Mynt edges higher in record Philippine IPO amid Asian selloff - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
