@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-20T14:23:19.453Z",
+  "at": "2026-10-20T14:24:25.118Z",
   "market": "open",
-  "headline": "Weekly market commentary - BlackRock",
+  "headline": "SUNB Stock Quote Price and Forecast - CNN",
   "notes": [
     {
       "symbol": "SPY",
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
