@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T18:56:49.880Z",
+  "at": "2026-10-20T18:57:54.237Z",
   "market": "open",
   "headline": "Is this the beginning of the end of the AI stock market boom? - The Guardian",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
