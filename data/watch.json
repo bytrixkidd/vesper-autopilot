@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T15:55:30.252Z",
+  "at": "2026-10-20T15:56:34.663Z",
   "market": "open",
   "headline": "US Stock Market Today: S&amp;P 500 Futures Climb On Strong Factory And Earnings Hopes - Yahoo Finance",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
