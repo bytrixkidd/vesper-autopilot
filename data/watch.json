@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T17:18:13.581Z",
+  "at": "2026-10-21T17:19:18.085Z",
   "market": "open",
   "headline": "Going low-risk in your portfolio is riskier than you think - The Washington Post",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
