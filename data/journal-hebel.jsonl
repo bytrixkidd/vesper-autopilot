@@ -3361,3 +3361,10 @@
 {"ts":"2026-10-20T19:22:47.702Z","book":"hebel","type":"watch","market":"open","headline":"Is this the beginning of the end of the AI stock market boom? - The Guardian","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-20T19:23:53.095Z","book":"hebel","type":"watch","market":"open","headline":"Is this the beginning of the end of the AI stock market boom? - The Guardian","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-20T19:24:59.071Z","book":"hebel","type":"watch","market":"open","headline":"Is this the beginning of the end of the AI stock market boom? - The Guardian","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
+{"ts":"2026-10-21T00:02:07.885Z","book":"hebel","type":"fill","orderId":"735c0001-ee77-4898-8691-86b4d247b631","symbol":"UPRO","side":"sell","qty":0.200771218,"price":147.81}
+{"ts":"2026-10-21T00:02:08.859Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-21T00:02:08.859Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-21T00:02:08.859Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-21T00:02:08.859Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-21T00:02:08.859Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-21T00:02:09.968Z","book":"hebel","type":"equity","equity":298.61,"cash":298.61,"positions":0,"dayChange":0.09,"totalDD":3.77}
