@@ -3277,3 +3277,4 @@
 {"ts":"2026-10-21T00:01:53.495Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":304.08,"cash":243.32}
 {"ts":"2026-10-21T00:01:54.062Z","book":"main","type":"equity","equity":304.08,"cash":243.32,"positions":1,"dayChange":0.09,"totalDD":0.41}
 {"ts":"2026-10-21T01:06:19.930Z","book":"main","type":"watch","market":"closed","headline":"US Stock Futures Advance on AI Earnings Boost: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-21T01:36:24.971Z","book":"main","type":"watch","market":"closed","headline":"US Stock Futures Advance on AI Earnings Boost: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
