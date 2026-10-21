@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T19:23:56.496Z",
+  "at": "2026-10-21T19:25:01.457Z",
   "market": "open",
-  "headline": "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
+  "headline": "Going low-risk in your portfolio is riskier than you think - The Washington Post",
   "notes": [
     {
       "symbol": "SPY",
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
