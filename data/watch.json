@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T15:58:31.689Z",
+  "at": "2026-10-21T15:59:36.203Z",
   "market": "open",
   "headline": "GIL Stock Quote Price and Forecast - CNN",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
