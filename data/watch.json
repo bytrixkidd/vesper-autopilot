@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T14:09:46.900Z",
+  "at": "2026-10-22T14:10:51.180Z",
   "market": "open",
   "headline": "Midterm Elections Are Shaping Up as a Worst-Case Scenario for the Stock Market, but This Isn't the Full Story - Yahoo Finance",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
