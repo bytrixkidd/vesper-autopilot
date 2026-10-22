@@ -3617,3 +3617,5 @@
 {"ts":"2026-10-21T19:37:55.382Z","book":"main","type":"watch","market":"open","headline":"Going low-risk in your portfolio is riskier than you think - The Washington Post","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-21T19:38:59.400Z","book":"main","type":"watch","market":"open","headline":"Going low-risk in your portfolio is riskier than you think - The Washington Post","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-21T19:40:03.494Z","book":"main","type":"watch","market":"open","headline":"Stock Market Today: Stock Market News And Analysis - Investor's Business Daily","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
+{"ts":"2026-10-22T00:07:15.509Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":304.28,"cash":243.32}
+{"ts":"2026-10-22T00:07:15.748Z","book":"main","type":"equity","equity":304.28,"cash":243.32,"positions":1,"dayChange":0.07,"totalDD":0.34}
