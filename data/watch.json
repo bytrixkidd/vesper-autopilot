@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T15:22:09.192Z",
+  "at": "2026-10-22T15:23:14.386Z",
   "market": "open",
   "headline": "Indonesia issues record fines to companies over stock market violations - Reuters",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
