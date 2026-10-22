@@ -3709,3 +3709,10 @@
 {"ts":"2026-10-21T19:37:55.382Z","book":"hebel","type":"watch","market":"open","headline":"Going low-risk in your portfolio is riskier than you think - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-10-21T19:38:59.400Z","book":"hebel","type":"watch","market":"open","headline":"Going low-risk in your portfolio is riskier than you think - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-10-21T19:40:03.494Z","book":"hebel","type":"watch","market":"open","headline":"Stock Market Today: Stock Market News And Analysis - Investor's Business Daily","notes":[],"sent":[]}
+{"ts":"2026-10-22T00:07:33.963Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-22T00:07:33.963Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-22T00:07:33.963Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-22T00:07:33.963Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":298.61,"cash":298.61}
+{"ts":"2026-10-22T00:07:33.963Z","book":"hebel","type":"decision","symbol":"UPRO","action":"BUY","sleeve":"hebel","notional":44.79,"reason":"SPY > SMA50 & SMA200, RSI 56.2 | Gate: 44.79 $","equity":298.61,"cash":298.61}
+{"ts":"2026-10-22T00:07:34.043Z","book":"hebel","type":"order","symbol":"UPRO","side":"BUY","orderId":"91f43c21-6f92-428b-abc8-3b503655eaa4","notional":44.79,"status":"accepted"}
+{"ts":"2026-10-22T00:07:36.540Z","book":"hebel","type":"equity","equity":298.61,"cash":298.61,"positions":0,"dayChange":0,"totalDD":3.77}
