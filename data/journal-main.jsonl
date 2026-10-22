@@ -3619,3 +3619,4 @@
 {"ts":"2026-10-21T19:40:03.494Z","book":"main","type":"watch","market":"open","headline":"Stock Market Today: Stock Market News And Analysis - Investor's Business Daily","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-22T00:07:15.509Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":304.28,"cash":243.32}
 {"ts":"2026-10-22T00:07:15.748Z","book":"main","type":"equity","equity":304.28,"cash":243.32,"positions":1,"dayChange":0.07,"totalDD":0.34}
+{"ts":"2026-10-22T01:36:20.246Z","book":"main","type":"watch","market":"closed","headline":"Indonesia issues record fines to companies over stock market violations - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
