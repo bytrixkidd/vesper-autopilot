@@ -4060,3 +4060,4 @@
 {"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":299.85,"cash":253.83}
 {"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":299.85,"cash":253.83}
 {"ts":"2026-10-23T00:05:07.692Z","book":"hebel","type":"equity","equity":299.85,"cash":253.83,"positions":1,"dayChange":0.42,"totalDD":3.37}
+{"ts":"2026-10-23T01:36:28.429Z","book":"hebel","type":"watch","market":"closed","headline":"SEC Attempts to Undo Stock Market Rules with Unlawful, Poorly Reasoned Order - Better Markets","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
