@@ -4053,3 +4053,10 @@
 {"ts":"2026-10-22T19:37:02.230Z","book":"hebel","type":"watch","market":"open","headline":"If a Stock Market Crash Is Coming, History Says Investors Who Do This 1 Thing Always Win Out - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-22T19:38:06.654Z","book":"hebel","type":"watch","market":"open","headline":"If a Stock Market Crash Is Coming, History Says Investors Who Do This 1 Thing Always Win Out - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-10-22T19:39:11.388Z","book":"hebel","type":"watch","market":"open","headline":"If a Stock Market Crash Is Coming, History Says Investors Who Do This 1 Thing Always Win Out - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
+{"ts":"2026-10-23T00:05:04.649Z","book":"hebel","type":"fill","orderId":"91f43c21-6f92-428b-abc8-3b503655eaa4","symbol":"UPRO","side":"buy","qty":0.302751673,"price":147.91}
+{"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":299.85,"cash":253.83}
+{"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":299.85,"cash":253.83}
+{"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":299.85,"cash":253.83}
+{"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":299.85,"cash":253.83}
+{"ts":"2026-10-23T00:05:05.903Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":299.85,"cash":253.83}
+{"ts":"2026-10-23T00:05:07.692Z","book":"hebel","type":"equity","equity":299.85,"cash":253.83,"positions":1,"dayChange":0.42,"totalDD":3.37}
