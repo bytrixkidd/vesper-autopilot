@@ -4236,3 +4236,5 @@
 {"ts":"2026-10-23T20:05:28.137Z","book":"main","type":"watch","market":"closed","headline":"The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash - MarketWatch","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-23T20:35:32.081Z","book":"main","type":"watch","market":"closed","headline":"The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash - MarketWatch","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-23T21:05:35.786Z","book":"main","type":"watch","market":"closed","headline":"S&amp;P 500 closes lower to end rocky week - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-23T23:55:20.813Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.56,"cash":243.32}
+{"ts":"2026-10-23T23:55:21.319Z","book":"main","type":"equity","equity":303.56,"cash":243.32,"positions":1,"dayChange":-0.34,"totalDD":0.57}
