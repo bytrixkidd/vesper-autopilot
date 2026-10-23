@@ -1,18 +1,8 @@
 {
   "book": "hebel",
   "startCapital": 300,
-  "cash": 253.82941392354005,
-  "positions": [
-    {
-      "symbol": "UPRO",
-      "sleeve": "hebel",
-      "qty": 0.302751673,
-      "entry": 147.91,
-      "entryDate": "2026-10-06",
-      "stop": 139.49865980910897,
-      "peak": 152.00999450683594
-    }
-  ],
+  "cash": 297.466829063068,
+  "positions": [],
   "equityHistory": [
     {
       "date": "2026-09-24",
@@ -72,11 +62,11 @@
     },
     {
       "date": "2026-10-23",
-      "equity": 299.85
+      "equity": 297.47
     }
   ],
   "peakEquity": 310.31858879613367,
   "haltedUntil": null,
   "lastRebalanceMonth": null,
-  "lastRun": "2026-10-23T00:05:07.691Z"
+  "lastRun": "2026-10-23T23:55:37.780Z"
 }
