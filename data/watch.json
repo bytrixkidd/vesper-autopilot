@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T17:16:24.678Z",
+  "at": "2026-10-23T17:17:27.783Z",
   "market": "open",
   "headline": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash - MarketWatch",
   "notes": [
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "TSLL",
@@ -59,15 +59,6 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "UPRO",
-      "side": "sell",
-      "orderId": "d49cd90d-09d0-424a-aad1-e845546ea675",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "UPRO"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
