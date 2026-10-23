@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T15:55:27.734Z",
+  "at": "2026-10-23T15:56:31.190Z",
   "market": "open",
   "headline": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash - MarketWatch",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
