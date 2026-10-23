@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T16:47:37.877Z",
+  "at": "2026-10-23T16:48:41.214Z",
   "market": "open",
   "headline": "If a Stock Market Crash Is on the Way, Warren Buffett Says This Is the Best Thing Investors Can Do for Their Portfolio - Yahoo Finance",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
