@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-23T21:05:35.786Z",
+  "at": "2026-10-24T02:36:42.828Z",
   "market": "closed",
-  "headline": "S&amp;P 500 closes lower to end rocky week - Reuters",
+  "headline": "Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally - Reuters",
   "notes": [
     {
       "symbol": "SPY",
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "RAUS",
-      "reason": "Markt zu. Unter dem Einstieg, bei Eröffnung raus."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
