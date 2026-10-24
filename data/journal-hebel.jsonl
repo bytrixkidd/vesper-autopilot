@@ -4347,3 +4347,4 @@
 {"ts":"2026-10-23T23:55:36.930Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":297.47,"cash":297.47}
 {"ts":"2026-10-23T23:55:37.781Z","book":"hebel","type":"equity","equity":297.47,"cash":297.47,"positions":0,"dayChange":-0.79,"totalDD":4.14}
 {"ts":"2026-10-24T02:36:42.828Z","book":"hebel","type":"watch","market":"closed","headline":"Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally - Reuters","notes":[],"sent":[]}
+{"ts":"2026-10-24T03:06:46.411Z","book":"hebel","type":"watch","market":"closed","headline":"AI pixie dust is losing its stock market power - Axios","notes":[],"sent":[]}
