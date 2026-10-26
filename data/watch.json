@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-26T17:23:53.597Z",
+  "at": "2026-10-26T17:24:57.067Z",
   "market": "open",
   "headline": "Anthropic set to make stock market debut as questions swirl about safety of AI - CNN",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
