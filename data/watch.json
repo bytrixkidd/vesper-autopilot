@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-26T17:54:50.678Z",
+  "at": "2026-10-26T17:55:54.399Z",
   "market": "open",
-  "headline": "Analysts forecast Brazil market plunge after Lula turnaround win - Reuters",
+  "headline": "IPO: Anthropic set to make stock market debut as questions swirl about safety of AI - ABC7 Bay Area",
   "notes": [
     {
       "symbol": "SPY",
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
