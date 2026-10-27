@@ -4581,3 +4581,4 @@
 {"ts":"2026-10-26T21:05:56.809Z","book":"main","type":"watch","market":"closed","headline":"Anthropic set to make stock market debut as questions swirl about safety of AI - CNN","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-27T00:41:10.237Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.56,"cash":243.32}
 {"ts":"2026-10-27T00:41:10.668Z","book":"main","type":"equity","equity":303.56,"cash":243.32,"positions":1,"dayChange":0,"totalDD":0.57}
+{"ts":"2026-10-27T02:37:02.124Z","book":"main","type":"watch","market":"closed","headline":"Anthropic set to make stock market debut as questions swirl about safety of AI - CNN","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
