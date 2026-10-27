@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-27T14:33:21.489Z",
+  "at": "2026-10-27T14:34:25.735Z",
   "market": "open",
   "headline": "Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian",
   "notes": [
@@ -21,7 +21,7 @@
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
     },
     {
       "symbol": "MSFT",
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "call": "REIN",
+      "reason": "Woche, Jahr und SMA200 einig. Steigt schon, keine Schockmeldung."
     },
     {
       "symbol": "TSLL",
@@ -59,6 +59,13 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
+  "sent": [
+    {
+      "symbol": "UPRO",
+      "side": "buy",
+      "orderId": "1dd3cdce-26eb-41c7-a45b-fd2c3640ddb2",
+      "status": "pending_new"
+    }
+  ],
   "exitAtOpen": []
 }
