@@ -1,62 +1,62 @@
 {
-  "at": "2026-10-27T13:08:42.411Z",
-  "market": "closed",
+  "at": "2026-10-27T14:33:21.489Z",
+  "market": "open",
   "headline": "Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Der letzte Monat ist zu schwach. Nicht rein."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
