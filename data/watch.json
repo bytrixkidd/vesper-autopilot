@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T18:01:46.825Z",
+  "at": "2026-10-28T18:02:52.696Z",
   "market": "open",
   "headline": "Grazing in Style: The Stock Market's Favorite Finds - WLUK",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
