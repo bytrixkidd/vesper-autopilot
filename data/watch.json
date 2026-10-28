@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T18:03:58.809Z",
+  "at": "2026-10-28T18:05:03.452Z",
   "market": "open",
   "headline": "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
