@@ -5017,3 +5017,12 @@
 {"ts":"2026-10-27T20:03:37.771Z","book":"hebel","type":"watch","market":"closed","headline":"Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-27T20:04:41.619Z","book":"hebel","type":"watch","market":"closed","headline":"Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-27T20:05:46.646Z","book":"hebel","type":"watch","market":"closed","headline":"Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-28T00:39:40.285Z","book":"hebel","type":"fill","orderId":"1dd3cdce-26eb-41c7-a45b-fd2c3640ddb2","symbol":"UPRO","side":"buy","qty":0.202056271,"price":148.424}
+{"ts":"2026-10-28T00:39:41.149Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":297.19,"cash":267.48}
+{"ts":"2026-10-28T00:39:41.149Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":297.19,"cash":267.48}
+{"ts":"2026-10-28T00:39:41.149Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":297.19,"cash":267.48}
+{"ts":"2026-10-28T00:39:41.149Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.58,"reason":"TSLA > SMA50 & SMA200, RSI 55.12 | Gate: 44.58 $","equity":297.19,"cash":267.48}
+{"ts":"2026-10-28T00:39:41.163Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"e7380956-4eb9-406e-a505-262a1eb2f6fb","notional":44.58,"status":"accepted"}
+{"ts":"2026-10-28T00:39:41.163Z","book":"hebel","type":"decision","symbol":"UPRO","action":"SELL","sleeve":"hebel","qty":0.202056271,"reason":"SPY unter SMA50/200","equity":297.19,"cash":267.48}
+{"ts":"2026-10-28T00:39:41.174Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"65a07ca8-a259-4fe8-bf90-5a0b33891fd4","qty":0.202056271,"status":"accepted"}
+{"ts":"2026-10-28T00:39:41.630Z","book":"hebel","type":"equity","equity":297.19,"cash":267.48,"positions":1,"dayChange":-0.09,"totalDD":4.23}
