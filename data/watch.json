@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T15:12:36.530Z",
+  "at": "2026-10-28T15:13:40.657Z",
   "market": "open",
   "headline": "Morgan Stanley warns the S&amp;P 500 could drop 8% before kicking off a fresh rally - Business Insider",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
