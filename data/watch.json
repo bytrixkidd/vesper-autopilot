@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-28T15:16:53.885Z",
+  "at": "2026-10-28T15:17:58.981Z",
   "market": "open",
-  "headline": "MS Stock Quote Price and Forecast - CNN",
+  "headline": "Morgan Stanley warns the S&amp;P 500 could drop 8% before kicking off a fresh rally - Business Insider",
   "notes": [
     {
       "symbol": "SPY",
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
