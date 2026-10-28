@@ -5026,3 +5026,4 @@
 {"ts":"2026-10-28T00:39:41.163Z","book":"hebel","type":"decision","symbol":"UPRO","action":"SELL","sleeve":"hebel","qty":0.202056271,"reason":"SPY unter SMA50/200","equity":297.19,"cash":267.48}
 {"ts":"2026-10-28T00:39:41.174Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"65a07ca8-a259-4fe8-bf90-5a0b33891fd4","qty":0.202056271,"status":"accepted"}
 {"ts":"2026-10-28T00:39:41.630Z","book":"hebel","type":"equity","equity":297.19,"cash":267.48,"positions":1,"dayChange":-0.09,"totalDD":4.23}
+{"ts":"2026-10-28T07:07:46.460Z","book":"hebel","type":"watch","market":"closed","headline":"Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
