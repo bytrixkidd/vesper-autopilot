@@ -4904,3 +4904,5 @@
 {"ts":"2026-10-27T20:03:37.771Z","book":"main","type":"watch","market":"closed","headline":"Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-27T20:04:41.618Z","book":"main","type":"watch","market":"closed","headline":"Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-27T20:05:46.645Z","book":"main","type":"watch","market":"closed","headline":"Four takeaways from Anthropic’s potentially record-breaking stock market filing - The Guardian","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-28T00:39:25.504Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.99,"cash":243.32}
+{"ts":"2026-10-28T00:39:25.824Z","book":"main","type":"equity","equity":303.99,"cash":243.32,"positions":1,"dayChange":0.14,"totalDD":0.43}
