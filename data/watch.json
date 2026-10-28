@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T19:40:31.366Z",
+  "at": "2026-10-28T19:41:35.897Z",
   "market": "open",
   "headline": "Why analysts say the US stock market may be on the cusp of a double-digit rally - Business Insider",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
