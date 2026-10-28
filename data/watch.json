@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T15:07:14.213Z",
+  "at": "2026-10-28T15:08:19.052Z",
   "market": "open",
   "headline": "Morgan Stanley warns the S&amp;P 500 could drop 8% before kicking off a fresh rally - Business Insider",
   "notes": [
@@ -55,19 +55,10 @@
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TSLL",
-      "side": "sell",
-      "orderId": "6d4988ec-5160-4500-a607-2f5e722dbd9c",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TSLL"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
