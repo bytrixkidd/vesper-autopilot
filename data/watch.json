@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-29T17:31:39.080Z",
+  "at": "2026-10-29T17:32:44.433Z",
   "market": "open",
   "headline": "Alphabet heads for a $500 billion drop in market value, the biggest in its history - Yahoo Finance",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
