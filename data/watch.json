@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-29T15:59:24.403Z",
+  "at": "2026-10-29T16:00:29.326Z",
   "market": "open",
   "headline": "Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap - Bloomberg.com",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
