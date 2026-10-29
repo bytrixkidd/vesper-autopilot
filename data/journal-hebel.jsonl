@@ -5318,3 +5318,14 @@
 {"ts":"2026-10-28T20:05:18.046Z","book":"hebel","type":"watch","market":"closed","headline":"Why analysts say the US stock market may be on the cusp of a double-digit rally - Business Insider","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-28T20:35:22.236Z","book":"hebel","type":"watch","market":"closed","headline":"Why analysts say the US stock market may be on the cusp of a double-digit rally - Business Insider","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-28T21:05:30.523Z","book":"hebel","type":"watch","market":"closed","headline":"Why analysts say the US stock market may be on the cusp of a double-digit rally - Business Insider","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-29T01:09:15.160Z","book":"hebel","type":"fill","orderId":"e7380956-4eb9-406e-a505-262a1eb2f6fb","symbol":"TSLL","side":"buy","qty":3.789115646,"price":11.762639}
+{"ts":"2026-10-29T01:09:15.171Z","book":"hebel","type":"fill","orderId":"65a07ca8-a259-4fe8-bf90-5a0b33891fd4","symbol":"UPRO","side":"sell","qty":0.202056271,"price":150.6}
+{"ts":"2026-10-29T01:09:15.183Z","book":"hebel","type":"fill","orderId":"6d4988ec-5160-4500-a607-2f5e722dbd9c","symbol":"TSLL","side":"sell","qty":3.789115646,"price":11.26}
+{"ts":"2026-10-29T01:09:16.050Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":296,"cash":296}
+{"ts":"2026-10-29T01:09:16.050Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":296,"cash":296}
+{"ts":"2026-10-29T01:09:16.050Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":296,"cash":296}
+{"ts":"2026-10-29T01:09:16.050Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.4,"reason":"TSLA > SMA50 & SMA200, RSI 62.38 | Gate: 44.4 $","equity":296,"cash":296}
+{"ts":"2026-10-29T01:09:16.066Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"d135e575-3362-4fa2-b08f-ee2953596f02","notional":44.4,"status":"accepted"}
+{"ts":"2026-10-29T01:09:16.066Z","book":"hebel","type":"decision","symbol":"UPRO","action":"BUY","sleeve":"hebel","notional":44.4,"reason":"SPY > SMA50 & SMA200, RSI 43.73 | Gate: 44.4 $","equity":296,"cash":296}
+{"ts":"2026-10-29T01:09:16.079Z","book":"hebel","type":"order","symbol":"UPRO","side":"BUY","orderId":"6bf3c629-b3c8-49ca-bd1a-759a7828568a","notional":44.4,"status":"accepted"}
+{"ts":"2026-10-29T01:09:16.599Z","book":"hebel","type":"equity","equity":296,"cash":296,"positions":0,"dayChange":-0.4,"totalDD":4.61}
