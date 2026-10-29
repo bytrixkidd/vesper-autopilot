@@ -1,62 +1,62 @@
 {
-  "at": "2026-10-29T19:59:06.563Z",
-  "market": "open",
+  "at": "2026-10-29T20:00:13.097Z",
+  "market": "closed",
   "headline": "Alphabet heads for a $500 billion drop in market value, the biggest in its history - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "UPRO",
       "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     }
   ],
   "sent": [],
