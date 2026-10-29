@@ -5329,3 +5329,4 @@
 {"ts":"2026-10-29T01:09:16.066Z","book":"hebel","type":"decision","symbol":"UPRO","action":"BUY","sleeve":"hebel","notional":44.4,"reason":"SPY > SMA50 & SMA200, RSI 43.73 | Gate: 44.4 $","equity":296,"cash":296}
 {"ts":"2026-10-29T01:09:16.079Z","book":"hebel","type":"order","symbol":"UPRO","side":"BUY","orderId":"6bf3c629-b3c8-49ca-bd1a-759a7828568a","notional":44.4,"status":"accepted"}
 {"ts":"2026-10-29T01:09:16.599Z","book":"hebel","type":"equity","equity":296,"cash":296,"positions":0,"dayChange":-0.4,"totalDD":4.61}
+{"ts":"2026-10-29T02:36:52.055Z","book":"hebel","type":"watch","market":"closed","headline":"China’s stock markets are the great global exception - The Economist","notes":[],"sent":[]}
