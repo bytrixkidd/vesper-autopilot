@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-30T15:03:53.854Z",
+  "at": "2026-10-30T15:04:57.554Z",
   "market": "open",
   "headline": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg",
   "notes": [
@@ -35,8 +35,8 @@
     },
     {
       "symbol": "TQQQ",
-      "call": "RAUS",
-      "reason": "Unter SMA200."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
@@ -55,33 +55,18 @@
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter SMA200."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [
     {
-      "symbol": "TQQQ",
-      "side": "sell",
-      "orderId": "3f82f87e-1270-4dbd-ab6d-a71114f6b8ea",
-      "status": "pending_new"
-    },
-    {
       "symbol": "UPRO",
       "side": "sell",
-      "orderId": "6f39c606-0652-4709-9b0b-7740c2b68412",
-      "status": "pending_new"
-    },
-    {
-      "symbol": "TSLL",
-      "side": "sell",
-      "orderId": "95c6fdd5-9c5c-4c50-99e3-b8995807c799",
-      "status": "pending_new"
+      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
-    "TQQQ",
-    "UPRO",
-    "TSLL"
+    "UPRO"
   ]
 }
