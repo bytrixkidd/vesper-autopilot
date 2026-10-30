@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-30T17:38:46.507Z",
+  "at": "2026-10-30T17:39:49.983Z",
   "market": "open",
   "headline": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com",
   "notes": [
@@ -68,8 +68,7 @@
     {
       "symbol": "SPY",
       "side": "sell",
-      "orderId": "42ba0d5c-0fd2-4311-87fd-ddf03d465706",
-      "status": "pending_new"
+      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
