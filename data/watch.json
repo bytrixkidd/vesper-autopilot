@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-30T19:59:39.566Z",
-  "market": "open",
+  "at": "2026-10-30T20:00:42.984Z",
+  "market": "closed",
   "headline": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com",
   "notes": [
     {
@@ -11,66 +11,55 @@
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "UPRO",
       "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "reason": "Markt zu. Unter dem Einstieg, bei Eröffnung raus."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     }
   ],
-  "sent": [
-    {
-      "symbol": "UPRO",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
-    },
-    {
-      "symbol": "SPY",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
-    }
-  ],
+  "sent": [],
   "exitAtOpen": [
     "UPRO",
     "SPY"
