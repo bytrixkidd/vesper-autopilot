@@ -5485,3 +5485,4 @@
 {"ts":"2026-10-29T21:05:57.810Z","book":"main","type":"watch","market":"closed","headline":"Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-30T01:15:59.723Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":304.54,"cash":243.32}
 {"ts":"2026-10-30T01:16:00.160Z","book":"main","type":"equity","equity":304.54,"cash":243.32,"positions":1,"dayChange":0.07,"totalDD":0.25}
+{"ts":"2026-10-30T02:37:06.249Z","book":"main","type":"watch","market":"closed","headline":"Alphabet loses $482 billion in market value, the biggest drop in its history - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
