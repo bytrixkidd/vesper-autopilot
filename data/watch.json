@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-30T20:04:58.732Z",
+  "at": "2026-10-30T20:35:02.464Z",
   "market": "closed",
   "headline": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Stop ist erreicht."
+      "call": "BLEIBEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
@@ -61,7 +61,6 @@
   ],
   "sent": [],
   "exitAtOpen": [
-    "UPRO",
-    "SPY"
+    "UPRO"
   ]
 }
