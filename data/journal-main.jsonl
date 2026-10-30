@@ -5487,3 +5487,4 @@
 {"ts":"2026-10-30T01:16:00.160Z","book":"main","type":"equity","equity":304.54,"cash":243.32,"positions":1,"dayChange":0.07,"totalDD":0.25}
 {"ts":"2026-10-30T02:37:06.249Z","book":"main","type":"watch","market":"closed","headline":"Alphabet loses $482 billion in market value, the biggest drop in its history - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-30T03:07:10.020Z","book":"main","type":"watch","market":"closed","headline":"Shares of Google’s parent company just had their worst day ever. Here’s what it means - CNN","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-30T03:37:14.202Z","book":"main","type":"watch","market":"closed","headline":"Asia Stocks Under Pressure, Haven Bid Boosts Bonds: Markets Wrap - Bloomberg","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
