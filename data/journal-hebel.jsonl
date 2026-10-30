@@ -5614,3 +5614,14 @@
 {"ts":"2026-10-29T20:05:47.390Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-29T20:35:53.219Z","book":"hebel","type":"watch","market":"closed","headline":"Alphabet heads for a $500 billion drop in market value, the biggest in its history - Yahoo Finance","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-10-29T21:05:57.810Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-10-30T01:16:18.539Z","book":"hebel","type":"fill","orderId":"d135e575-3362-4fa2-b08f-ee2953596f02","symbol":"TSLL","side":"buy","qty":3.849350649,"price":11.531815}
+{"ts":"2026-10-30T01:16:18.614Z","book":"hebel","type":"fill","orderId":"6bf3c629-b3c8-49ca-bd1a-759a7828568a","symbol":"UPRO","side":"buy","qty":0.298039478,"price":148.94}
+{"ts":"2026-10-30T01:16:18.682Z","book":"hebel","type":"fill","orderId":"25bd28b6-2fba-462d-8867-c6e2d7270e4b","symbol":"TSLL","side":"sell","qty":3.849350649,"price":11.51}
+{"ts":"2026-10-30T01:16:19.474Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"BUY","sleeve":"hebel","notional":44.49,"reason":"QQQ > SMA50 & SMA200, RSI 39.44 | Gate: 44.49 $","equity":296.57,"cash":251.53}
+{"ts":"2026-10-30T01:16:19.545Z","book":"hebel","type":"order","symbol":"TQQQ","side":"BUY","orderId":"3b76bd15-844c-4253-ac53-028b7a02a91d","notional":44.49,"status":"accepted"}
+{"ts":"2026-10-30T01:16:19.545Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":296.57,"cash":251.53}
+{"ts":"2026-10-30T01:16:19.546Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":296.57,"cash":251.53}
+{"ts":"2026-10-30T01:16:19.546Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.49,"reason":"TSLA > SMA50 & SMA200, RSI 62.16 | Gate: 44.49 $","equity":296.57,"cash":251.53}
+{"ts":"2026-10-30T01:16:19.617Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"507fca06-5924-46d5-9665-b8572ce484f8","notional":44.49,"status":"accepted"}
+{"ts":"2026-10-30T01:16:19.618Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"Trend intakt","equity":296.57,"cash":251.53}
+{"ts":"2026-10-30T01:16:22.581Z","book":"hebel","type":"equity","equity":296.57,"cash":251.53,"positions":1,"dayChange":0.19,"totalDD":4.43}
