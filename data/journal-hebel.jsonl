@@ -5925,3 +5925,16 @@
 {"ts":"2026-10-30T20:03:54.643Z","book":"hebel","type":"watch","market":"closed","headline":"Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"RAUS","reason":"Markt zu. Unter dem Einstieg, bei Eröffnung raus."}],"sent":[]}
 {"ts":"2026-10-30T20:04:58.732Z","book":"hebel","type":"watch","market":"closed","headline":"Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"RAUS","reason":"Markt zu. Unter dem Einstieg, bei Eröffnung raus."}],"sent":[]}
 {"ts":"2026-10-30T20:35:02.464Z","book":"hebel","type":"watch","market":"closed","headline":"Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com","notes":[{"symbol":"UPRO","call":"RAUS","reason":"Markt zu. Unter dem Einstieg, bei Eröffnung raus."}],"sent":[]}
+{"ts":"2026-10-31T00:57:33.481Z","book":"hebel","type":"fill","orderId":"3b76bd15-844c-4253-ac53-028b7a02a91d","symbol":"TQQQ","side":"buy","qty":0.695325934,"price":63.97}
+{"ts":"2026-10-31T00:57:33.488Z","book":"hebel","type":"fill","orderId":"507fca06-5924-46d5-9665-b8572ce484f8","symbol":"TSLL","side":"buy","qty":4.173095014,"price":10.658756}
+{"ts":"2026-10-31T00:57:33.499Z","book":"hebel","type":"fill","orderId":"3f82f87e-1270-4dbd-ab6d-a71114f6b8ea","symbol":"TQQQ","side":"sell","qty":0.695325934,"price":63.382}
+{"ts":"2026-10-31T00:57:33.506Z","book":"hebel","type":"fill","orderId":"6f39c606-0652-4709-9b0b-7740c2b68412","symbol":"UPRO","side":"sell","qty":0.298039478,"price":143.098}
+{"ts":"2026-10-31T00:57:33.515Z","book":"hebel","type":"fill","orderId":"95c6fdd5-9c5c-4c50-99e3-b8995807c799","symbol":"TSLL","side":"sell","qty":4.173095014,"price":11.26}
+{"ts":"2026-10-31T00:57:34.371Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":296.28,"cash":296.28}
+{"ts":"2026-10-31T00:57:34.371Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":296.28,"cash":296.28}
+{"ts":"2026-10-31T00:57:34.371Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":296.28,"cash":296.28}
+{"ts":"2026-10-31T00:57:34.371Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.44,"reason":"TSLA > SMA50 & SMA200, RSI 59.08 | Gate: 44.44 $","equity":296.28,"cash":296.28}
+{"ts":"2026-10-31T00:57:34.382Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"160268cb-7ebc-4de5-a958-81bd9f301e5a","notional":44.44,"status":"accepted"}
+{"ts":"2026-10-31T00:57:34.382Z","book":"hebel","type":"decision","symbol":"UPRO","action":"BUY","sleeve":"hebel","notional":44.44,"reason":"SPY > SMA50 & SMA200, RSI 42.05 | Gate: 44.44 $","equity":296.28,"cash":296.28}
+{"ts":"2026-10-31T00:57:34.392Z","book":"hebel","type":"order","symbol":"UPRO","side":"BUY","orderId":"5addaf88-16ef-42ee-abc9-1b3bbdc11bce","notional":44.44,"status":"accepted"}
+{"ts":"2026-10-31T00:57:34.778Z","book":"hebel","type":"equity","equity":296.28,"cash":296.28,"positions":0,"dayChange":-0.1,"totalDD":4.52}
