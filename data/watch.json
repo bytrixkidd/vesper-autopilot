@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-30T20:35:02.464Z",
+  "at": "2026-10-31T02:06:16.699Z",
   "market": "closed",
   "headline": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "BLEIBEN",
+      "call": "DRAUSSEN",
       "reason": "Markt zu. Keine Order."
     },
     {
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "RAUS",
-      "reason": "Markt zu. Unter dem Einstieg, bei Eröffnung raus."
+      "call": "DRAUSSEN",
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",

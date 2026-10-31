@@ -5787,3 +5787,4 @@
 {"ts":"2026-10-31T00:57:20.118Z","book":"main","type":"decision","symbol":"SPY","action":"BUY","sleeve":"core","notional":60.64,"reason":"SPY 769.36 > SMA200 728.53 | Gate: 60.64 $","equity":303.18,"cash":303.18}
 {"ts":"2026-10-31T00:57:20.130Z","book":"main","type":"order","symbol":"SPY","side":"BUY","orderId":"f271e6e4-056c-4c62-8405-91b2445c15d6","notional":60.64,"status":"accepted"}
 {"ts":"2026-10-31T00:57:20.243Z","book":"main","type":"equity","equity":303.18,"cash":303.18,"positions":0,"dayChange":-0.45,"totalDD":0.7}
+{"ts":"2026-10-31T02:06:16.699Z","book":"main","type":"watch","market":"closed","headline":"Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com","notes":[],"sent":[]}
