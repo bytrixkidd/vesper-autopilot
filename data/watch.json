@@ -1,66 +1,73 @@
 {
-  "at": "2026-11-02T13:22:16.451Z",
-  "market": "closed",
-  "headline": "US Stock Futures Rise as Oil Drop Buoys Sentiment: Markets Wrap - Bloomberg",
+  "at": "2026-11-02T18:24:16.974Z",
+  "market": "open",
+  "headline": "October dive for AI-related shares tests broader US stock market's resilience - Reuters",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "TSLL",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter SMA200."
     }
   ],
-  "sent": [],
+  "sent": [
+    {
+      "symbol": "TSLL",
+      "side": "sell",
+      "orderId": "b6e1f48b-1dc5-4951-84ab-d76155f5a495",
+      "status": "pending_new"
+    }
+  ],
   "exitAtOpen": [
-    "UPRO"
+    "TSLL"
   ]
 }
