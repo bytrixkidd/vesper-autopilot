@@ -6108,3 +6108,14 @@
 {"ts":"2026-11-03T01:35:06.898Z","book":"hebel","type":"watch","market":"closed","headline":"US Stock Market Fails To Recover as $700 Billion Comeback Collapses - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-03T02:05:10.626Z","book":"hebel","type":"watch","market":"closed","headline":"October dive for AI-related shares tests broader US stock market's resilience - Reuters","notes":[],"sent":[]}
 {"ts":"2026-11-03T02:35:14.448Z","book":"hebel","type":"watch","market":"closed","headline":"October dive for AI-related shares tests broader US stock market's resilience - Reuters","notes":[],"sent":[]}
+{"ts":"2026-11-03T03:00:34.713Z","book":"hebel","type":"fill","orderId":"160268cb-7ebc-4de5-a958-81bd9f301e5a","symbol":"TSLL","side":"buy","qty":3.790955631,"price":11.72}
+{"ts":"2026-11-03T03:00:34.783Z","book":"hebel","type":"fill","orderId":"5addaf88-16ef-42ee-abc9-1b3bbdc11bce","symbol":"UPRO","side":"buy","qty":0.310135418,"price":143.26}
+{"ts":"2026-11-03T03:00:34.851Z","book":"hebel","type":"fill","orderId":"b6e1f48b-1dc5-4951-84ab-d76155f5a495","symbol":"TSLL","side":"sell","qty":3.790955631,"price":11.67}
+{"ts":"2026-11-03T03:00:34.929Z","book":"hebel","type":"fill","orderId":"13480564-20c9-444a-af1e-b5e42d40b312","symbol":"UPRO","side":"sell","qty":0.310135418,"price":139.506}
+{"ts":"2026-11-03T03:00:35.864Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":294.92,"cash":294.92}
+{"ts":"2026-11-03T03:00:35.864Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":294.92,"cash":294.92}
+{"ts":"2026-11-03T03:00:35.864Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":294.92,"cash":294.92}
+{"ts":"2026-11-03T03:00:35.864Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.24,"reason":"TSLA > SMA50 & SMA200, RSI 62.6 | Gate: 44.24 $","equity":294.92,"cash":294.92}
+{"ts":"2026-11-03T03:00:35.935Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"8d2fc5df-86dd-44f8-b8d1-b601268ce0f1","notional":44.24,"status":"accepted"}
+{"ts":"2026-11-03T03:00:35.935Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":294.92,"cash":294.92}
+{"ts":"2026-11-03T03:00:39.488Z","book":"hebel","type":"equity","equity":294.92,"cash":294.92,"positions":0,"dayChange":-0.46,"totalDD":4.96}
