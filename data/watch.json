@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-03T16:00:49.286Z",
+  "at": "2026-11-03T16:01:53.247Z",
   "market": "open",
   "headline": "Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring - 24/7 Wall St.",
   "notes": [
@@ -36,12 +36,12 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
