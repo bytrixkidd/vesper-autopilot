@@ -1,66 +1,73 @@
 {
-  "at": "2026-11-03T10:06:21.528Z",
-  "market": "closed",
-  "headline": "META_TITLE_QUOTE - Yahoo Finance",
+  "at": "2026-11-03T14:40:14.345Z",
+  "market": "open",
+  "headline": "The Stock Market Will Make a Big Move in the Next 6 Months if History Repeats Itself - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter SMA200."
     }
   ],
-  "sent": [],
+  "sent": [
+    {
+      "symbol": "TSLL",
+      "side": "sell",
+      "orderId": "93747427-6ce0-4f42-916c-68ff577172d9",
+      "status": "pending_new"
+    }
+  ],
   "exitAtOpen": [
-    "UPRO"
+    "TSLL"
   ]
 }

@@ -6131,3 +6131,5 @@
 {"ts":"2026-11-03T09:06:14.341Z","book":"hebel","type":"watch","market":"closed","headline":"Weekly market commentary - BlackRock","notes":[],"sent":[]}
 {"ts":"2026-11-03T09:36:18.060Z","book":"hebel","type":"watch","market":"closed","headline":"Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap - Bloomberg.com","notes":[],"sent":[]}
 {"ts":"2026-11-03T10:06:21.528Z","book":"hebel","type":"watch","market":"closed","headline":"META_TITLE_QUOTE - Yahoo Finance","notes":[],"sent":[]}
+{"ts":"2026-11-03T14:40:14.344Z","book":"hebel","type":"order","symbol":"TSLL","side":"SELL","orderId":"93747427-6ce0-4f42-916c-68ff577172d9","qty":3.883230904,"status":"pending_new","reason":"Unter SMA200."}
+{"ts":"2026-11-03T14:40:14.345Z","book":"hebel","type":"watch","market":"open","headline":"The Stock Market Will Make a Big Move in the Next 6 Months if History Repeats Itself - Yahoo Finance","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"93747427-6ce0-4f42-916c-68ff577172d9","status":"pending_new"}]}
