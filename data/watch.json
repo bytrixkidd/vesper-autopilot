@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-03T14:42:22.642Z",
+  "at": "2026-11-03T14:43:27.102Z",
   "market": "open",
   "headline": "The Stock Market Will Make a Big Move in the Next 6 Months if History Repeats Itself - Yahoo Finance",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
