@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-03T18:32:59.261Z",
+  "at": "2026-11-03T18:34:04.207Z",
   "market": "open",
   "headline": "Stock market after midterm elections: 10 things to know - qz.com",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
