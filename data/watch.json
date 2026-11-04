@@ -1,64 +1,73 @@
 {
-  "at": "2026-11-04T13:09:39.074Z",
-  "market": "closed",
-  "headline": "How the Stock Market Is Reacting to the Midterm Elections - The New York Times",
+  "at": "2026-11-04T16:21:08.480Z",
+  "market": "open",
+  "headline": "Stocks Rise as Democrats Flip Control of Congress - The New York Times",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter SMA200."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "TSLL",
+      "side": "sell",
+      "orderId": "2d3c1498-a866-433f-9fa7-778bf3e742ec",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "TSLL"
+  ]
 }
