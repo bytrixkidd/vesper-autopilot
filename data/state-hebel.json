@@ -1,7 +1,7 @@
 {
   "book": "hebel",
   "startCapital": 300,
-  "cash": 294.9232265433737,
+  "cash": 294.5349034529737,
   "positions": [],
   "equityHistory": [
     {
@@ -87,10 +87,14 @@
     {
       "date": "2026-11-03",
       "equity": 294.92
+    },
+    {
+      "date": "2026-11-04",
+      "equity": 294.53
     }
   ],
   "peakEquity": 310.31858879613367,
   "haltedUntil": null,
   "lastRebalanceMonth": null,
-  "lastRun": "2026-11-03T03:00:39.488Z"
+  "lastRun": "2026-11-04T01:34:31.369Z"
 }

@@ -6425,3 +6425,12 @@
 {"ts":"2026-11-03T20:04:38.611Z","book":"hebel","type":"watch","market":"open","headline":"How Wall Street analysts think the midterms could affect the stock market - CBS News","notes":[],"sent":[]}
 {"ts":"2026-11-03T20:05:42.477Z","book":"hebel","type":"watch","market":"open","headline":"How Wall Street analysts think the midterms could affect the stock market - CBS News","notes":[],"sent":[]}
 {"ts":"2026-11-03T20:35:54.368Z","book":"hebel","type":"watch","market":"open","headline":"How Wall Street analysts think the midterms could affect the stock market - CBS News","notes":[],"sent":[]}
+{"ts":"2026-11-04T01:34:29.937Z","book":"hebel","type":"fill","orderId":"8d2fc5df-86dd-44f8-b8d1-b601268ce0f1","symbol":"TSLL","side":"buy","qty":3.883230904,"price":11.39}
+{"ts":"2026-11-04T01:34:29.945Z","book":"hebel","type":"fill","orderId":"93747427-6ce0-4f42-916c-68ff577172d9","symbol":"TSLL","side":"sell","qty":3.883230904,"price":11.29}
+{"ts":"2026-11-04T01:34:30.838Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":294.53,"cash":294.53}
+{"ts":"2026-11-04T01:34:30.838Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":294.53,"cash":294.53}
+{"ts":"2026-11-04T01:34:30.838Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":294.53,"cash":294.53}
+{"ts":"2026-11-04T01:34:30.838Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.18,"reason":"TSLA > SMA50 & SMA200, RSI 62.6 | Gate: 44.18 $","equity":294.53,"cash":294.53}
+{"ts":"2026-11-04T01:34:30.851Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"916fabe9-eda7-46b6-85c1-9cc4df80e6c9","notional":44.18,"status":"accepted"}
+{"ts":"2026-11-04T01:34:30.851Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":294.53,"cash":294.53}
+{"ts":"2026-11-04T01:34:31.370Z","book":"hebel","type":"equity","equity":294.53,"cash":294.53,"positions":0,"dayChange":-0.13,"totalDD":5.09}
