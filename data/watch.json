@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-04T16:41:52.307Z",
+  "at": "2026-11-04T16:42:58.411Z",
   "market": "open",
   "headline": "Stocks Rise as Democrats Flip Control of Congress - The New York Times",
   "notes": [
@@ -50,8 +50,8 @@
     },
     {
       "symbol": "UPRO",
-      "call": "REIN",
-      "reason": "Woche, Jahr und SMA200 einig. Steigt schon, keine Schockmeldung."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "TSLL",
@@ -59,13 +59,6 @@
       "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
-  "sent": [
-    {
-      "symbol": "UPRO",
-      "side": "buy",
-      "orderId": "e96b044a-205c-47cd-80c9-e24990cc052f",
-      "status": "pending_new"
-    }
-  ],
+  "sent": [],
   "exitAtOpen": []
 }
