@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-04T17:55:18.685Z",
+  "at": "2026-11-04T17:56:23.858Z",
   "market": "open",
   "headline": "Stocks Rise as Democrats Flip Control of Congress - The New York Times",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
