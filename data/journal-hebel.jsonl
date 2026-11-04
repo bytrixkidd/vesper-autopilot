@@ -6435,3 +6435,4 @@
 {"ts":"2026-11-04T01:34:30.851Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":294.53,"cash":294.53}
 {"ts":"2026-11-04T01:34:31.370Z","book":"hebel","type":"equity","equity":294.53,"cash":294.53,"positions":0,"dayChange":-0.13,"totalDD":5.09}
 {"ts":"2026-11-04T07:37:41.265Z","book":"hebel","type":"watch","market":"closed","headline":"How the Stock Market Is Reacting to the Midterm Elections - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-04T08:07:45.153Z","book":"hebel","type":"watch","market":"closed","headline":"How the Stock Market Is Reacting to the Midterm Elections - The New York Times","notes":[],"sent":[]}
