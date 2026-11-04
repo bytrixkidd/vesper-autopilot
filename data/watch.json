@@ -1,62 +1,62 @@
 {
-  "at": "2026-11-04T20:35:32.528Z",
-  "market": "open",
+  "at": "2026-11-04T21:05:37.580Z",
+  "market": "closed",
   "headline": "Stocks Rise as Democrats Flip Control of Congress - The New York Times",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "UPRO",
       "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     }
   ],
   "sent": [],
