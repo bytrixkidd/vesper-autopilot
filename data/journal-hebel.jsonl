@@ -6449,3 +6449,4 @@
 {"ts":"2026-11-04T16:21:08.480Z","book":"hebel","type":"order","symbol":"TSLL","side":"SELL","orderId":"2d3c1498-a866-433f-9fa7-778bf3e742ec","qty":4.412587412,"status":"pending_new","reason":"Unter SMA200."}
 {"ts":"2026-11-04T16:21:08.480Z","book":"hebel","type":"watch","market":"open","headline":"Stocks Rise as Democrats Flip Control of Congress - The New York Times","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"2d3c1498-a866-433f-9fa7-778bf3e742ec","status":"pending_new"}]}
 {"ts":"2026-11-04T16:22:15.146Z","book":"hebel","type":"watch","market":"open","headline":"Stocks Rise as Democrats Flip Control of Congress - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-04T16:23:21.959Z","book":"hebel","type":"watch","market":"open","headline":"Stocks Rise as Democrats Flip Control of Congress - The New York Times","notes":[],"sent":[]}
