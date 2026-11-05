@@ -6659,3 +6659,14 @@
 {"ts":"2026-11-04T21:05:37.580Z","book":"hebel","type":"watch","market":"closed","headline":"Stocks Rise as Democrats Flip Control of Congress - The New York Times","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-04T21:35:42.973Z","book":"hebel","type":"watch","market":"closed","headline":"Wall Street ends higher after Democrats win Congress; data center stocks tumble - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-04T22:05:47.857Z","book":"hebel","type":"watch","market":"closed","headline":"Wall Street ends higher after Democrats win Congress; data center stocks tumble - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-05T01:40:57.732Z","book":"hebel","type":"fill","orderId":"916fabe9-eda7-46b6-85c1-9cc4df80e6c9","symbol":"TSLL","side":"buy","qty":4.412587412,"price":10.01}
+{"ts":"2026-11-05T01:40:57.744Z","book":"hebel","type":"fill","orderId":"2d3c1498-a866-433f-9fa7-778bf3e742ec","symbol":"TSLL","side":"sell","qty":4.412587412,"price":10.26}
+{"ts":"2026-11-05T01:40:57.756Z","book":"hebel","type":"fill","orderId":"e96b044a-205c-47cd-80c9-e24990cc052f","symbol":"UPRO","side":"buy","qty":0.203927595,"price":147.062}
+{"ts":"2026-11-05T01:40:58.731Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":294.28,"cash":265.65}
+{"ts":"2026-11-05T01:40:58.731Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":294.28,"cash":265.65}
+{"ts":"2026-11-05T01:40:58.731Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":294.28,"cash":265.65}
+{"ts":"2026-11-05T01:40:58.731Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":44.14,"reason":"TSLA > SMA50 & SMA200, RSI 64.16 | Gate: 44.14 $","equity":294.28,"cash":265.65}
+{"ts":"2026-11-05T01:40:58.747Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"f64b5e0c-b3b2-421c-aa7b-bc8133dcf375","notional":44.14,"status":"accepted"}
+{"ts":"2026-11-05T01:40:58.747Z","book":"hebel","type":"decision","symbol":"UPRO","action":"SELL","sleeve":"hebel","qty":0.203927595,"reason":"SPY unter SMA50/200","equity":294.28,"cash":265.65}
+{"ts":"2026-11-05T01:40:58.760Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"5d5f284d-b32b-4920-a1b3-6f070f0528b7","qty":0.203927595,"status":"accepted"}
+{"ts":"2026-11-05T01:40:59.505Z","book":"hebel","type":"equity","equity":294.28,"cash":265.65,"positions":1,"dayChange":-0.08,"totalDD":5.17}
