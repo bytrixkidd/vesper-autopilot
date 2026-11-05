@@ -1,62 +1,62 @@
 {
-  "at": "2026-11-05T16:18:47.053Z",
+  "at": "2026-11-05T16:19:51.407Z",
   "market": "open",
-  "headline": "Stock Market Crash Or Rally? Plan For Both - Trefis",
+  "headline": "Chips Selloff Worsens as Fears About AI Trade Grip Stock Market - Bloomberg.com",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Schockmeldung. Sofort raus."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "RAUS",
-      "reason": "Schockmeldung. Sofort raus."
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Schockmeldung. Nicht reingehen."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [
@@ -64,15 +64,9 @@
       "symbol": "UPRO",
       "side": "sell",
       "status": "Broker hat keine Stücke"
-    },
-    {
-      "symbol": "SPY",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
-    "UPRO",
-    "SPY"
+    "UPRO"
   ]
 }
