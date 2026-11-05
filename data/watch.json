@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-05T15:46:01.710Z",
+  "at": "2026-11-05T15:47:05.756Z",
   "market": "open",
   "headline": "Stock Market Crash Or Rally? Plan For Both - Trefis",
   "notes": [
@@ -68,8 +68,7 @@
     {
       "symbol": "SPY",
       "side": "sell",
-      "orderId": "95b093a4-9f11-4d75-993e-6f95e2aafff6",
-      "status": "pending_new"
+      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
