@@ -1,64 +1,79 @@
 {
-  "at": "2026-11-05T09:07:42.884Z",
-  "market": "closed",
-  "headline": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap - Bloomberg.com",
+  "at": "2026-11-05T14:58:19.266Z",
+  "market": "open",
+  "headline": "Nasdaq falls at open after midterms-fueled surge as chip, data center stocks fall - Reuters",
   "notes": [
     {
       "symbol": "SPY",
       "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
-      "call": "BLEIBEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "TSLL",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "UPRO",
+      "side": "sell",
+      "status": "Broker hat keine Stücke"
+    },
+    {
+      "symbol": "TSLL",
+      "side": "sell",
+      "orderId": "dabea141-6cc5-4822-be51-cd4b97ec86eb",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "UPRO",
+    "TSLL"
+  ]
 }
