@@ -6670,3 +6670,4 @@
 {"ts":"2026-11-05T01:40:58.747Z","book":"hebel","type":"decision","symbol":"UPRO","action":"SELL","sleeve":"hebel","qty":0.203927595,"reason":"SPY unter SMA50/200","equity":294.28,"cash":265.65}
 {"ts":"2026-11-05T01:40:58.760Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"5d5f284d-b32b-4920-a1b3-6f070f0528b7","qty":0.203927595,"status":"accepted"}
 {"ts":"2026-11-05T01:40:59.505Z","book":"hebel","type":"equity","equity":294.28,"cash":265.65,"positions":1,"dayChange":-0.08,"totalDD":5.17}
+{"ts":"2026-11-05T03:36:54.172Z","book":"hebel","type":"watch","market":"closed","headline":"U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
