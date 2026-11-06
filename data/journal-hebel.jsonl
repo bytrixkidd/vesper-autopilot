@@ -6993,3 +6993,5 @@
 {"ts":"2026-11-06T12:07:38.405Z","book":"hebel","type":"watch","market":"closed","headline":"Why plunging tech stocks might be just what the market needed - NBC News","notes":[],"sent":[]}
 {"ts":"2026-11-06T12:37:42.520Z","book":"hebel","type":"watch","market":"closed","headline":"Why plunging tech stocks might be just what the market needed - NBC News","notes":[],"sent":[]}
 {"ts":"2026-11-06T13:07:46.522Z","book":"hebel","type":"watch","market":"closed","headline":"Why plunging tech stocks might be just what the market needed - NBC News","notes":[],"sent":[]}
+{"ts":"2026-11-06T14:37:13.220Z","book":"hebel","type":"order","symbol":"TSLL","side":"SELL","orderId":"a5e0d112-c19a-4eec-b01d-73b87c897671","qty":5.184304399,"status":"pending_new","reason":"Unter SMA200."}
+{"ts":"2026-11-06T14:37:13.220Z","book":"hebel","type":"watch","market":"open","headline":"What sparked the stock market’s $2.5 trillion sell-off? - CNN","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"a5e0d112-c19a-4eec-b01d-73b87c897671","status":"pending_new"}]}
