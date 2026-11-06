@@ -1,7 +1,7 @@
 {
-  "at": "2026-11-06T14:56:50.130Z",
+  "at": "2026-11-06T14:57:54.899Z",
   "market": "open",
-  "headline": "What sparked the stock market’s $2.5 trillion sell-off? - CNN",
+  "headline": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com",
   "notes": [
     {
       "symbol": "SPY",
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "SOXL",
@@ -51,7 +51,7 @@
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "TSLL",
