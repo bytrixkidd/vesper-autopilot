@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T16:37:07.410Z",
+  "at": "2026-11-06T16:38:12.547Z",
   "market": "open",
   "headline": "U.S. Stock Market Movements | NVIDIA (NVDA.US) Surges Over 6% as It Plans Data Center Retrofitting Projects with Capacity Reaching 1 Gigawatt - Moomoo",
   "notes": [
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
