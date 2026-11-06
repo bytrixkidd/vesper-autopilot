@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T15:08:40.308Z",
+  "at": "2026-11-06T15:09:45.404Z",
   "market": "open",
   "headline": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
