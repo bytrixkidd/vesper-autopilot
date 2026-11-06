@@ -6981,3 +6981,4 @@
 {"ts":"2026-11-06T01:43:18.896Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"9021a407-9313-4ba7-b9df-516d0d456b5c","notional":43.61,"status":"accepted"}
 {"ts":"2026-11-06T01:43:18.896Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.77,"cash":290.77}
 {"ts":"2026-11-06T01:43:23.025Z","book":"hebel","type":"equity","equity":290.77,"cash":290.77,"positions":0,"dayChange":-1.19,"totalDD":6.3}
+{"ts":"2026-11-06T07:37:05.212Z","book":"hebel","type":"watch","market":"closed","headline":"Stocks plunge as election outcome and AI worries crush tech shares - NBC News","notes":[],"sent":[]}

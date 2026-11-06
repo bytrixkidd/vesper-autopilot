@@ -6795,3 +6795,4 @@
 {"ts":"2026-11-06T01:42:59.500Z","book":"main","type":"decision","symbol":"SPY","action":"BUY","sleeve":"core","notional":60.37,"reason":"SPY 766.81 > SMA200 729.91 | Gate: 60.37 $","equity":301.87,"cash":301.87}
 {"ts":"2026-11-06T01:42:59.548Z","book":"main","type":"order","symbol":"SPY","side":"BUY","orderId":"50a62ca0-6df5-44f0-9199-7cd0156324d1","notional":60.37,"status":"accepted"}
 {"ts":"2026-11-06T01:43:00.109Z","book":"main","type":"equity","equity":301.87,"cash":301.87,"positions":0,"dayChange":-0.3,"totalDD":1.13}
+{"ts":"2026-11-06T07:37:05.212Z","book":"main","type":"watch","market":"closed","headline":"Stocks plunge as election outcome and AI worries crush tech shares - NBC News","notes":[],"sent":[]}
