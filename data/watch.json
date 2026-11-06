@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T18:35:19.748Z",
+  "at": "2026-11-06T18:36:24.640Z",
   "market": "open",
   "headline": "Investors try to regain their footing after tech stocks tank - NBC News",
   "notes": [
@@ -51,7 +51,7 @@
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
