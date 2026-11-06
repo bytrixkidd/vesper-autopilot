@@ -6971,3 +6971,13 @@
 {"ts":"2026-11-05T20:04:02.207Z","book":"hebel","type":"watch","market":"open","headline":"Stocks plunge as midterm results send AI trade into a tailspin - CNN","notes":[{"symbol":"UPRO","call":"RAUS","reason":"Unter dem Einstieg. Verlust begrenzen."}],"sent":[{"symbol":"UPRO","side":"sell","status":"Broker hat keine Stücke"}]}
 {"ts":"2026-11-05T20:05:06.436Z","book":"hebel","type":"watch","market":"open","headline":"Stocks plunge as midterm results send AI trade into a tailspin - CNN","notes":[{"symbol":"UPRO","call":"RAUS","reason":"Unter dem Einstieg. Verlust begrenzen."}],"sent":[{"symbol":"UPRO","side":"sell","status":"Broker hat keine Stücke"}]}
 {"ts":"2026-11-05T20:35:10.831Z","book":"hebel","type":"watch","market":"open","headline":"Stocks plunge as midterm results send AI trade into a tailspin - CNN","notes":[{"symbol":"UPRO","call":"RAUS","reason":"Unter dem Einstieg. Verlust begrenzen."}],"sent":[{"symbol":"UPRO","side":"sell","status":"Broker hat keine Stücke"}]}
+{"ts":"2026-11-06T01:43:18.023Z","book":"hebel","type":"fill","orderId":"f64b5e0c-b3b2-421c-aa7b-bc8133dcf375","symbol":"TSLL","side":"buy","qty":4.726394849,"price":9.336926}
+{"ts":"2026-11-06T01:43:18.093Z","book":"hebel","type":"fill","orderId":"5d5f284d-b32b-4920-a1b3-6f070f0528b7","symbol":"UPRO","side":"sell","qty":0.203927595,"price":146.46}
+{"ts":"2026-11-06T01:43:18.163Z","book":"hebel","type":"fill","orderId":"dabea141-6cc5-4822-be51-cd4b97ec86eb","symbol":"TSLL","side":"sell","qty":4.726394849,"price":8.332115}
+{"ts":"2026-11-06T01:43:18.824Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":290.77,"cash":290.77}
+{"ts":"2026-11-06T01:43:18.824Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"RSI 86.67 / Limit Positionen","equity":290.77,"cash":290.77}
+{"ts":"2026-11-06T01:43:18.824Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":290.77,"cash":290.77}
+{"ts":"2026-11-06T01:43:18.824Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":43.61,"reason":"TSLA > SMA50 & SMA200, RSI 59.54 | Gate: 43.61 $","equity":290.77,"cash":290.77}
+{"ts":"2026-11-06T01:43:18.896Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"9021a407-9313-4ba7-b9df-516d0d456b5c","notional":43.61,"status":"accepted"}
+{"ts":"2026-11-06T01:43:18.896Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.77,"cash":290.77}
+{"ts":"2026-11-06T01:43:23.025Z","book":"hebel","type":"equity","equity":290.77,"cash":290.77,"positions":0,"dayChange":-1.19,"totalDD":6.3}
