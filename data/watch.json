@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T14:40:28.531Z",
+  "at": "2026-11-06T14:41:34.694Z",
   "market": "open",
   "headline": "What sparked the stock market’s $2.5 trillion sell-off? - CNN",
   "notes": [
@@ -16,7 +16,7 @@
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
