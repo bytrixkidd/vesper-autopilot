@@ -1,7 +1,7 @@
 {
-  "at": "2026-11-06T15:46:20.671Z",
+  "at": "2026-11-06T15:47:25.199Z",
   "market": "open",
-  "headline": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com",
+  "headline": "What sparked the stock market’s $2.5 trillion sell-off? - CNN",
   "notes": [
     {
       "symbol": "SPY",
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
