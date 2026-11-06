@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T14:55:45.359Z",
+  "at": "2026-11-06T14:56:50.130Z",
   "market": "open",
   "headline": "What sparked the stock market’s $2.5 trillion sell-off? - CNN",
   "notes": [
@@ -21,7 +21,7 @@
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
@@ -51,7 +51,7 @@
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
