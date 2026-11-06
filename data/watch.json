@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T14:37:13.220Z",
+  "at": "2026-11-06T14:38:17.309Z",
   "market": "open",
   "headline": "What sparked the stock market’s $2.5 trillion sell-off? - CNN",
   "notes": [
@@ -55,19 +55,10 @@
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter SMA200."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TSLL",
-      "side": "sell",
-      "orderId": "a5e0d112-c19a-4eec-b01d-73b87c897671",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TSLL"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
