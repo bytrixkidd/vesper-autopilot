@@ -7301,3 +7301,11 @@
 {"ts":"2026-11-06T20:04:34.384Z","book":"hebel","type":"watch","market":"open","headline":"US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com","notes":[],"sent":[]}
 {"ts":"2026-11-06T20:05:38.464Z","book":"hebel","type":"watch","market":"open","headline":"US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com","notes":[],"sent":[]}
 {"ts":"2026-11-06T20:35:42.585Z","book":"hebel","type":"watch","market":"open","headline":"US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com","notes":[],"sent":[]}
+{"ts":"2026-11-07T01:03:47.601Z","book":"hebel","type":"fill","orderId":"9021a407-9313-4ba7-b9df-516d0d456b5c","symbol":"TSLL","side":"buy","qty":5.184304399,"price":8.41}
+{"ts":"2026-11-07T01:03:47.659Z","book":"hebel","type":"fill","orderId":"a5e0d112-c19a-4eec-b01d-73b87c897671","symbol":"TSLL","side":"sell","qty":5.184304399,"price":8.362284}
+{"ts":"2026-11-07T01:03:48.773Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-07T01:03:48.773Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-07T01:03:48.773Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-07T01:03:48.773Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-07T01:03:48.773Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-07T01:03:52.404Z","book":"hebel","type":"equity","equity":290.52,"cash":290.52,"positions":0,"dayChange":-0.09,"totalDD":6.38}
