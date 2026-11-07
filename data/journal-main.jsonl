@@ -7114,3 +7114,6 @@
 {"ts":"2026-11-06T20:04:34.384Z","book":"main","type":"watch","market":"open","headline":"US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-11-06T20:05:38.464Z","book":"main","type":"watch","market":"open","headline":"US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-11-06T20:35:42.585Z","book":"main","type":"watch","market":"open","headline":"US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
+{"ts":"2026-11-07T01:03:26.080Z","book":"main","type":"fill","orderId":"50a62ca0-6df5-44f0-9199-7cd0156324d1","symbol":"SPY","side":"buy","qty":0.082144801,"price":734.8}
+{"ts":"2026-11-07T01:03:28.552Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":301.73,"cash":241.51}
+{"ts":"2026-11-07T01:03:29.219Z","book":"main","type":"equity","equity":301.73,"cash":241.51,"positions":1,"dayChange":-0.05,"totalDD":1.18}
