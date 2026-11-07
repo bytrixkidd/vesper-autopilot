@@ -7119,3 +7119,4 @@
 {"ts":"2026-11-07T01:03:29.219Z","book":"main","type":"equity","equity":301.73,"cash":241.51,"positions":1,"dayChange":-0.05,"totalDD":1.18}
 {"ts":"2026-11-07T07:37:31.275Z","book":"main","type":"watch","market":"closed","headline":"What’s going on with the stock market? - NPR","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-07T08:07:35.156Z","book":"main","type":"watch","market":"closed","headline":"What’s going on with the stock market? - NPR","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-07T08:37:38.946Z","book":"main","type":"watch","market":"closed","headline":"Your House vs. the Stock Market: Which Has Been a Better Investment? - WSJ","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
