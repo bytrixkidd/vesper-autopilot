@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T15:20:52.212Z",
+  "at": "2026-11-09T15:21:56.146Z",
   "market": "open",
   "headline": "Nvidia's stock slides as questions swirl around Jensen Huang's future as CEO - CBS News",
   "notes": [
@@ -16,7 +16,7 @@
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
