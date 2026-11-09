@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T15:52:45.793Z",
+  "at": "2026-11-09T15:53:50.955Z",
   "market": "open",
   "headline": "Nvidia stocks falls after probe into CEO’s affair with alleged foreign spy - CNN",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
