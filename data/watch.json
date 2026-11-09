@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T15:13:24.572Z",
+  "at": "2026-11-09T15:14:28.717Z",
   "market": "open",
   "headline": "Nvidia’s Stock Drops After Board Opens Investigation Into C.E.O. - The New York Times",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
