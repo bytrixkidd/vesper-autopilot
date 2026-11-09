@@ -1,7 +1,7 @@
 {
-  "at": "2026-11-09T15:19:47.207Z",
+  "at": "2026-11-09T15:20:52.212Z",
   "market": "open",
-  "headline": "Nvidia’s Stock Drops After Board Opens Investigation Into C.E.O. - The New York Times",
+  "headline": "Nvidia's stock slides as questions swirl around Jensen Huang's future as CEO - CBS News",
   "notes": [
     {
       "symbol": "SPY",
@@ -16,7 +16,7 @@
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
     },
     {
       "symbol": "AMD",
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "SOXL",
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "UPRO",
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
