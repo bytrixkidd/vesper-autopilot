@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T15:23:00.824Z",
+  "at": "2026-11-09T15:24:04.214Z",
   "market": "open",
   "headline": "Nvidia stocks falls after probe into CEO’s affair with alleged foreign spy - CNN",
   "notes": [
@@ -36,12 +36,12 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
