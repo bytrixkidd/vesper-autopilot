@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T17:16:46.782Z",
+  "at": "2026-11-10T17:17:50.695Z",
   "market": "open",
   "headline": "Nvidia stock drops 3%, extending decline on report alleged Chinese spy linked to Nvidia CEO aided $7.5 billion in China chip shipments - Yahoo Finance",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
