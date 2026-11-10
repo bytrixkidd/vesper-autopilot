@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T18:33:36.932Z",
+  "at": "2026-11-10T18:34:40.573Z",
   "market": "open",
   "headline": "Jensen Huang’s net worth drops $6.5 billion as Nvidia stock slides in the fallout of spy affair scandal investigation - Fortune",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
