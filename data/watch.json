@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T15:59:12.029Z",
+  "at": "2026-11-10T16:00:15.893Z",
   "market": "open",
   "headline": "Prediction: Nov. 17 Will Be a Huge Day for the Stock Market - The Motley Fool",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
