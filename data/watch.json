@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T17:50:57.098Z",
+  "at": "2026-11-10T17:52:00.675Z",
   "market": "open",
   "headline": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut - BBC",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
