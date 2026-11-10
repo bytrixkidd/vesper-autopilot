@@ -7679,3 +7679,9 @@
 {"ts":"2026-11-10T02:36:22.267Z","book":"hebel","type":"watch","market":"closed","headline":"U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-10T03:06:27.023Z","book":"hebel","type":"watch","market":"closed","headline":"U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-10T03:36:31.421Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia shares sink while stock market surges - NBC News","notes":[],"sent":[]}
+{"ts":"2026-11-10T03:43:34.009Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-10T03:43:34.009Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-10T03:43:34.009Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-10T03:43:34.009Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-10T03:43:34.009Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-10T03:43:37.555Z","book":"hebel","type":"equity","equity":290.52,"cash":290.52,"positions":0,"dayChange":0,"totalDD":6.38}
