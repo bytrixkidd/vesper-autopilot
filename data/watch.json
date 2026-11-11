@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-11T18:32:03.310Z",
+  "at": "2026-11-11T18:33:06.850Z",
   "market": "open",
   "headline": "After US market shake-out, signs suggest too soon to say worst is over - Reuters",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
