@@ -7971,3 +7971,9 @@
 {"ts":"2026-11-10T20:05:14.580Z","book":"hebel","type":"watch","market":"open","headline":"Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning - BBC","notes":[],"sent":[]}
 {"ts":"2026-11-10T20:35:18.779Z","book":"hebel","type":"watch","market":"open","headline":"Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning - BBC","notes":[],"sent":[]}
 {"ts":"2026-11-10T21:05:22.966Z","book":"hebel","type":"watch","market":"closed","headline":"Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning - BBC","notes":[],"sent":[]}
+{"ts":"2026-11-11T01:23:40.104Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-11T01:23:40.104Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-11T01:23:40.104Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-11T01:23:40.104Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-11T01:23:40.104Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.52,"cash":290.52}
+{"ts":"2026-11-11T01:23:43.623Z","book":"hebel","type":"equity","equity":290.52,"cash":290.52,"positions":0,"dayChange":0,"totalDD":6.38}
