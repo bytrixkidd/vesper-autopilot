@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-11T18:22:32.795Z",
+  "at": "2026-11-11T18:23:36.436Z",
   "market": "open",
   "headline": "After US market shake-out, signs suggest too soon to say worst is over - Reuters",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
