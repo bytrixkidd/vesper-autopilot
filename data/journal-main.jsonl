@@ -7777,3 +7777,4 @@
 {"ts":"2026-11-10T21:05:22.965Z","book":"main","type":"watch","market":"closed","headline":"Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning - BBC","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-11T01:23:20.612Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.34,"cash":241.51}
 {"ts":"2026-11-11T01:23:20.801Z","book":"main","type":"equity","equity":303.34,"cash":241.51,"positions":1,"dayChange":0,"totalDD":0.65}
+{"ts":"2026-11-11T02:36:25.288Z","book":"main","type":"watch","market":"closed","headline":"Nvidia Stock and AI World Rocked by CEO Jensen Huang’s Affair With Alleged Chinese Spy - Variety","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
