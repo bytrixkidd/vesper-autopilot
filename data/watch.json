@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-11T16:28:19.317Z",
+  "at": "2026-11-11T16:29:23.023Z",
   "market": "open",
   "headline": "Nvidia’s Bull Case Hinges on CEO Huang Surviving China Spy Probe - Bloomberg.com",
   "notes": [
@@ -41,12 +41,12 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "UPRO",
