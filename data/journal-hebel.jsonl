@@ -7978,3 +7978,4 @@
 {"ts":"2026-11-11T01:23:40.104Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.52,"cash":290.52}
 {"ts":"2026-11-11T01:23:43.623Z","book":"hebel","type":"equity","equity":290.52,"cash":290.52,"positions":0,"dayChange":0,"totalDD":6.38}
 {"ts":"2026-11-11T02:36:25.288Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia Stock and AI World Rocked by CEO Jensen Huang’s Affair With Alleged Chinese Spy - Variety","notes":[],"sent":[]}
+{"ts":"2026-11-11T03:06:29.573Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia Stock and AI World Rocked by CEO Jensen Huang’s Affair With Alleged Chinese Spy - Variety","notes":[],"sent":[]}
