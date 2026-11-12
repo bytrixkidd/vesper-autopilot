@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T16:17:50.760Z",
+  "at": "2026-11-12T16:18:57.013Z",
   "market": "open",
   "headline": "S&amp;P 500, Nasdaq fall as Nvidia CEO's exit rattles AI stocks - Reuters",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "UPRO",
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
