@@ -8220,3 +8220,4 @@
 {"ts":"2026-11-12T02:24:02.129Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":290.52,"cash":290.52}
 {"ts":"2026-11-12T02:24:02.860Z","book":"hebel","type":"equity","equity":290.52,"cash":290.52,"positions":0,"dayChange":0,"totalDD":6.38}
 {"ts":"2026-11-12T03:36:45.643Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia shares plunge amid reports board to discuss CEO Huang’s future - Al Jazeera","notes":[],"sent":[]}
+{"ts":"2026-11-12T04:06:50.495Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia shares plunge amid reports board to discuss CEO Huang’s future - Al Jazeera","notes":[],"sent":[]}

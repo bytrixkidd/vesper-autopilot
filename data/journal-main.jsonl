@@ -8016,3 +8016,4 @@
 {"ts":"2026-11-12T02:23:46.418Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.12,"cash":241.51}
 {"ts":"2026-11-12T02:23:46.837Z","book":"main","type":"equity","equity":303.12,"cash":241.51,"positions":1,"dayChange":-0.07,"totalDD":0.72}
 {"ts":"2026-11-12T03:36:45.643Z","book":"main","type":"watch","market":"closed","headline":"Nvidia shares plunge amid reports board to discuss CEO Huang’s future - Al Jazeera","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-12T04:06:50.495Z","book":"main","type":"watch","market":"closed","headline":"Nvidia shares plunge amid reports board to discuss CEO Huang’s future - Al Jazeera","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
