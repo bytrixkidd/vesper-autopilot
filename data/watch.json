@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T17:53:44.470Z",
+  "at": "2026-11-12T17:54:49.208Z",
   "market": "open",
   "headline": "Watch live: Stock market reacts after Nvidia CEO Jensen Huang resigns - NBC News",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
