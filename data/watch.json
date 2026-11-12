@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T20:02:15.295Z",
+  "at": "2026-11-12T20:03:19.870Z",
   "market": "open",
   "headline": "Turns out the AI king wasn’t untouchable - CNN",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
