@@ -8017,3 +8017,4 @@
 {"ts":"2026-11-12T02:23:46.837Z","book":"main","type":"equity","equity":303.12,"cash":241.51,"positions":1,"dayChange":-0.07,"totalDD":0.72}
 {"ts":"2026-11-12T03:36:45.643Z","book":"main","type":"watch","market":"closed","headline":"Nvidia shares plunge amid reports board to discuss CEO Huang’s future - Al Jazeera","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-12T04:06:50.495Z","book":"main","type":"watch","market":"closed","headline":"Nvidia shares plunge amid reports board to discuss CEO Huang’s future - Al Jazeera","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-12T04:36:54.939Z","book":"main","type":"watch","market":"closed","headline":"Asian stocks fragile, Nvidia plummets as board to decide CEO's fate - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
