@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T16:15:38.773Z",
+  "at": "2026-11-12T16:16:45.115Z",
   "market": "open",
   "headline": "S&amp;P 500, Nasdaq fall as Nvidia CEO's exit rattles AI stocks - Reuters",
   "notes": [
@@ -21,7 +21,7 @@
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
     },
     {
       "symbol": "MSFT",
@@ -36,7 +36,7 @@
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "SOXL",
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
