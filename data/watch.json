@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T17:38:24.567Z",
+  "at": "2026-11-12T17:39:30.015Z",
   "market": "open",
   "headline": "Global AI stocks sink as Nvidia CEO's exit deepens sector concerns - Reuters",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
