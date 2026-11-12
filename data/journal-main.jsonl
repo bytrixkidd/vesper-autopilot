@@ -8013,3 +8013,5 @@
 {"ts":"2026-11-11T21:05:42.173Z","book":"main","type":"watch","market":"closed","headline":"After US market shake-out, signs suggest too soon to say worst is over - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-11T21:35:45.551Z","book":"main","type":"watch","market":"closed","headline":"Jensen Huang dreamed up Nvidia at a Denny’s. The spy scandal threatens decades of his life’s work. - CNN","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-11T22:05:49.300Z","book":"main","type":"watch","market":"closed","headline":"Jensen Huang dreamed up Nvidia at a Denny’s. The spy scandal threatens decades of his life’s work. - CNN","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-12T02:23:46.418Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.12,"cash":241.51}
+{"ts":"2026-11-12T02:23:46.837Z","book":"main","type":"equity","equity":303.12,"cash":241.51,"positions":1,"dayChange":-0.07,"totalDD":0.72}
