@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T19:21:58.447Z",
+  "at": "2026-11-12T19:23:03.300Z",
   "market": "open",
   "headline": "Wall St recovers as energy shares climb; Nvidia woes deepen - Reuters",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "UPRO",
