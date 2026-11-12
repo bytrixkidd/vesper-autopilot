@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T15:46:02.024Z",
+  "at": "2026-11-12T15:47:07.851Z",
   "market": "open",
   "headline": "Global AI stocks sink as Nvidia CEO's exit deepens sector selloff - Reuters",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "UPRO",
