@@ -8279,3 +8279,4 @@
 {"ts":"2026-11-12T21:35:45.472Z","book":"main","type":"watch","market":"closed","headline":"Equities little changed, Nvidia drop offsets lift in energy shares - Reuters","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-13T02:02:03.217Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.93,"cash":241.51}
 {"ts":"2026-11-13T02:02:04.027Z","book":"main","type":"equity","equity":303.93,"cash":241.51,"positions":1,"dayChange":0.27,"totalDD":0.46}
+{"ts":"2026-11-13T03:07:15.555Z","book":"main","type":"watch","market":"closed","headline":"Early signs of stock market instability may appear in how traders place orders - Phys.org","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
