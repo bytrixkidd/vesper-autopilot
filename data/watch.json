@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-13T14:55:16.309Z",
+  "at": "2026-11-13T14:56:21.559Z",
   "market": "open",
   "headline": "The AI boom was built around Jensen Huang. Now what? - CNN",
   "notes": [
@@ -50,24 +50,23 @@
     },
     {
       "symbol": "UPRO",
-      "call": "BLEIBEN",
-      "reason": "Kein Kippen. Drin bleiben."
+      "call": "RAUS",
+      "reason": "Unter dem Einstieg. Verlust begrenzen."
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [
     {
-      "symbol": "TSLL",
+      "symbol": "UPRO",
       "side": "sell",
-      "orderId": "55aa66d9-6d9d-462a-8706-155d51ed5033",
-      "status": "pending_new"
+      "status": "Broker hat keine Stücke"
     }
   ],
   "exitAtOpen": [
-    "TSLL"
+    "UPRO"
   ]
 }
