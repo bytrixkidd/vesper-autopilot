@@ -8492,3 +8492,4 @@
 {"ts":"2026-11-13T02:02:21.088Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"1d4502ec-ac11-4efb-9c2d-fea36e9fdcaa","qty":0.210959482,"status":"accepted"}
 {"ts":"2026-11-13T02:02:21.633Z","book":"hebel","type":"equity","equity":290.42,"cash":260.53,"positions":1,"dayChange":-0.03,"totalDD":6.41}
 {"ts":"2026-11-13T03:07:15.556Z","book":"hebel","type":"watch","market":"closed","headline":"Early signs of stock market instability may appear in how traders place orders - Phys.org","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-13T03:37:19.449Z","book":"hebel","type":"watch","market":"closed","headline":"Early signs of stock market instability may appear in how traders place orders - Phys.org","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
