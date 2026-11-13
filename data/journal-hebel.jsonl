@@ -8482,3 +8482,12 @@
 {"ts":"2026-11-12T20:35:35.595Z","book":"hebel","type":"watch","market":"open","headline":"Equities little changed, Nvidia drop offsets lift in energy shares - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-11-12T21:05:40.658Z","book":"hebel","type":"watch","market":"closed","headline":"Equities little changed, Nvidia drop offsets lift in energy shares - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-12T21:35:45.473Z","book":"hebel","type":"watch","market":"closed","headline":"Equities little changed, Nvidia drop offsets lift in energy shares - Reuters","notes":[{"symbol":"UPRO","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-13T02:02:20.163Z","book":"hebel","type":"fill","orderId":"edb36f76-be0f-4038-9d8b-5b8e0675c202","symbol":"UPRO","side":"buy","qty":0.210959482,"price":142.16}
+{"ts":"2026-11-13T02:02:21.067Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":290.42,"cash":260.53}
+{"ts":"2026-11-13T02:02:21.067Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":290.42,"cash":260.53}
+{"ts":"2026-11-13T02:02:21.067Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":290.42,"cash":260.53}
+{"ts":"2026-11-13T02:02:21.067Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":43.56,"reason":"TSLA > SMA50 & SMA200, RSI 55.19 | Gate: 43.56 $","equity":290.42,"cash":260.53}
+{"ts":"2026-11-13T02:02:21.078Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"e74a5c98-0fd3-4e02-9c6e-ee6a405d5557","notional":43.56,"status":"accepted"}
+{"ts":"2026-11-13T02:02:21.078Z","book":"hebel","type":"decision","symbol":"UPRO","action":"SELL","sleeve":"hebel","qty":0.210959482,"reason":"SPY unter SMA50/200","equity":290.42,"cash":260.53}
+{"ts":"2026-11-13T02:02:21.088Z","book":"hebel","type":"order","symbol":"UPRO","side":"SELL","orderId":"1d4502ec-ac11-4efb-9c2d-fea36e9fdcaa","qty":0.210959482,"status":"accepted"}
+{"ts":"2026-11-13T02:02:21.633Z","book":"hebel","type":"equity","equity":290.42,"cash":260.53,"positions":1,"dayChange":-0.03,"totalDD":6.41}
