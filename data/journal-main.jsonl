@@ -8581,3 +8581,4 @@
 {"ts":"2026-11-13T20:35:50.473Z","book":"main","type":"watch","market":"open","headline":"symbol__ Stock Quote Price and Forecast - CNN","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Kein Kippen. Drin bleiben."}],"sent":[]}
 {"ts":"2026-11-14T01:36:59.897Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":303.48,"cash":241.51}
 {"ts":"2026-11-14T01:37:00.023Z","book":"main","type":"equity","equity":303.48,"cash":241.51,"positions":1,"dayChange":-0.15,"totalDD":0.6}
+{"ts":"2026-11-14T07:37:40.780Z","book":"main","type":"watch","market":"closed","headline":"'Nothing has changed': Why some Nvidia stock bulls aren't wavering after Jensen Huang ouster - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}

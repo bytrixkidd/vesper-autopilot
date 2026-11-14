@@ -8802,3 +8802,4 @@
 {"ts":"2026-11-14T01:37:19.487Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"ac109907-87ac-44a9-8b1c-750e64a84940","notional":43.39,"status":"accepted"}
 {"ts":"2026-11-14T01:37:19.487Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":289.26,"cash":289.26}
 {"ts":"2026-11-14T01:37:20.035Z","book":"hebel","type":"equity","equity":289.26,"cash":289.26,"positions":0,"dayChange":-0.4,"totalDD":6.79}
+{"ts":"2026-11-14T07:37:40.780Z","book":"hebel","type":"watch","market":"closed","headline":"'Nothing has changed': Why some Nvidia stock bulls aren't wavering after Jensen Huang ouster - Yahoo Finance","notes":[],"sent":[]}
