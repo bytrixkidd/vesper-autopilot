@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-16T18:36:10.045Z",
+  "at": "2026-11-16T18:37:13.762Z",
   "market": "open",
   "headline": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang - Yahoo Finance",
   "notes": [
@@ -55,19 +55,10 @@
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TSLL",
-      "side": "sell",
-      "orderId": "c5351490-2261-4283-948d-2d9c0c6e46e2",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TSLL"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
