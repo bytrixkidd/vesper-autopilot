@@ -8957,3 +8957,11 @@
 {"ts":"2026-11-16T23:06:18.892Z","book":"hebel","type":"watch","market":"closed","headline":"Stock market drops amid continued Nvidia fallout - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-11-16T23:36:23.046Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
 {"ts":"2026-11-17T00:06:27.365Z","book":"hebel","type":"watch","market":"closed","headline":"Stock market drops amid continued Nvidia fallout - The Washington Post","notes":[],"sent":[]}
+{"ts":"2026-11-17T04:06:04.156Z","book":"hebel","type":"fill","orderId":"ac109907-87ac-44a9-8b1c-750e64a84940","symbol":"TSLL","side":"buy","qty":4.269685039,"price":10.16}
+{"ts":"2026-11-17T04:06:04.221Z","book":"hebel","type":"fill","orderId":"c5351490-2261-4283-948d-2d9c0c6e46e2","symbol":"TSLL","side":"sell","qty":4.269685039,"price":9.65}
+{"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-17T04:06:09.443Z","book":"hebel","type":"equity","equity":287.08,"cash":287.08,"positions":0,"dayChange":-0.75,"totalDD":7.49}
