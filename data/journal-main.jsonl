@@ -8739,3 +8739,4 @@
 {"ts":"2026-11-17T04:05:45.487Z","book":"main","type":"equity","equity":302.3,"cash":241.51,"positions":1,"dayChange":-0.39,"totalDD":0.99}
 {"ts":"2026-11-17T05:37:20.135Z","book":"main","type":"watch","market":"closed","headline":"Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-17T06:07:24.252Z","book":"main","type":"watch","market":"closed","headline":"This Is a Huge Week for the Stock Market: Nvidia Earnings, Fed Minutes, and Anthropic’s IPO - Yahoo Finance","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-17T06:37:28.394Z","book":"main","type":"watch","market":"closed","headline":null,"notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
