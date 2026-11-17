@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-17T17:19:34.053Z",
+  "at": "2026-11-17T17:20:37.861Z",
   "market": "open",
   "headline": "Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight - Yahoo Finance",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
