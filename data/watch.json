@@ -1,12 +1,12 @@
 {
-  "at": "2026-11-17T17:04:40.125Z",
+  "at": "2026-11-17T17:05:43.892Z",
   "market": "open",
   "headline": "Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
       "call": "RAUS",
-      "reason": "Stop ist erreicht."
+      "reason": "Unter SMA200."
     },
     {
       "symbol": "QQQ",
