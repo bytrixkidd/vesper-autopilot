@@ -1,12 +1,12 @@
 {
-  "at": "2026-11-17T17:15:17.939Z",
+  "at": "2026-11-17T17:16:21.858Z",
   "market": "open",
   "headline": "Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Unter SMA200."
+      "call": "BLEIBEN",
+      "reason": "Kein Kippen. Drin bleiben."
     },
     {
       "symbol": "QQQ",
@@ -56,17 +56,9 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
-  "sent": [
-    {
-      "symbol": "SPY",
-      "side": "sell",
-      "status": "Broker hat keine Stücke"
-    }
-  ],
-  "exitAtOpen": [
-    "SPY"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
