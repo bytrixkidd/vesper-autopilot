@@ -8965,3 +8965,4 @@
 {"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":287.08,"cash":287.08}
 {"ts":"2026-11-17T04:06:05.508Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":287.08,"cash":287.08}
 {"ts":"2026-11-17T04:06:09.443Z","book":"hebel","type":"equity","equity":287.08,"cash":287.08,"positions":0,"dayChange":-0.75,"totalDD":7.49}
+{"ts":"2026-11-17T05:37:20.136Z","book":"hebel","type":"watch","market":"closed","headline":"Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq - Yahoo Finance","notes":[],"sent":[]}
