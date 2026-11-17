@@ -8735,3 +8735,5 @@
 {"ts":"2026-11-16T23:06:18.892Z","book":"main","type":"watch","market":"closed","headline":"Stock market drops amid continued Nvidia fallout - The Washington Post","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-16T23:36:23.046Z","book":"main","type":"watch","market":"closed","headline":null,"notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
 {"ts":"2026-11-17T00:06:27.365Z","book":"main","type":"watch","market":"closed","headline":"Stock market drops amid continued Nvidia fallout - The Washington Post","notes":[{"symbol":"SPY","call":"BLEIBEN","reason":"Markt zu. Keine Order."}],"sent":[]}
+{"ts":"2026-11-17T04:05:44.634Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"im Trend, halten","equity":302.3,"cash":241.51}
+{"ts":"2026-11-17T04:05:45.487Z","book":"main","type":"equity","equity":302.3,"cash":241.51,"positions":1,"dayChange":-0.39,"totalDD":0.99}
