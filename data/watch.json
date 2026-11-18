@@ -1,64 +1,73 @@
 {
-  "at": "2026-11-18T13:07:39.265Z",
-  "market": "closed",
-  "headline": "3 numbers explains why Nvidia stock is rising despite no Jensen Huang on the earnings call - Yahoo Finance",
+  "at": "2026-11-18T15:58:36.794Z",
+  "market": "open",
+  "headline": "Nvidia delivered a monster quarter, then its new leaders stumbled on the earnings call - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "call": "RAUS",
+      "reason": "Unter SMA200."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Markt zu. Keine Order."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [],
-  "exitAtOpen": []
+  "sent": [
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "orderId": "9d6768e5-714d-4d75-82bc-ddbb1602aea2",
+      "status": "pending_new"
+    }
+  ],
+  "exitAtOpen": [
+    "SPY"
+  ]
 }
