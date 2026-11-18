@@ -9185,3 +9185,9 @@
 {"ts":"2026-11-17T21:05:22.369Z","book":"hebel","type":"watch","market":"closed","headline":"Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-17T21:35:26.114Z","book":"hebel","type":"watch","market":"closed","headline":"Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-17T22:05:30.026Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia’s First Report Without Jensen Huang: $115.8 Billion in Revenue, a $130 Billion Forecast, and the Stock Is Up 2.3% After Hours - Yahoo Finance","notes":[],"sent":[]}
+{"ts":"2026-11-18T03:03:53.199Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-18T03:03:53.199Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-18T03:03:53.199Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-18T03:03:53.199Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-18T03:03:53.199Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-18T03:03:53.755Z","book":"hebel","type":"equity","equity":287.08,"cash":287.08,"positions":0,"dayChange":0,"totalDD":7.49}
