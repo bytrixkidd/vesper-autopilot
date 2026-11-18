@@ -1,12 +1,12 @@
 {
-  "at": "2026-11-18T15:58:36.794Z",
+  "at": "2026-11-18T15:59:41.467Z",
   "market": "open",
   "headline": "Nvidia delivered a monster quarter, then its new leaders stumbled on the earnings call - Yahoo Finance",
   "notes": [
     {
       "symbol": "SPY",
-      "call": "RAUS",
-      "reason": "Unter SMA200."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "QQQ",
@@ -59,15 +59,6 @@
       "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "SPY",
-      "side": "sell",
-      "orderId": "9d6768e5-714d-4d75-82bc-ddbb1602aea2",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "SPY"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
