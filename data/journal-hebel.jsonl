@@ -9442,3 +9442,4 @@
 {"ts":"2026-11-19T02:43:52.889Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"dce00800-ffe3-4f88-a419-f32be555bc63","notional":43.06,"status":"accepted"}
 {"ts":"2026-11-19T02:43:52.889Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":287.08,"cash":287.08}
 {"ts":"2026-11-19T02:43:56.801Z","book":"hebel","type":"equity","equity":287.08,"cash":287.08,"positions":0,"dayChange":0,"totalDD":7.49}
+{"ts":"2026-11-19T08:37:43.032Z","book":"hebel","type":"watch","market":"closed","headline":"AI giant Anthropic valued at up to $1.5tn ahead of stock market debut - BBC","notes":[],"sent":[]}

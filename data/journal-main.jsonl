@@ -9211,3 +9211,4 @@
 {"ts":"2026-11-19T02:43:29.019Z","book":"main","type":"fill","orderId":"9d6768e5-714d-4d75-82bc-ddbb1602aea2","symbol":"SPY","side":"sell","qty":0.082252676,"price":730.434}
 {"ts":"2026-11-19T02:43:31.618Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"unter SMA200, Cash","equity":301.39,"cash":301.39}
 {"ts":"2026-11-19T02:43:32.416Z","book":"main","type":"equity","equity":301.39,"cash":301.39,"positions":0,"dayChange":-0.08,"totalDD":1.29}
+{"ts":"2026-11-19T08:37:43.032Z","book":"main","type":"watch","market":"closed","headline":"AI giant Anthropic valued at up to $1.5tn ahead of stock market debut - BBC","notes":[],"sent":[]}
