@@ -1,7 +1,7 @@
 {
   "book": "main",
   "startCapital": 300,
-  "cash": 301.62696063936994,
+  "cash": 301.38711183615396,
   "positions": [],
   "equityHistory": [
     {
@@ -143,10 +143,14 @@
     {
       "date": "2026-11-18",
       "equity": 301.63
+    },
+    {
+      "date": "2026-11-19",
+      "equity": 301.39
     }
   ],
   "peakEquity": 305.31863720002667,
   "haltedUntil": null,
   "lastRebalanceMonth": "2026-09",
-  "lastRun": "2026-11-18T03:03:38.093Z"
+  "lastRun": "2026-11-19T02:43:32.416Z"
 }
