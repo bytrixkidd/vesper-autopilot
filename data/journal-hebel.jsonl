@@ -9435,3 +9435,10 @@
 {"ts":"2026-11-18T20:36:06.102Z","book":"hebel","type":"watch","market":"open","headline":"Nvidia stock erases earnings pop as investors face life after Jensen Huang - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-18T21:06:10.867Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia stock erases earnings pop as investors face life after Jensen Huang - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-18T21:36:15.056Z","book":"hebel","type":"watch","market":"closed","headline":"Nvidia stock erases earnings pop as investors face life after Jensen Huang - Yahoo Finance","notes":[],"sent":[]}
+{"ts":"2026-11-19T02:43:52.829Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-19T02:43:52.829Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-19T02:43:52.829Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-19T02:43:52.829Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":43.06,"reason":"TSLA > SMA50 & SMA200, RSI 43.16 | Gate: 43.06 $","equity":287.08,"cash":287.08}
+{"ts":"2026-11-19T02:43:52.889Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"dce00800-ffe3-4f88-a419-f32be555bc63","notional":43.06,"status":"accepted"}
+{"ts":"2026-11-19T02:43:52.889Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":287.08,"cash":287.08}
+{"ts":"2026-11-19T02:43:56.801Z","book":"hebel","type":"equity","equity":287.08,"cash":287.08,"positions":0,"dayChange":0,"totalDD":7.49}
