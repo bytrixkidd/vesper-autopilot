@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-19T16:04:28.415Z",
+  "at": "2026-11-19T16:05:32.817Z",
   "market": "open",
   "headline": "Anthropic Stock Market Debut Will Change the AI Trade Forever - Barron's",
   "notes": [
@@ -55,19 +55,10 @@
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter dem Einstieg. Verlust begrenzen."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TSLL",
-      "side": "sell",
-      "orderId": "d0d20866-9e06-41f1-a11f-c81c6e8c3ffd",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TSLL"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
