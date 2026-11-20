@@ -1,62 +1,62 @@
 {
-  "at": "2026-11-20T20:35:35.778Z",
-  "market": "open",
-  "headline": "6 reasons stocks are falling, and what you should do about it - CBS News",
+  "at": "2026-11-20T21:05:39.851Z",
+  "market": "closed",
+  "headline": "Markets plunge: Nasdaq erases 2026 gains, S&amp;P and Dow enter corrections - NBC News",
   "notes": [
     {
       "symbol": "SPY",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     }
   ],
   "sent": [],
