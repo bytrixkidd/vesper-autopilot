@@ -9451,3 +9451,4 @@
 {"ts":"2026-11-19T21:35:15.930Z","book":"main","type":"watch","market":"closed","headline":"Why Is the Stock Market Down After Anthropic’s Successful IPO? - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-20T02:29:59.565Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"unter SMA200, Cash","equity":301.39,"cash":301.39}
 {"ts":"2026-11-20T02:29:59.723Z","book":"main","type":"equity","equity":301.39,"cash":301.39,"positions":0,"dayChange":0,"totalDD":1.29}
+{"ts":"2026-11-20T08:37:09.626Z","book":"main","type":"watch","market":"closed","headline":"Anthropic shares soar in stock market debut - The Washington Post","notes":[],"sent":[]}

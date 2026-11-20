@@ -9689,3 +9689,4 @@
 {"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":285.1,"cash":285.1}
 {"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.1,"cash":285.1}
 {"ts":"2026-11-20T02:30:17.346Z","book":"hebel","type":"equity","equity":285.1,"cash":285.1,"positions":0,"dayChange":-0.69,"totalDD":8.13}
+{"ts":"2026-11-20T08:37:09.626Z","book":"hebel","type":"watch","market":"closed","headline":"Anthropic shares soar in stock market debut - The Washington Post","notes":[],"sent":[]}
