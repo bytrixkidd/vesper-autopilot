@@ -9681,3 +9681,11 @@
 {"ts":"2026-11-19T20:35:07.216Z","book":"hebel","type":"watch","market":"open","headline":"3 Celebrities Stand to Gain From Anthropic's Stock-Market Debut. 1 Invested After an NBA Dinner - Inc.com","notes":[],"sent":[]}
 {"ts":"2026-11-19T21:05:11.936Z","book":"hebel","type":"watch","market":"closed","headline":"Why Is the Stock Market Down After Anthropic’s Successful IPO? - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-19T21:35:15.931Z","book":"hebel","type":"watch","market":"closed","headline":"Why Is the Stock Market Down After Anthropic’s Successful IPO? - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-20T02:30:14.711Z","book":"hebel","type":"fill","orderId":"dce00800-ffe3-4f88-a419-f32be555bc63","symbol":"TSLL","side":"buy","qty":4.139423076,"price":10.4}
+{"ts":"2026-11-20T02:30:14.738Z","book":"hebel","type":"fill","orderId":"d0d20866-9e06-41f1-a11f-c81c6e8c3ffd","symbol":"TSLL","side":"sell","qty":4.139423076,"price":9.92}
+{"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-20T02:30:15.579Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-20T02:30:17.346Z","book":"hebel","type":"equity","equity":285.1,"cash":285.1,"positions":0,"dayChange":-0.69,"totalDD":8.13}
