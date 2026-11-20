@@ -9449,3 +9449,5 @@
 {"ts":"2026-11-19T20:35:07.216Z","book":"main","type":"watch","market":"open","headline":"3 Celebrities Stand to Gain From Anthropic's Stock-Market Debut. 1 Invested After an NBA Dinner - Inc.com","notes":[],"sent":[]}
 {"ts":"2026-11-19T21:05:11.936Z","book":"main","type":"watch","market":"closed","headline":"Why Is the Stock Market Down After Anthropic’s Successful IPO? - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-19T21:35:15.930Z","book":"main","type":"watch","market":"closed","headline":"Why Is the Stock Market Down After Anthropic’s Successful IPO? - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-20T02:29:59.565Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"unter SMA200, Cash","equity":301.39,"cash":301.39}
+{"ts":"2026-11-20T02:29:59.723Z","book":"main","type":"equity","equity":301.39,"cash":301.39,"positions":0,"dayChange":0,"totalDD":1.29}
