@@ -9945,3 +9945,9 @@
 {"ts":"2026-11-20T20:35:35.778Z","book":"hebel","type":"watch","market":"open","headline":"6 reasons stocks are falling, and what you should do about it - CBS News","notes":[],"sent":[]}
 {"ts":"2026-11-20T21:05:39.851Z","book":"hebel","type":"watch","market":"closed","headline":"Markets plunge: Nasdaq erases 2026 gains, S&amp;P and Dow enter corrections - NBC News","notes":[],"sent":[]}
 {"ts":"2026-11-20T21:35:43.769Z","book":"hebel","type":"watch","market":"closed","headline":"Why stock market is tanking despite massive Anthropic IPO - The Hill","notes":[],"sent":[]}
+{"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-21T02:41:41.522Z","book":"hebel","type":"equity","equity":285.1,"cash":285.1,"positions":0,"dayChange":0,"totalDD":8.13}
