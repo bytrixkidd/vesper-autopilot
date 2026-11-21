@@ -9951,3 +9951,4 @@
 {"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":285.1,"cash":285.1}
 {"ts":"2026-11-21T02:41:38.581Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.1,"cash":285.1}
 {"ts":"2026-11-21T02:41:41.522Z","book":"hebel","type":"equity","equity":285.1,"cash":285.1,"positions":0,"dayChange":0,"totalDD":8.13}
+{"ts":"2026-11-21T08:37:20.938Z","book":"hebel","type":"watch","market":"closed","headline":"U.S. stocks slump into correction territory amid tech and AI worries - The Washington Post","notes":[],"sent":[]}
