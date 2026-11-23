@@ -1,62 +1,62 @@
 {
-  "at": "2026-11-23T20:35:36.699Z",
-  "market": "open",
-  "headline": "Stock market jumps after reinstatement of Jensen Huang as Nvidia CEO - CBS News",
+  "at": "2026-11-23T21:05:40.063Z",
+  "market": "closed",
+  "headline": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO - The New York Times",
   "notes": [
     {
       "symbol": "SPY",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "QQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "MSFT",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "AAPL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TQQQ",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Markt zu. Keine Order."
     }
   ],
   "sent": [],
