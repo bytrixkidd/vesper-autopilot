@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-23T19:15:40.887Z",
+  "at": "2026-11-23T19:16:44.504Z",
   "market": "open",
   "headline": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO - The New York Times",
   "notes": [
@@ -51,7 +51,7 @@
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "TSLL",
