@@ -10096,3 +10096,10 @@
 {"ts":"2026-11-23T23:35:57.342Z","book":"hebel","type":"watch","market":"closed","headline":"Stock market rebounds sharply after sell-off, Nvidia closes up more than 31% - ABC News - Breaking News, Latest News and Videos","notes":[],"sent":[]}
 {"ts":"2026-11-24T00:06:00.945Z","book":"hebel","type":"watch","market":"closed","headline":"Stock market recovers following reinstatement of Jensen Huang as Nvidia CEO - CBS News","notes":[],"sent":[]}
 {"ts":"2026-11-24T00:36:07.649Z","book":"hebel","type":"watch","market":"closed","headline":"Stock market recovers following reinstatement of Jensen Huang as Nvidia CEO - CBS News","notes":[],"sent":[]}
+{"ts":"2026-11-24T05:26:57.594Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-24T05:26:57.594Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-24T05:26:57.594Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-24T05:26:57.594Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":42.76,"reason":"TSLA > SMA50 & SMA200, RSI 46.86 | Gate: 42.76 $","equity":285.1,"cash":285.1}
+{"ts":"2026-11-24T05:26:57.633Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"954867ed-9a70-4eda-82b7-c3a55dc862b4","notional":42.76,"status":"accepted"}
+{"ts":"2026-11-24T05:26:57.633Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.1,"cash":285.1}
+{"ts":"2026-11-24T05:26:59.939Z","book":"hebel","type":"equity","equity":285.1,"cash":285.1,"positions":0,"dayChange":0,"totalDD":8.13}
