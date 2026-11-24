@@ -10111,3 +10111,4 @@
 {"ts":"2026-11-24T18:20:18.261Z","book":"hebel","type":"watch","market":"open","headline":"It's still Trump's stock market - Axios","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"83afbfcd-7ab0-4dfa-a45d-2768174819cb","status":"pending_new"}]}
 {"ts":"2026-11-24T18:21:21.838Z","book":"hebel","type":"watch","market":"open","headline":"It's still Trump's stock market - Axios","notes":[],"sent":[]}
 {"ts":"2026-11-24T18:22:25.459Z","book":"hebel","type":"watch","market":"open","headline":"Nvidia stock falls after epic rally on Jensen Huang's return as CEO - Yahoo Finance","notes":[],"sent":[]}
+{"ts":"2026-11-24T18:23:28.861Z","book":"hebel","type":"watch","market":"open","headline":"Nvidia stock falls after epic rally on Jensen Huang's return as CEO - Yahoo Finance","notes":[],"sent":[]}
