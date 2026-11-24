@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-24T19:16:35.015Z",
+  "at": "2026-11-24T19:17:39.094Z",
   "market": "open",
   "headline": "Opinion | Nvidia proves nobody knows anything about the stock market - The Washington Post",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
   "sent": [],
