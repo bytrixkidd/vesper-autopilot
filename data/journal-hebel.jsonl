@@ -10103,3 +10103,4 @@
 {"ts":"2026-11-24T05:26:57.633Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"954867ed-9a70-4eda-82b7-c3a55dc862b4","notional":42.76,"status":"accepted"}
 {"ts":"2026-11-24T05:26:57.633Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.1,"cash":285.1}
 {"ts":"2026-11-24T05:26:59.939Z","book":"hebel","type":"equity","equity":285.1,"cash":285.1,"positions":0,"dayChange":0,"totalDD":8.13}
+{"ts":"2026-11-24T11:37:53.424Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
