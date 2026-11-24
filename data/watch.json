@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-24T18:20:18.261Z",
+  "at": "2026-11-24T18:21:21.838Z",
   "market": "open",
   "headline": "It's still Trump's stock market - Axios",
   "notes": [
@@ -55,19 +55,10 @@
     },
     {
       "symbol": "TSLL",
-      "call": "RAUS",
-      "reason": "Unter SMA200."
+      "call": "DRAUSSEN",
+      "reason": "Steigt nicht klar. Draußen bleiben."
     }
   ],
-  "sent": [
-    {
-      "symbol": "TSLL",
-      "side": "sell",
-      "orderId": "83afbfcd-7ab0-4dfa-a45d-2768174819cb",
-      "status": "pending_new"
-    }
-  ],
-  "exitAtOpen": [
-    "TSLL"
-  ]
+  "sent": [],
+  "exitAtOpen": []
 }
