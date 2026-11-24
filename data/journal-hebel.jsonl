@@ -10107,3 +10107,5 @@
 {"ts":"2026-11-24T12:08:05.025Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
 {"ts":"2026-11-24T12:38:17.593Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
 {"ts":"2026-11-24T13:08:30.115Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
+{"ts":"2026-11-24T18:20:18.260Z","book":"hebel","type":"order","symbol":"TSLL","side":"SELL","orderId":"83afbfcd-7ab0-4dfa-a45d-2768174819cb","qty":4.411764705,"status":"pending_new","reason":"Unter SMA200."}
+{"ts":"2026-11-24T18:20:18.261Z","book":"hebel","type":"watch","market":"open","headline":"It's still Trump's stock market - Axios","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"83afbfcd-7ab0-4dfa-a45d-2768174819cb","status":"pending_new"}]}
