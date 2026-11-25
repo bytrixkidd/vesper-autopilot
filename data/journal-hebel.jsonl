@@ -10226,3 +10226,4 @@
 {"ts":"2026-11-25T04:29:32.350Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.67,"cash":285.67}
 {"ts":"2026-11-25T04:29:37.633Z","book":"hebel","type":"equity","equity":285.67,"cash":285.67,"positions":0,"dayChange":0.2,"totalDD":7.94}
 {"ts":"2026-11-25T05:36:56.330Z","book":"hebel","type":"watch","market":"closed","headline":"National Security vs. the Stock Market - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-25T06:07:01.241Z","book":"hebel","type":"watch","market":"closed","headline":"National Security vs. the Stock Market - The New York Times","notes":[],"sent":[]}
