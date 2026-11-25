@@ -10216,3 +10216,12 @@
 {"ts":"2026-11-24T23:05:55.691Z","book":"hebel","type":"watch","market":"closed","headline":"Opinion | Nvidia proves nobody knows anything about the stock market - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-11-24T23:35:59.517Z","book":"hebel","type":"watch","market":"closed","headline":"Opinion | Nvidia proves nobody knows anything about the stock market - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-11-25T00:06:03.302Z","book":"hebel","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
+{"ts":"2026-11-25T04:29:31.601Z","book":"hebel","type":"fill","orderId":"954867ed-9a70-4eda-82b7-c3a55dc862b4","symbol":"TSLL","side":"buy","qty":4.411764705,"price":9.69}
+{"ts":"2026-11-25T04:29:31.676Z","book":"hebel","type":"fill","orderId":"83afbfcd-7ab0-4dfa-a45d-2768174819cb","symbol":"TSLL","side":"sell","qty":4.411764705,"price":9.82}
+{"ts":"2026-11-25T04:29:32.275Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":285.67,"cash":285.67}
+{"ts":"2026-11-25T04:29:32.275Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":285.67,"cash":285.67}
+{"ts":"2026-11-25T04:29:32.275Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":285.67,"cash":285.67}
+{"ts":"2026-11-25T04:29:32.275Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":42.85,"reason":"TSLA > SMA50 & SMA200, RSI 49.87 | Gate: 42.85 $","equity":285.67,"cash":285.67}
+{"ts":"2026-11-25T04:29:32.350Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"f930aa66-d589-4700-935d-f4c8da422399","notional":42.85,"status":"accepted"}
+{"ts":"2026-11-25T04:29:32.350Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":285.67,"cash":285.67}
+{"ts":"2026-11-25T04:29:37.633Z","book":"hebel","type":"equity","equity":285.67,"cash":285.67,"positions":0,"dayChange":0.2,"totalDD":7.94}
