@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-25T17:46:16.957Z",
+  "at": "2026-11-25T17:47:22.451Z",
   "market": "open",
   "headline": "2027 economic and market outlook - Fidelity Investments",
   "notes": [
@@ -21,7 +21,7 @@
     {
       "symbol": "AMD",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
     },
     {
       "symbol": "MSFT",
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "UPRO",
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
