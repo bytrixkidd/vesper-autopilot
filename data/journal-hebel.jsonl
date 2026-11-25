@@ -10241,3 +10241,4 @@
 {"ts":"2026-11-25T17:38:42.061Z","book":"hebel","type":"watch","market":"open","headline":"2027 economic and market outlook - Fidelity Investments","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"24bdec3c-9f6b-4bb7-9909-5b4bca7f9b42","status":"pending_new"}]}
 {"ts":"2026-11-25T17:39:47.546Z","book":"hebel","type":"watch","market":"open","headline":"2027 economic and market outlook - Fidelity Investments","notes":[],"sent":[]}
 {"ts":"2026-11-25T17:40:52.362Z","book":"hebel","type":"watch","market":"open","headline":"2027 economic and market outlook - Fidelity Investments","notes":[],"sent":[]}
+{"ts":"2026-11-25T17:41:56.727Z","book":"hebel","type":"watch","market":"open","headline":"2027 economic and market outlook - Fidelity Investments","notes":[],"sent":[]}
