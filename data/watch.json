@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-25T18:07:57.967Z",
+  "at": "2026-11-25T18:09:02.663Z",
   "market": "open",
   "headline": "2027 economic and market outlook - Fidelity Investments",
   "notes": [
@@ -46,7 +46,7 @@
     {
       "symbol": "NVDL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "UPRO",
