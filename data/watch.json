@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-25T18:05:48.569Z",
+  "at": "2026-11-25T18:06:53.600Z",
   "market": "open",
   "headline": "2027 economic and market outlook - Fidelity Investments",
   "notes": [
@@ -16,7 +16,7 @@
     {
       "symbol": "NVDA",
       "call": "DRAUSSEN",
-      "reason": "Lehre: Einzelwerte seit 2022 −12,4 %, Profitfaktor 0,01. Kein neuer Kauf."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "AMD",
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
+      "reason": "Steigt nicht klar. Draußen bleiben."
     },
     {
       "symbol": "NVDL",
