@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-25T19:07:23.467Z",
+  "at": "2026-11-25T19:08:28.610Z",
   "market": "open",
   "headline": "2027 economic and market outlook - Fidelity Investments",
   "notes": [
@@ -56,7 +56,7 @@
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
