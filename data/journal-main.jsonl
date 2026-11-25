@@ -9968,3 +9968,5 @@
 {"ts":"2026-11-24T23:05:55.691Z","book":"main","type":"watch","market":"closed","headline":"Opinion | Nvidia proves nobody knows anything about the stock market - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-11-24T23:35:59.517Z","book":"main","type":"watch","market":"closed","headline":"Opinion | Nvidia proves nobody knows anything about the stock market - The Washington Post","notes":[],"sent":[]}
 {"ts":"2026-11-25T00:06:03.302Z","book":"main","type":"watch","market":"closed","headline":null,"notes":[],"sent":[]}
+{"ts":"2026-11-25T04:29:10.208Z","book":"main","type":"decision","symbol":"SPY","action":"HOLD","sleeve":"core","reason":"unter SMA200, Cash","equity":301.39,"cash":301.39}
+{"ts":"2026-11-25T04:29:11.076Z","book":"main","type":"equity","equity":301.39,"cash":301.39,"positions":0,"dayChange":0,"totalDD":1.29}
