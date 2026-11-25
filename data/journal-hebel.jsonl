@@ -10239,3 +10239,4 @@
 {"ts":"2026-11-25T11:07:47.782Z","book":"hebel","type":"watch","market":"closed","headline":"National Security vs. the Stock Market - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-25T17:38:42.060Z","book":"hebel","type":"order","symbol":"TSLL","side":"SELL","orderId":"24bdec3c-9f6b-4bb7-9909-5b4bca7f9b42","qty":4.868181818,"status":"pending_new","reason":"Unter SMA200."}
 {"ts":"2026-11-25T17:38:42.061Z","book":"hebel","type":"watch","market":"open","headline":"2027 economic and market outlook - Fidelity Investments","notes":[{"symbol":"TSLL","call":"RAUS","reason":"Unter SMA200."}],"sent":[{"symbol":"TSLL","side":"sell","orderId":"24bdec3c-9f6b-4bb7-9909-5b4bca7f9b42","status":"pending_new"}]}
+{"ts":"2026-11-25T17:39:47.546Z","book":"hebel","type":"watch","market":"open","headline":"2027 economic and market outlook - Fidelity Investments","notes":[],"sent":[]}
