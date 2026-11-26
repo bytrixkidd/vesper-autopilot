@@ -10382,3 +10382,11 @@
 {"ts":"2026-11-25T22:35:57.090Z","book":"hebel","type":"watch","market":"closed","headline":"Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-25T23:06:01.463Z","book":"hebel","type":"watch","market":"closed","headline":"Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-25T23:36:06.815Z","book":"hebel","type":"watch","market":"closed","headline":"Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-26T03:42:21.199Z","book":"hebel","type":"fill","orderId":"f930aa66-d589-4700-935d-f4c8da422399","symbol":"TSLL","side":"buy","qty":4.868181818,"price":8.8}
+{"ts":"2026-11-26T03:42:21.210Z","book":"hebel","type":"fill","orderId":"24bdec3c-9f6b-4bb7-9909-5b4bca7f9b42","symbol":"TSLL","side":"sell","qty":4.868181818,"price":8.95}
+{"ts":"2026-11-26T03:42:22.029Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-26T03:42:22.029Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-26T03:42:22.029Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-26T03:42:22.029Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-26T03:42:22.029Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-26T03:42:22.947Z","book":"hebel","type":"equity","equity":286.4,"cash":286.4,"positions":0,"dayChange":0.26,"totalDD":7.71}
