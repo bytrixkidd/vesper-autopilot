@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-27T18:37:02.276Z",
+  "at": "2026-11-27T18:38:07.936Z",
   "market": "open",
   "headline": "Is the Stock Market Open Today? Here Are the Trading Hours for Black Friday. - Barron's",
   "notes": [
@@ -51,7 +51,7 @@
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "TSLL",
