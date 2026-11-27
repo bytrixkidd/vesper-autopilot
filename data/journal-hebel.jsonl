@@ -10562,3 +10562,9 @@
 {"ts":"2026-11-26T22:05:43.899Z","book":"hebel","type":"watch","market":"closed","headline":"Yahoo Finance - Stock Market Live, Quotes, Business &amp; Finance News - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-26T22:35:47.506Z","book":"hebel","type":"watch","market":"closed","headline":"Yahoo Finance - Stock Market Live, Quotes, Business &amp; Finance News - Yahoo Finance","notes":[],"sent":[]}
 {"ts":"2026-11-26T23:05:51.652Z","book":"hebel","type":"watch","market":"closed","headline":"Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy - Yahoo Finance","notes":[],"sent":[]}
+{"ts":"2026-11-27T03:43:40.628Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-27T03:43:40.628Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-27T03:43:40.628Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-27T03:43:40.628Z","book":"hebel","type":"decision","symbol":"TSLL","action":"HOLD","sleeve":"hebel","reason":"TSLA kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-27T03:43:40.628Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-27T03:43:41.284Z","book":"hebel","type":"equity","equity":286.4,"cash":286.4,"positions":0,"dayChange":0,"totalDD":7.71}
