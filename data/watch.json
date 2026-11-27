@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-27T18:00:01.603Z",
+  "at": "2026-11-27T18:01:07.188Z",
   "market": "open",
   "headline": "Wall St Week Ahead Sliding stock market confronts jobs data, rate view as next tests - Reuters",
   "notes": [
@@ -51,12 +51,12 @@
     {
       "symbol": "UPRO",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "TSLL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     }
   ],
   "sent": [],
