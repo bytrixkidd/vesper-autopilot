@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-27T17:19:09.808Z",
+  "at": "2026-11-27T17:20:14.588Z",
   "market": "open",
   "headline": "Wall St Week Ahead Sliding stock market confronts jobs data, rate view as next tests - Reuters",
   "notes": [
@@ -41,7 +41,7 @@
     {
       "symbol": "SOXL",
       "call": "DRAUSSEN",
-      "reason": "Steigt nicht klar. Draußen bleiben."
+      "reason": "Jahr oder SMA200 nicht intakt. Nicht rein."
     },
     {
       "symbol": "NVDL",
