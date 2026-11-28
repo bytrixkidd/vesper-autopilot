@@ -10757,3 +10757,10 @@
 {"ts":"2026-11-27T21:35:39.662Z","book":"hebel","type":"watch","market":"closed","headline":"How to Live Calmly, Despite Stock Market Whiplash - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-27T22:05:44.206Z","book":"hebel","type":"watch","market":"closed","headline":"How to Live Calmly, Despite Stock Market Whiplash - The New York Times","notes":[],"sent":[]}
 {"ts":"2026-11-27T22:35:48.490Z","book":"hebel","type":"watch","market":"closed","headline":"How to Live Calmly, Despite Stock Market Whiplash - The New York Times","notes":[],"sent":[]}
+{"ts":"2026-11-28T03:27:01.650Z","book":"hebel","type":"decision","symbol":"TQQQ","action":"HOLD","sleeve":"hebel","reason":"QQQ kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-28T03:27:01.650Z","book":"hebel","type":"decision","symbol":"SOXL","action":"HOLD","sleeve":"hebel","reason":"SOXX kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-28T03:27:01.650Z","book":"hebel","type":"decision","symbol":"NVDL","action":"HOLD","sleeve":"hebel","reason":"NVDA kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-28T03:27:01.650Z","book":"hebel","type":"decision","symbol":"TSLL","action":"BUY","sleeve":"hebel","notional":42.96,"reason":"TSLA > SMA50 & SMA200, RSI 62.77 | Gate: 42.96 $","equity":286.4,"cash":286.4}
+{"ts":"2026-11-28T03:27:01.698Z","book":"hebel","type":"order","symbol":"TSLL","side":"BUY","orderId":"55c35d2b-ebae-4531-bc4d-5d1ce30c5c5d","notional":42.96,"status":"accepted"}
+{"ts":"2026-11-28T03:27:01.698Z","book":"hebel","type":"decision","symbol":"UPRO","action":"HOLD","sleeve":"hebel","reason":"SPY kein Trend","equity":286.4,"cash":286.4}
+{"ts":"2026-11-28T03:27:04.988Z","book":"hebel","type":"equity","equity":286.4,"cash":286.4,"positions":0,"dayChange":0,"totalDD":7.71}
